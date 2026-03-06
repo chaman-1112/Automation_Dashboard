@@ -1,0 +1,739 @@
+{
+  "org": {
+    "id": 799,
+    "name": "Classique Creations Beta",
+    "emails": {
+      "qa": "qa-vdb+stg_usr__799@vdbapp.com",
+      "bcc": "qa-vdb+stg_usr__799@vdbapp.com",
+      "dev": "qa-vdb+stg_usr__799@vdbapp.com",
+      "system": "qa-vdb+stg_usr__799@vdbapp.com",
+      "primary": "qa-vdb+stg_usr__799@vdbapp.com",
+      "reports": "qa-vdb+stg_usr__799@vdbapp.com",
+      "support": "qa-vdb+stg_usr__799@vdbapp.com",
+      "reply_to": "qa-vdb+stg_usr__799@vdbapp.com",
+      "secondary": "qa-vdb+stg_usr__799@vdbapp.com",
+      "bulk_share": "share@medialink.email",
+      "contact_us": "qa-vdb+stg_usr__799@vdbapp.com",
+      "org_owner_email": "config+reply@vdbapp.com",
+      "share_collection": "share@medialink.email",
+      "inventory_reports": "qa-vdb+stg_usr__799@vdbapp.com"
+    },
+    "phone": {
+      "primary": "+ 1 516 669 4605",
+      "secondary": ""
+    },
+    "domain_url": "classiquecreationsnycbeta.customvirtual.app,classiquecreationsnyc.customvirtual.app,classiquecreationsnycbeta.preprod.customvirtual.app,www.classiquecreationsnyc.com",
+    "status": 0,
+    "created_at": "2024-04-22T01:18:16.977Z",
+    "updated_at": "2025-03-24T04:13:05.191Z",
+    "android_app_identifier": "",
+    "ios_app_identifier": "",
+    "favicon_url": "https://d2dtfeai6qg5ne.cloudfront.net/Classique-Creations/img/logo/favicon.png",
+    "analytic_id": "",
+    "iframe_status": false,
+    "iframe_key": null,
+    "iframe_referer": null,
+    "web_status": true,
+    "ios_cert": "",
+    "android_cert": "",
+    "ios_cert_env": true,
+    "allow_company_name": true,
+    "segment_key": "",
+    "sentry_dsn": null,
+    "main_logo_url": "Header-logo.png",
+    "menu_logo_url": "Registration-logo_2x__1_.png",
+    "redirect_urls": {
+      "logo_url": "",
+      "sign_out_url": ""
+    },
+    "primary_company_id": 84014,
+    "search_result_view_type": {
+      "diamond": "show_both_default_as_grid",
+      "jewelry": "show_both_default_as_grid",
+      "gemstone": "show_both_default_as_grid",
+      "lab_grown_diamond": "show_both_default_as_grid"
+    },
+    "allow_bulk_requests": {
+      "diamond": "false",
+      "jewelry": "false",
+      "gemstone": "false",
+      "lab_grown_diamond": "false"
+    },
+    "public_key": "",
+    "custom_currency_symbol": "usd",
+    "custom_text": {
+      "contact_us_text": "\"Questions, suggestions, or comments welcome! </br>Send a message below or call </br> to be added\",",
+      "login_title_text": "Start shopping and get access to your Favorites, Saved Searches and Collections.",
+      "social_redirect_links": "",
+      "unknown_jewelry_ring_size": "",
+      "login_already_member_label": "",
+      "login_login_button_caption": "",
+      "login_not_registered_label": "",
+      "login_signup_button_caption": "",
+      "organization_home_title_text": "Classique Creations NYC",
+      "signup_submit_button_caption": "",
+      "signup_registration_form_header": "",
+      "order_cart_shipping_instructions": "",
+      "shopping_cart_offline_payment_instructions": ""
+    },
+    "spa_segment_key": "",
+    "deeplink_config": {
+      "apn": "",
+      "ibi": "",
+      "isi": "",
+      "base_url": "",
+      "link_url": "classiquecreationsnycbeta.preprod.customvirtual.app/client/deep",
+      "login_deeplink": ""
+    },
+    "external_landing_page_url": "https://d2dtfeai6qg5ne.cloudfront.net/Classique-Creations/index.html",
+    "internal_landing_page_url": "",
+    "setting_attributes": {
+      "on_hand_text": {
+        "0": "",
+        "1": "In Stock",
+        "2": "By Order"
+      },
+      "jewelry_cart_url": "",
+      "media_visibility": {
+        "get_cert_media": "",
+        "get_image_media": "",
+        "get_video_media": ""
+      },
+      "site_redirect_url": "",
+      "web_grid_view_ad_positioning": "0",
+      "web_list_view_ad_positioning": "0",
+      "ipad_grid_view_ad_positioning": "0",
+      "ipad_list_view_ad_positioning": "0",
+      "mobile_grid_view_ad_positioning": "0",
+      "mobile_list_view_ad_positioning": "0"
+    },
+    "custom_header_html": "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" />\r\n    \r\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />\r\n    \r\n    <link\r\n        href=\"https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Quicksand:wght@300..700&display=swap\"\r\n        rel=\"stylesheet\" />\r\n    \r\n    \r\n    <section id=\"header\" style=\"display: block; width: 100%\">\r\n        <div class=\"container-fluid header-top\">\r\n            <div class=\"container\">\r\n                <div class=\"main-section\">\r\n                    <div class=\"left-part\">\r\n                        <p>\r\n                            <i class=\"fa fa-map-marker mr-3\"></i>1156 Avenue of the Americas,\r\n                            Floor 2 New York, NY 10036\r\n                        </p>\r\n                    </div>\r\n                    <div class=\"right-part\">\r\n                        <ul>\r\n                            <li>\r\n                                <a href=\"tel:212-921-1900\"><i class=\"fa fa-phone mr-3\"></i>212-921-1900</a>\r\n                            </li>\r\n                            <li>\r\n                                <a href=\"appointment.html\"><i class=\"fa fa-calendar mr-3\"></i>Make an Appointment</a>\r\n                            </li>\r\n                        </ul>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"container-fluid main-header-wrapper\">\r\n            <div class=\"container\">\r\n                <div class=\"main-section\">\r\n          <div class=\"left-section\"></div>\r\n                        <div>\r\n                            <a href=\"index.html\"><img\r\n                                    src=\"https://all-demos.s3.amazonaws.com/Classique-Creations/img/logo/logo.png\"\r\n                                    alt=\"Logo\" /></a>\r\n                        </div>\r\n                            <div class=\"right-section\"><a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/webapp/cart\"\r\n                                target=\"_parent\"><img\r\n                                    src=\"https://all-demos.s3.amazonaws.com/Classique-Creations/img/cart_list.png\"\r\n                                    alt=\"order\" /></a></div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"container-fluid menu-fluid\">\r\n            <div class=\"container\">\r\n                <div class=\"main-section\">\r\n                    <nav class=\"navbar navbar-expand-lg navbar-light\">\r\n                        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\"\r\n                            data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\"\r\n                            aria-label=\"Toggle navigation\">\r\n                            <span class=\"navbar-toggler-icon\"></span>\r\n                        </button>\r\n        \r\n                        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\r\n                            <ul class=\"navbar-nav m-auto\">\r\n                                <li class=\"nav-item dropdown\">\r\n                                    <a class=\"nav-link dropdown-toggle\" title=\"Engagement Rings\">\r\n                                        Engagement Rings\r\n                                    </a>\r\n                                    <div class=\"dropdown-menu\">\r\n                                        <div class=\"container\">\r\n                                            <div class=\"submenu-section\">\r\n                                                <div class=\"submenu-list\">\r\n                                                    <div class=\"heading\">\r\n                                                        <h3>Collections</h3>\r\n                                                    </div>\r\n                                                    <div class=\"submenu-option\">\r\n                                                        <ul>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22featured%22%3A%22true%22%2C%22enhancements%22%3A%5B%5D%2C%22gemColors%22%3A%5B%5D%2C%22brands%22%3A%5B%5D%2C%22countriesOfOrigin%22%3A%5B%5D%2C%22is_center_size_selected%22%3Atrue%2C%22minBudget%22%3A0%2C%22maxHeight%22%3A100%2C%22sort%22%3A%5B%5D%2C%22minCarat%22%3A0%2C%22direction%22%3Anull%2C%22fancyColors2%22%3A%5B%5D%2C%22maxRatio%22%3A100%2C%22threeX%22%3A%22false%22%2C%22maxCarat%22%3A1000%2C%22vendorLocations%22%3A%5B%5D%2C%22shapes%22%3A%5B%5D%2C%22minTable%22%3A0%2C%22labs%22%3A%5B%5D%2C%22maxDepth%22%3A100%2C%22minLength%22%3A0%2C%22cutGrades%22%3A%5B%5D%2C%22minRatio%22%3A0%2C%22clarities%22%3A%5B%5D%2C%22metals%22%3A%5B%5D%2C%22fancyColorsOvertones%22%3A%5B%5D%2C%22simpleColors%22%3A%5B%5D%2C%22companyNames%22%3A%5B%5D%2C%22vdb_setting%22%3A%22true%22%2C%22minDepth%22%3A0%2C%22maxLength%22%3A100%2C%22fancyColors1%22%3A%5B%5D%2C%22minWidth%22%3A0%2C%22fluorescences%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%7D%2C%22symmetries%22%3A%5B%5D%2C%22gemType%22%3A%5B%5D%2C%22minHeight%22%3A0%2C%22maxBudget%22%3A8000000%2C%22polishes%22%3A%5B%5D%2C%22treatment%22%3A%22ALL%22%2C%22maxTable%22%3A100%2C%22isPriceCaratSearch%22%3A%22total_sales_price%22%2C%22maxWidth%22%3A100%7D\"\r\n                                                                    target=\"_parent\" title=\"Best Sellers\">\r\n                                                                    Best Sellers\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22featured%22%3A%22false%22%2C%22minDepth%22%3A%220%22%2C%22maxDepth%22%3A%22999%22%2C%22minTable%22%3A%220%22%2C%22maxTable%22%3A%22999%22%2C%22total_or_price_per_carat%22%3A%22%22%2C%22location_for%22%3A%22%22%2C%22companyNames%22%3A%5B%5D%2C%22countries%22%3A%5B%5D%2C%22cities%22%3A%5B%5D%2C%22shapes%22%3A%5B%5D%2C%22argyle%22%3A%7B%7D%2C%22group_ids%22%3A%5B%5D%2C%22certifications%22%3A%5B%5D%2C%22clarities%22%3A%5B%5D%2C%22cutGrades%22%3A%5B%5D%2C%22polishes%22%3A%5B%5D%2C%22symmetries%22%3A%5B%5D%2C%22labs%22%3A%5B%5D%2C%22fluorescences%22%3A%5B%5D%2C%22fancyColors1%22%3A%5B%5D%2C%22fancyColorsOvertones%22%3A%5B%5D%2C%22vendor_locations%22%3A%5B%5D%2C%22enhancements%22%3A%5B%5D%2C%22simpleColors%22%3A%5B%5D%2C%22fancyColors2%22%3A%5B%5D%2C%22with_images%22%3A%22false%22%2C%22with_available_items%22%3A%22true%22%7D\"\r\n                                                                    target=\"_parent\" title=\"Ready To Ship\">\r\n                                                                    Ready To Ship\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22new_arrivals%22%3A%22true%22%2C%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%223D%20Ring%22%3A%5B%22Non-Halo%203D%20Engagement%20Ring%22%2C%22Solitaire%203D%20Engagement%20Ring%22%5D%2C%22Engagement%20Ring%22%3A%5B%22Halo%20Engagement%20Ring%22%2C%22Non-Halo%20Engagement%20Ring%22%2C%22Solitaire%20Engagement%20Ring%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%7D\"\r\n                                                                    target=\"_parent\" title=\"New Arrivals\">\r\n                                                                    New Arrivals\r\n                                                                </a>\r\n                                                            </li>\r\n                                                        </ul>\r\n                                                    </div>\r\n                                                </div>\r\n                                                <div class=\"submenu-list\">\r\n                                                    <div class=\"heading\">\r\n                                                        <h3>Type</h3>\r\n                                                    </div>\r\n                                                    <div class=\"submenu-option\">\r\n                                                        <ul>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Engagement%20Ring%22%3A%5B%22Halo%20Engagement%20Ring%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%7D\"\r\n                                                                    target=\"_parent\" title=\"Halo\">\r\n                                                                    Halo\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Engagement%20Ring%22%3A%5B%22Non-Halo%20Engagement%20Ring%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%7D\"\r\n                                                                    target=\"_parent\" title=\"Non-Halo\">\r\n                                                                    Non-Halo\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Engagement%20Ring%22%3A%5B%22Solitaire%20Engagement%20Ring%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%7D\"\r\n                                                                    target=\"_parent\" title=\"Solitaire\">\r\n                                                                    Solitaire\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Engagement%20Ring%22%3A%5B%22Halo%20Engagement%20Ring%22%2C%22Non-Halo%20Engagement%20Ring%22%2C%22Solitaire%20Engagement%20Ring%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%7D\"\r\n                                                                    target=\"_parent\" title=\"All Engagement Rings\">\r\n                                                                    All Engagement Rings\r\n                                                                </a>\r\n                                                            </li>\r\n                                                        </ul>\r\n                                                    </div>\r\n                                                </div>\r\n                                                <div class=\"submenu-list\">\r\n                                                    <div class=\"heading\">\r\n                                                        <h3>Style</h3>\r\n                                                    </div>\r\n                                                    <div class=\"submenu-option\">\r\n                                                        <ul>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Engagement%20Ring%22%3A%5B%22Halo%20Engagement%20Ring%22%2C%22Non-Halo%20Engagement%20Ring%22%2C%22Solitaire%20Engagement%20Ring%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%2C%22brands%22%3A%5B%22Graduated%20Shank%22%5D%7D\"\r\n                                                                    target=\"_parent\" title=\"Graduated  Shank\">\r\n                                                                    Graduated Shank\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Engagement%20Ring%22%3A%5B%22Halo%20Engagement%20Ring%22%2C%22Non-Halo%20Engagement%20Ring%22%2C%22Solitaire%20Engagement%20Ring%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%2C%22brands%22%3A%5B%22Classic%22%5D%7D\"\r\n                                                                    target=\"_parent\" title=\"Classic\">\r\n                                                                    Classic\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Engagement%20Ring%22%3A%5B%22Halo%20Engagement%20Ring%22%2C%22Non-Halo%20Engagement%20Ring%22%2C%22Solitaire%20Engagement%20Ring%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%2C%22brands%22%3A%5B%22Fancy%20Sidestones%22%5D%7D\"\r\n                                                                    target=\"_parent\" title=\"Fancy Sidestones\">\r\n                                                                    Fancy Sidestones\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Engagement%20Ring%22%3A%5B%22Halo%20Engagement%20Ring%22%2C%22Non-Halo%20Engagement%20Ring%22%2C%22Solitaire%20Engagement%20Ring%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%2C%22brands%22%3A%5B%22Split%20Shank%22%5D%7D\"\r\n                                                                    target=\"_parent\" title=\"Split Shank\">\r\n                                                                    Split Shank\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Engagement%20Ring%22%3A%5B%22Halo%20Engagement%20Ring%22%2C%22Non-Halo%20Engagement%20Ring%22%2C%22Solitaire%20Engagement%20Ring%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%2C%22brands%22%3A%5B%22Cluster%22%5D%7D\"\r\n                                                                    target=\"_parent\" title=\"Cluster\">\r\n                                                                    Cluster\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Engagement%20Ring%22%3A%5B%22Halo%20Engagement%20Ring%22%2C%22Non-Halo%20Engagement%20Ring%22%2C%22Solitaire%20Engagement%20Ring%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%2C%22brands%22%3A%5B%22Three%20Stone%22%5D%7D\"\r\n                                                                    target=\"_parent\" title=\"Three Stone\">\r\n                                                                    Three Stone\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Engagement%20Ring%22%3A%5B%22Halo%20Engagement%20Ring%22%2C%22Non-Halo%20Engagement%20Ring%22%2C%22Solitaire%20Engagement%20Ring%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%2C%22brands%22%3A%5B%22Twist%22%5D%7D\"\r\n                                                                    target=\"_parent\" title=\"Twist\">\r\n                                                                    Twist\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Engagement%20Ring%22%3A%5B%22Halo%20Engagement%20Ring%22%2C%22Non-Halo%20Engagement%20Ring%22%2C%22Solitaire%20Engagement%20Ring%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%2C%22brands%22%3A%5B%22Unique%20Halo%22%5D%7D\"\r\n                                                                    target=\"_parent\" title=\"Unique  Halo\">\r\n                                                                    Unique Halo\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Engagement%20Ring%22%3A%5B%22Halo%20Engagement%20Ring%22%2C%22Non-Halo%20Engagement%20Ring%22%2C%22Solitaire%20Engagement%20Ring%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%2C%22brands%22%3A%5B%22High%20Polish%22%5D%7D\"\r\n                                                                    target=\"_parent\" title=\"High Polish\">\r\n                                                                    High Polish\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Engagement%20Ring%22%3A%5B%22Halo%20Engagement%20Ring%22%2C%22Non-Halo%20Engagement%20Ring%22%2C%22Solitaire%20Engagement%20Ring%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%2C%22brands%22%3A%5B%22Hidden%20Halo%22%5D%7D\"\r\n                                                                    target=\"_parent\" title=\"Hidden Halo\">\r\n                                                                    Hidden Halo\r\n                                                                </a>\r\n                                                            </li>\r\n                                                        </ul>\r\n                                                    </div>\r\n                                                </div>\r\n                                                <div class=\"submenu-list\">\r\n                                                    <div class=\"heading\">\r\n                                                        <h3>Stories</h3>\r\n                                                    </div>\r\n                                                    <div class=\"submenu-option\">\r\n                                                        <ul>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Engagement%20Ring%22%3A%5B%22Halo%20Engagement%20Ring%22%2C%22Non-Halo%20Engagement%20Ring%22%2C%22Solitaire%20Engagement%20Ring%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%2C%22brands%22%3A%5B%22Vintage%22%5D%7D\"\r\n                                                                    target=\"_parent\" title=\"Vintage\">\r\n                                                                    Vintage\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Engagement%20Ring%22%3A%5B%22Halo%20Engagement%20Ring%22%2C%22Non-Halo%20Engagement%20Ring%22%2C%22Solitaire%20Engagement%20Ring%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%2C%22brands%22%3A%5B%22Contemporary%22%5D%7D\"\r\n                                                                    target=\"_parent\" title=\"Contemporary\">\r\n                                                                    Contemporary\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Engagement%20Ring%22%3A%5B%22Halo%20Engagement%20Ring%22%2C%22Non-Halo%20Engagement%20Ring%22%2C%22Solitaire%20Engagement%20Ring%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%2C%22brands%22%3A%5B%22Dainty%22%5D%7D\"\r\n                                                                    target=\"_parent\" title=\"Dainty\">\r\n                                                                    Dainty\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Engagement%20Ring%22%3A%5B%22Halo%20Engagement%20Ring%22%2C%22Non-Halo%20Engagement%20Ring%22%2C%22Solitaire%20Engagement%20Ring%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%2C%22brands%22%3A%5B%22Hidden%20Detail%22%5D%7D\"\r\n                                                                    target=\"_parent\" title=\"Hidden Detail\">\r\n                                                                    Hidden Detail\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Engagement%20Ring%22%3A%5B%22Halo%20Engagement%20Ring%22%2C%22Non-Halo%20Engagement%20Ring%22%2C%22Solitaire%20Engagement%20Ring%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%2C%22brands%22%3A%5B%22Floral%22%5D%7D\"\r\n                                                                    target=\"_parent\" title=\"Floral\">\r\n                                                                    Floral\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Engagement%20Ring%22%3A%5B%22Halo%20Engagement%20Ring%22%2C%22Non-Halo%20Engagement%20Ring%22%2C%22Solitaire%20Engagement%20Ring%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%2C%22brands%22%3A%5B%22Traditional%22%5D%7D\"\r\n                                                                    target=\"_parent\" title=\"Traditional\">\r\n                                                                    Traditional\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Engagement%20Ring%22%3A%5B%22Halo%20Engagement%20Ring%22%2C%22Non-Halo%20Engagement%20Ring%22%2C%22Solitaire%20Engagement%20Ring%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%2C%22brands%22%3A%5B%22Six%20Prong%22%5D%7D\"\r\n                                                                    target=\"_parent\" title=\"Six Prong\">\r\n                                                                    Six Prong\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Engagement%20Ring%22%3A%5B%22Halo%20Engagement%20Ring%22%2C%22Non-Halo%20Engagement%20Ring%22%2C%22Solitaire%20Engagement%20Ring%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%2C%22brands%22%3A%5B%22Compass%20Prong%22%5D%7D\"\r\n                                                                    target=\"_parent\" title=\"Compass Prong\">\r\n                                                                    Compass Prong\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Engagement%20Ring%22%3A%5B%22Halo%20Engagement%20Ring%22%2C%22Non-Halo%20Engagement%20Ring%22%2C%22Solitaire%20Engagement%20Ring%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%2C%22brands%22%3A%5B%22Bezel%22%5D%7D\"\r\n                                                                    target=\"_parent\" title=\"Bezel\">\r\n                                                                    Bezel\r\n                                                                </a>\r\n                                                            </li>\r\n                                                        </ul>\r\n                                                    </div>\r\n                                                </div>\r\n                                                <!-- <div class=\"submenu-list\">\r\n                                  <div class=\"heading\">\r\n                                    <h3>View All</h3>\r\n                                  </div>\r\n                                  <div class=\"submenu-option\">\r\n                                    <ul>\r\n                                      <li><a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Engagement%20Ring%22%3A%5B%22Halo%20Engagement%20Ring%22%2C%22Non-Halo%20Engagement%20Ring%22%2C%22Solitaire%20Engagement%20Ring%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%7D\" target=\"_parent\" title=\"All Engagement Ring\">All Engagement Rings</a></li>\r\n                                    </ul>\r\n                                  </div>\r\n                                </div> -->\r\n                                            </div>\r\n                                        </div>\r\n                                    </div>\r\n                                </li>\r\n                                <li class=\"nav-item dropdown\">\r\n                                    <a class=\"nav-link dropdown-toggle\" title=\"Wedding Band\">\r\n                                        Wedding Bands\r\n                                    </a>\r\n                                    <div class=\"dropdown-menu\">\r\n                                        <div class=\"container\">\r\n                                            <div class=\"submenu-section\">\r\n                                                <div class=\"submenu-list\">\r\n                                                    <div class=\"heading\">\r\n                                                        <h3>Collections</h3>\r\n                                                    </div>\r\n                                                    <div class=\"submenu-option\">\r\n                                                        <ul>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22featured%22%3A%22true%22%2C%22enhancements%22%3A%5B%5D%2C%22gemColors%22%3A%5B%5D%2C%22brands%22%3A%5B%5D%2C%22countriesOfOrigin%22%3A%5B%5D%2C%22is_center_size_selected%22%3Atrue%2C%22minBudget%22%3A0%2C%22maxHeight%22%3A100%2C%22sort%22%3A%5B%5D%2C%22minCarat%22%3A0%2C%22direction%22%3Anull%2C%22fancyColors2%22%3A%5B%5D%2C%22maxRatio%22%3A100%2C%22threeX%22%3A%22false%22%2C%22maxCarat%22%3A1000%2C%22vendorLocations%22%3A%5B%5D%2C%22shapes%22%3A%5B%5D%2C%22minTable%22%3A0%2C%22labs%22%3A%5B%5D%2C%22maxDepth%22%3A100%2C%22minLength%22%3A0%2C%22cutGrades%22%3A%5B%5D%2C%22minRatio%22%3A0%2C%22clarities%22%3A%5B%5D%2C%22metals%22%3A%5B%5D%2C%22fancyColorsOvertones%22%3A%5B%5D%2C%22simpleColors%22%3A%5B%5D%2C%22companyNames%22%3A%5B%5D%2C%22vdb_setting%22%3A%22true%22%2C%22minDepth%22%3A0%2C%22maxLength%22%3A100%2C%22fancyColors1%22%3A%5B%5D%2C%22minWidth%22%3A0%2C%22fluorescences%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%7D%2C%22symmetries%22%3A%5B%5D%2C%22gemType%22%3A%5B%5D%2C%22minHeight%22%3A0%2C%22maxBudget%22%3A8000000%2C%22polishes%22%3A%5B%5D%2C%22treatment%22%3A%22ALL%22%2C%22maxTable%22%3A100%2C%22isPriceCaratSearch%22%3A%22total_sales_price%22%2C%22maxWidth%22%3A100%7D\"\r\n                                                                    target=\"_parent\" title=\"Best Sellers\">\r\n                                                                    Best Sellers\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22featured%22%3A%22false%22%2C%22minDepth%22%3A%220%22%2C%22maxDepth%22%3A%22999%22%2C%22minTable%22%3A%220%22%2C%22maxTable%22%3A%22999%22%2C%22total_or_price_per_carat%22%3A%22%22%2C%22location_for%22%3A%22%22%2C%22companyNames%22%3A%5B%5D%2C%22countries%22%3A%5B%5D%2C%22cities%22%3A%5B%5D%2C%22shapes%22%3A%5B%5D%2C%22argyle%22%3A%7B%7D%2C%22group_ids%22%3A%5B%5D%2C%22certifications%22%3A%5B%5D%2C%22clarities%22%3A%5B%5D%2C%22cutGrades%22%3A%5B%5D%2C%22polishes%22%3A%5B%5D%2C%22symmetries%22%3A%5B%5D%2C%22labs%22%3A%5B%5D%2C%22fluorescences%22%3A%5B%5D%2C%22fancyColors1%22%3A%5B%5D%2C%22fancyColorsOvertones%22%3A%5B%5D%2C%22vendor_locations%22%3A%5B%5D%2C%22enhancements%22%3A%5B%5D%2C%22simpleColors%22%3A%5B%5D%2C%22fancyColors2%22%3A%5B%5D%2C%22with_images%22%3A%22false%22%2C%22with_available_items%22%3A%22true%22%7D\"\r\n                                                                    target=\"_parent\" title=\"Ready To Ship\">\r\n                                                                    Ready To Ship\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22new_arrivals%22%3A%22true%22%2C%22page_number%22%3A2%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Wedding%20Band%22%3A%5B%223%2F4%20Way%20Band%20Wedding%20Band%22%2C%22Bypass%20Wedding%20Band%22%2C%22Wedding%20Band%20Enhancer%22%2C%22Eternity%20Wedding%20Band%22%2C%22Fancy%20Diamonds%20Wedding%20Band%22%2C%22Halfway%20Wedding%20Band%22%2C%22Open%20Wedding%20Band%22%2C%22Round%20Diamonds%20Wedding%20Band%22%2C%22Solid%20Metal%20Band%20Wedding%20Band%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%updated22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%7D\"\r\n                                                                    target=\"_parent\" title=\"New Arrivals\">\r\n                                                                    New Arrivals\r\n                                                                </a>\r\n                                                            </li>\r\n                                                        </ul>\r\n                                                    </div>\r\n                                                </div>\r\n                                                <div class=\"submenu-list\">\r\n                                                    <div class=\"heading\">\r\n                                                        <h3>Type</h3>\r\n                                                    </div>\r\n                                                    <div class=\"submenu-option\">\r\n                                                        <ul>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Wedding%20Band%22%3A%5B%22Eternity%20Wedding%20Band%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%7D\"\r\n                                                                    target=\"_parent\" title=\"Eternity Band\">\r\n                                                                    Eternity Band\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Wedding%20Band%22%3A%5B%22Anniversary%20Band%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%7D\"\r\n                                                                    target=\"_parent\" title=\"Anniversary Band\">\r\n                                                                    Anniversary Band\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Wedding%20Band%22%3A%5B%22Halfway%20Wedding%20Band%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%7D\"\r\n                                                                    target=\"_parent\" title=\"Classic Halfway\">\r\n                                                                    Classic Halfway\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Wedding%20Band%22%3A%5B%22Solid%20Metal%20Band%20Wedding%20Band%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%7D\"\r\n                                                                    target=\"_parent\" title=\"Solid Metal\">\r\n                                                                    Solid Metal\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Wedding%20Band%22%3A%5B%22Curved%20Band%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%7D\"\r\n                                                                    target=\"_parent\" title=\"Curved Band\">\r\n                                                                    Curved Band\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A2%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Wedding%20Band%22%3A%5B%223%2F4%20Way%20Band%20Wedding%20Band%22%2C%22Bypass%20Wedding%20Band%22%2C%22Wedding%20Band%20Enhancer%22%2C%22Eternity%20Wedding%20Band%22%2C%22Fancy%20Diamonds%20Wedding%20Band%22%2C%22Halfway%20Wedding%20Band%22%2C%22Open%20Wedding%20Band%22%2C%22Round%20Diamonds%20Wedding%20Band%22%2C%22Solid%20Metal%20Band%20Wedding%20Band%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%7D\"\r\n                                                                    target=\"_parent\" title=\"All Wedding Bands\">\r\n                                                                    All Wedding Bands\r\n                                                                </a>\r\n                                                            </li>\r\n                                                        </ul>\r\n                                                    </div>\r\n                                                </div>\r\n                                                <div class=\"submenu-list\">\r\n                                                    <div class=\"heading\">\r\n                                                        <h3>Style</h3>\r\n                                                    </div>\r\n                                                    <div class=\"submenu-option\">\r\n                                                        <ul>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Wedding%20Band%22%3A%5B%22Round%20Diamonds%20Wedding%20Band%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%7D\"\r\n                                                                    target=\"_parent\" title=\"Round Diamonds\">\r\n                                                                    Round Diamonds\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Wedding%20Band%22%3A%5B%22Fancy%20Diamonds%20Wedding%20Band%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%7D\"\r\n                                                                    target=\"_parent\" title=\"Fancy Diamonds\">\r\n                                                                    Fancy Diamonds\r\n                                                                </a>\r\n                                                            </li>\r\n                                                        </ul>\r\n                                                    </div>\r\n                                                </div>\r\n                                                <div class=\"submenu-list\">\r\n                                                    <div class=\"heading\">\r\n                                                        <h3>Stories</h3>\r\n                                                    </div>\r\n                                                    <div class=\"submenu-option\">\r\n                                                        <ul>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Wedding%20Band%22%3A%5B%223%2F4%20Way%20Band%20Wedding%20Band%22%2C%22Bypass%20Wedding%20Band%22%2C%22Wedding%20Band%20Enhancer%22%2C%22Eternity%20Wedding%20Band%22%2C%22Fancy%20Diamonds%20Wedding%20Band%22%2C%22Halfway%20Wedding%20Band%22%2C%22Open%20Wedding%20Band%22%2C%22Round%20Diamonds%20Wedding%20Band%22%2C%22Solid%20Metal%20Band%20Wedding%20Band%22%5D%7D%2C%22brands%22%3A%5B%22Vintage%22%5D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%7D\"\r\n                                                                    target=\"_parent\" title=\"Vintage\">\r\n                                                                    Vintage\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Wedding%20Band%22%3A%5B%223%2F4%20Way%20Band%20Wedding%20Band%22%2C%22Bypass%20Wedding%20Band%22%2C%22Wedding%20Band%20Enhancer%22%2C%22Eternity%20Wedding%20Band%22%2C%22Fancy%20Diamonds%20Wedding%20Band%22%2C%22Halfway%20Wedding%20Band%22%2C%22Open%20Wedding%20Band%22%2C%22Round%20Diamonds%20Wedding%20Band%22%2C%22Solid%20Metal%20Band%20Wedding%20Band%22%5D%7D%2C%22brands%22%3A%5B%22Martini%20Rings%22%5D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%7D\"\r\n                                                                    target=\"_parent\" title=\"Martini Rings\">\r\n                                                                    Martini Rings\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Wedding%20Band%22%3A%5B%223%2F4%20Way%20Band%20Wedding%20Band%22%2C%22Bypass%20Wedding%20Band%22%2C%22Wedding%20Band%20Enhancer%22%2C%22Eternity%20Wedding%20Band%22%2C%22Fancy%20Diamonds%20Wedding%20Band%22%2C%22Halfway%20Wedding%20Band%22%2C%22Open%20Wedding%20Band%22%2C%22Round%20Diamonds%20Wedding%20Band%22%2C%22Solid%20Metal%20Band%20Wedding%20Band%22%5D%7D%2C%22brands%22%3A%5B%22Contemporary%22%5D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%7D\"\r\n                                                                    target=\"_parent\" title=\"Contemporary\">\r\n                                                                    Contemporary\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Wedding%20Band%22%3A%5B%223%2F4%20Way%20Band%20Wedding%20Band%22%2C%22Bypass%20Wedding%20Band%22%2C%22Wedding%20Band%20Enhancer%22%2C%22Eternity%20Wedding%20Band%22%2C%22Fancy%20Diamonds%20Wedding%20Band%22%2C%22Halfway%20Wedding%20Band%22%2C%22Open%20Wedding%20Band%22%2C%22Round%20Diamonds%20Wedding%20Band%22%2C%22Solid%20Metal%20Band%20Wedding%20Band%22%5D%7D%2C%22brands%22%3A%5B%22Dainty%22%5D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%7D\"\r\n                                                                    target=\"_parent\" title=\"Dainty\">\r\n                                                                    Dainty\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Wedding%20Band%22%3A%5B%223%2F4%20Way%20Band%20Wedding%20Band%22%2C%22Bypass%20Wedding%20Band%22%2C%22Wedding%20Band%20Enhancer%22%2C%22Eternity%20Wedding%20Band%22%2C%22Fancy%20Diamonds%20Wedding%20Band%22%2C%22Halfway%20Wedding%20Band%22%2C%22Open%20Wedding%20Band%22%2C%22Round%20Diamonds%20Wedding%20Band%22%2C%22Solid%20Metal%20Band%20Wedding%20Band%22%5D%7D%2C%22brands%22%3A%5B%22Traditional%22%5D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%7D\"\r\n                                                                    target=\"_parent\" title=\"Traditional\">\r\n                                                                    Traditional\r\n                                                                </a>\r\n                                                            </li>\r\n                                                        </ul>\r\n                                                    </div>\r\n                                                </div>\r\n                                                <!-- <div class=\"submenu-list\">\r\n                                  <div class=\"heading\">\r\n                                    <h3>View All</h3>\r\n                                  </div>\r\n                                  <div class=\"submenu-option\">\r\n                                    <ul>\r\n                                      <li><a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A2%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Wedding%20Band%22%3A%5B%223%2F4%20Way%20Band%20Wedding%20Band%22%2C%22Bypass%20Wedding%20Band%22%2C%22Wedding%20Band%20Enhancer%22%2C%22Eternity%20Wedding%20Band%22%2C%22Fancy%20Diamonds%20Wedding%20Band%22%2C%22Halfway%20Wedding%20Band%22%2C%22Open%20Wedding%20Band%22%2C%22Round%20Diamonds%20Wedding%20Band%22%2C%22Solid%20Metal%20Band%20Wedding%20Band%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%7D\" target=\"_parent\" title=\"All Wedding Band\">All Wedding Bands</a></li>\r\n                                    </ul>\r\n                                  </div>\r\n                                </div> -->\r\n                                            </div>\r\n                                        </div>\r\n                                    </div>\r\n                                </li>\r\n                                <li class=\"nav-item dropdown\">\r\n                                    <a class=\"nav-link dropdown-toggle\" title=\"Fashion Jewelr\">\r\n                                        Fashion Jewelry\r\n                                    </a>\r\n                                    <div class=\"dropdown-menu\">\r\n                                        <div class=\"container\">\r\n                                            <div class=\"submenu-section\">\r\n                                                <div class=\"submenu-list\">\r\n                                                    <div class=\"heading\">\r\n                                                        <h3>Collections</h3>\r\n                                                    </div>\r\n                                                    <div class=\"submenu-option\">\r\n                                                        <ul>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22featured%22%3A%22true%22%2C%22enhancements%22%3A%5B%5D%2C%22gemColors%22%3A%5B%5D%2C%22brands%22%3A%5B%5D%2C%22countriesOfOrigin%22%3A%5B%5D%2C%22is_center_size_selected%22%3Atrue%2C%22minBudget%22%3A0%2C%22maxHeight%22%3A100%2C%22sort%22%3A%5B%5D%2C%22minCarat%22%3A0%2C%22direction%22%3Anull%2C%22fancyColors2%22%3A%5B%5D%2C%22maxRatio%22%3A100%2C%22threeX%22%3A%22false%22%2C%22maxCarat%22%3A1000%2C%22vendorLocations%22%3A%5B%5D%2C%22shapes%22%3A%5B%5D%2C%22minTable%22%3A0%2C%22labs%22%3A%5B%5D%2C%22maxDepth%22%3A100%2C%22minLength%22%3A0%2C%22cutGrades%22%3A%5B%5D%2C%22minRatio%22%3A0%2C%22clarities%22%3A%5B%5D%2C%22metals%22%3A%5B%5D%2C%22fancyColorsOvertones%22%3A%5B%5D%2C%22simpleColors%22%3A%5B%5D%2C%22companyNames%22%3A%5B%5D%2C%22vdb_setting%22%3A%22true%22%2C%22minDepth%22%3A0%2C%22maxLength%22%3A100%2C%22fancyColors1%22%3A%5B%5D%2C%22minWidth%22%3A0%2C%22fluorescences%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%7D%2C%22symmetries%22%3A%5B%5D%2C%22gemType%22%3A%5B%5D%2C%22minHeight%22%3A0%2C%22maxBudget%22%3A8000000%2C%22polishes%22%3A%5B%5D%2C%22treatment%22%3A%22ALL%22%2C%22maxTable%22%3A100%2C%22isPriceCaratSearch%22%3A%22total_sales_price%22%2C%22maxWidth%22%3A100%7D\"\r\n                                                                    target=\"_parent\" title=\"Best Sellers\">\r\n                                                                    Best Sellers\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22featured%22%3A%22false%22%2C%22minDepth%22%3A%220%22%2C%22maxDepth%22%3A%22999%22%2C%22minTable%22%3A%220%22%2C%22maxTable%22%3A%22999%22%2C%22total_or_price_per_carat%22%3A%22%22%2C%22location_for%22%3A%22%22%2C%22companyNames%22%3A%5B%5D%2C%22countries%22%3A%5B%5D%2C%22cities%22%3A%5B%5D%2C%22shapes%22%3A%5B%5D%2C%22argyle%22%3A%7B%7D%2C%22group_ids%22%3A%5B%5D%2C%22certifications%22%3A%5B%5D%2C%22clarities%22%3A%5B%5D%2C%22cutGrades%22%3A%5B%5D%2C%22polishes%22%3A%5B%5D%2C%22symmetries%22%3A%5B%5D%2C%22labs%22%3A%5B%5D%2C%22fluorescences%22%3A%5B%5D%2C%22fancyColors1%22%3A%5B%5D%2C%22fancyColorsOvertones%22%3A%5B%5D%2C%22vendor_locations%22%3A%5B%5D%2C%22enhancements%22%3A%5B%5D%2C%22simpleColors%22%3A%5B%5D%2C%22fancyColors2%22%3A%5B%5D%2C%22with_images%22%3A%22false%22%2C%22with_available_items%22%3A%22true%22%7D\"\r\n                                                                    target=\"_parent\" title=\"Ready To Ship\">\r\n                                                                    Ready To Ship\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22new_arrivals%22%3A%22true%22%2C%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Fashion%20Jewelry%22%3A%5B%22Fashion%20Jewelry%20Bracelet%22%2C%22Chain%20Fashion%20Jewelry%22%2C%22Fashion%20Jewelry%20Connector%22%2C%22Fashion%20Jewelry%20Earring%22%2C%22Fashion%20Jewelry%20Fashion%20Ring%22%2C%22Fashion%20Jewelry%20Necklace%22%2C%22Fashion%20Jewelry%20Pendant%22%5D%2C%22Men%27s%20Jewelry%22%3A%5B%22Men%27s%20Jewelry%20Bracelet%22%2C%22Men%27s%20Jewelry%20Fashion%20Ring%22%2C%22Men%27s%20Jewelry%20Pendant%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%7D\"\r\n                                                                    target=\"_parent\" title=\"New Arrivals\">\r\n                                                                    New Arrivals\r\n                                                                </a>\r\n                                                            </li>\r\n                                                        </ul>\r\n                                                    </div>\r\n                                                </div>\r\n                                                <div class=\"submenu-list\">\r\n                                                    <div class=\"heading\">\r\n                                                        <h3>Type</h3>\r\n                                                    </div>\r\n                                                    <div class=\"submenu-option\">\r\n                                                        <ul>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A2%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Fashion%20Jewelry%22%3A%5B%22Fashion%20Jewelry%20Fashion%20Ring%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%7D\"\r\n                                                                    target=\"_parent\" title=\"Fashion Rings\">\r\n                                                                    Fashion Rings\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Men%27s%20Jewelry%22%3A%5B%22Men%27s%20Jewelry%20Fashion%20Ring%22%2C%22Men%27s%20Jewelry%20Bracelet%22%2C%22Men%27s%20Jewelry%20Pendant%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%7D\"\r\n                                                                    target=\"_parent\" title=\"Men's Fashion Jewelry\">\r\n                                                                    Men's Fashion Jewelry\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Fashion%20Jewelry%22%3A%5B%22Chain%20Fashion%20Jewelry%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%7D\"\r\n                                                                    target=\"_parent\" title=\"Chains\">\r\n                                                                    Chains\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Fashion%20Jewelry%22%3A%5B%22Fashion%20Jewelry%20Pendant%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%7D\"\r\n                                                                    target=\"_parent\" title=\"Pendants\">\r\n                                                                    Pendants\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Fashion%20Jewelry%22%3A%5B%22Fashion%20Jewelry%20Earring%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%7D\"\r\n                                                                    target=\"_parent\" title=\"Earrings\">\r\n                                                                    Earrings\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Fashion%20Jewelry%22%3A%5B%22Fashion%20Jewelry%20Bracelet%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%7D\"\r\n                                                                    target=\"_parent\" title=\"Bracelets\">\r\n                                                                    Bracelets\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Fashion%20Jewelry%22%3A%5B%22Fashion%20Jewelry%20Necklace%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%7D\"\r\n                                                                    target=\"_parent\" title=\"Necklaces\">\r\n                                                                    Necklaces\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Fashion%20Jewelry%22%3A%5B%22Fashion%20Jewelry%20Bracelet%22%2C%22Chain%20Fashion%20Jewelry%22%2C%22Fashion%20Jewelry%20Connector%22%2C%22Fashion%20Jewelry%20Earring%22%2C%22Fashion%20Jewelry%20Fashion%20Ring%22%2C%22Fashion%20Jewelry%20Necklace%22%2C%22Fashion%20Jewelry%20Pendant%22%5D%2C%22Men%27s%20Jewelry%22%3A%5B%22Men%27s%20Jewelry%20Bracelet%22%2C%22Men%27s%20Jewelry%20Fashion%20Ring%22%2C%22Men%27s%20Jewelry%20Pendant%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%7D\"\r\n                                                                    target=\"_parent\" title=\"All Fashion Jewelry\">\r\n                                                                    All Fashion Jewelry\r\n                                                                </a>\r\n                                                            </li>\r\n                                                        </ul>\r\n                                                    </div>\r\n                                                </div>\r\n                                                <div class=\"submenu-list\">\r\n                                                    <div class=\"heading\">\r\n                                                        <h3>Style</h3>\r\n                                                    </div>\r\n                                                    <div class=\"submenu-option\">\r\n                                                        <ul>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A7%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Fashion%20Jewelry%22%3A%5B%22Chain%20Fashion%20Jewelry%22%2C%22Fashion%20Jewelry%20Bracelet%22%2C%22Fashion%20Jewelry%20Connector%22%2C%22Fashion%20Jewelry%20Earring%22%2C%22Fashion%20Jewelry%20Fashion%20Ring%22%2C%22Fashion%20Jewelry%20Necklace%22%2C%22Fashion%20Jewelry%20Pendant%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%2C%22brands%22%3A%5B%22Round%20Diamonds%22%5D%7D\"\r\n                                                                    target=\"_parent\" title=\"Round Diamonds\">\r\n                                                                    Round Diamonds\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A7%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Fashion%20Jewelry%22%3A%5B%22Chain%20Fashion%20Jewelry%22%2C%22Fashion%20Jewelry%20Bracelet%22%2C%22Fashion%20Jewelry%20Connector%22%2C%22Fashion%20Jewelry%20Earring%22%2C%22Fashion%20Jewelry%20Fashion%20Ring%22%2C%22Fashion%20Jewelry%20Necklace%22%2C%22Fashion%20Jewelry%20Pendant%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%2C%22brands%22%3A%5B%22Fancy%20Diamonds%22%5D%7D\"\r\n                                                                    target=\"_parent\" title=\"Fancy Diamonds\">\r\n                                                                    Fancy Diamonds\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A7%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Fashion%20Jewelry%22%3A%5B%22Chain%20Fashion%20Jewelry%22%2C%22Fashion%20Jewelry%20Bracelet%22%2C%22Fashion%20Jewelry%20Connector%22%2C%22Fashion%20Jewelry%20Earring%22%2C%22Fashion%20Jewelry%20Fashion%20Ring%22%2C%22Fashion%20Jewelry%20Necklace%22%2C%22Fashion%20Jewelry%20Pendant%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%2C%22brands%22%3A%5B%22Color%20Stones%22%5D%7D\"\r\n                                                                    target=\"_parent\" title=\"Color Stones\">\r\n                                                                    Color Stones\r\n                                                                </a>\r\n                                                            </li>\r\n                                                        </ul>\r\n                                                    </div>\r\n                                                </div>\r\n                                                <div class=\"submenu-list\">\r\n                                                    <div class=\"heading\">\r\n                                                        <h3>Stories</h3>\r\n                                                    </div>\r\n                                                    <div class=\"submenu-option\">\r\n                                                        <ul>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A7%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Fashion%20Jewelry%22%3A%5B%22Chain%20Fashion%20Jewelry%22%2C%22Fashion%20Jewelry%20Bracelet%22%2C%22Fashion%20Jewelry%20Connector%22%2C%22Fashion%20Jewelry%20Earring%22%2C%22Fashion%20Jewelry%20Fashion%20Ring%22%2C%22Fashion%20Jewelry%20Necklace%22%2C%22Fashion%20Jewelry%20Pendant%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%2C%22brands%22%3A%5B%22Vintage%22%5D%7D\"\r\n                                                                    target=\"_parent\" title=\"Vintage\">\r\n                                                                    Vintage\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A7%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Fashion%20Jewelry%22%3A%5B%22Chain%20Fashion%20Jewelry%22%2C%22Fashion%20Jewelry%20Bracelet%22%2C%22Fashion%20Jewelry%20Connector%22%2C%22Fashion%20Jewelry%20Earring%22%2C%22Fashion%20Jewelry%20Fashion%20Ring%22%2C%22Fashion%20Jewelry%20Necklace%22%2C%22Fashion%20Jewelry%20Pendant%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%2C%22brands%22%3A%5B%22Contemporary%22%5D%7D\"\r\n                                                                    target=\"_parent\" title=\"Contemporary\">\r\n                                                                    Contemporary\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A7%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Fashion%20Jewelry%22%3A%5B%22Chain%20Fashion%20Jewelry%22%2C%22Fashion%20Jewelry%20Bracelet%22%2C%22Fashion%20Jewelry%20Connector%22%2C%22Fashion%20Jewelry%20Earring%22%2C%22Fashion%20Jewelry%20Fashion%20Ring%22%2C%22Fashion%20Jewelry%20Necklace%22%2C%22Fashion%20Jewelry%20Pendant%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%2C%22brands%22%3A%5B%22Dainty%22%5D%7D\"\r\n                                                                    target=\"_parent\" title=\"Dainty\">\r\n                                                                    Dainty\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A7%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Fashion%20Jewelry%22%3A%5B%22Chain%20Fashion%20Jewelry%22%2C%22Fashion%20Jewelry%20Bracelet%22%2C%22Fashion%20Jewelry%20Connector%22%2C%22Fashion%20Jewelry%20Earring%22%2C%22Fashion%20Jewelry%20Fashion%20Ring%22%2C%22Fashion%20Jewelry%20Necklace%22%2C%22Fashion%20Jewelry%20Pendant%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%2C%22brands%22%3A%5B%22Traditional%22%5D%7D\"\r\n                                                                    target=\"_parent\" title=\"Traditional\">\r\n                                                                    Traditional\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A7%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Fashion%20Jewelry%22%3A%5B%22Chain%20Fashion%20Jewelry%22%2C%22Fashion%20Jewelry%20Bracelet%22%2C%22Fashion%20Jewelry%20Connector%22%2C%22Fashion%20Jewelry%20Earring%22%2C%22Fashion%20Jewelry%20Fashion%20Ring%22%2C%22Fashion%20Jewelry%20Necklace%22%2C%22Fashion%20Jewelry%20Pendant%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%2C%22brands%22%3A%5B%22Solid%20Metal%22%5D%7D\"\r\n                                                                    target=\"_parent\" title=\"Solid Metal\">\r\n                                                                    Solid Metal\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A7%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Fashion%20Jewelry%22%3A%5B%22Chain%20Fashion%20Jewelry%22%2C%22Fashion%20Jewelry%20Bracelet%22%2C%22Fashion%20Jewelry%20Connector%22%2C%22Fashion%20Jewelry%20Earring%22%2C%22Fashion%20Jewelry%20Fashion%20Ring%22%2C%22Fashion%20Jewelry%20Necklace%22%2C%22Fashion%20Jewelry%20Pendant%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%2C%22brands%22%3A%5B%22Bypass%22%5D%7D\"\r\n                                                                    target=\"_parent\" title=\"Bypass\">\r\n                                                                    Bypass\r\n                                                                </a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A7%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Fashion%20Jewelry%22%3A%5B%22Chain%20Fashion%20Jewelry%22%2C%22Fashion%20Jewelry%20Bracelet%22%2C%22Fashion%20Jewelry%20Connector%22%2C%22Fashion%20Jewelry%20Earring%22%2C%22Fashion%20Jewelry%20Fashion%20Ring%22%2C%22Fashion%20Jewelry%20Necklace%22%2C%22Fashion%20Jewelry%20Pendant%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%2C%22brands%22%3A%5B%22Stackable%22%5D%7D\"\r\n                                                                    target=\"_parent\" title=\"Stackable\">\r\n                                                                    Stackable\r\n                                                                </a>\r\n                                                            </li>\r\n                                                        </ul>\r\n                                                    </div>\r\n                                                </div>\r\n                                                <!-- <div class=\"submenu-list\">\r\n                                  <div class=\"heading\">\r\n                                    <h3>View All</h3>\r\n                                  </div>\r\n                                  <div class=\"submenu-option\">\r\n                                    <ul>\r\n                                      <li><a href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Fashion%20Jewelry%22%3A%5B%22Fashion%20Jewelry%20Bracelet%22%2C%22Chain%20Fashion%20Jewelry%22%2C%22Fashion%20Jewelry%20Connector%22%2C%22Fashion%20Jewelry%20Earring%22%2C%22Fashion%20Jewelry%20Fashion%20Ring%22%2C%22Fashion%20Jewelry%20Necklace%22%2C%22Fashion%20Jewelry%20Pendant%22%5D%2C%22Men%27s%20Jewelry%22%3A%5B%22Men%27s%20Jewelry%20Bracelet%22%2C%22Men%27s%20Jewelry%20Fashion%20Ring%22%2C%22Men%27s%20Jewelry%20Pendant%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%7D\" target=\"_parent\" title=\"All Fashion Jewelr\">All Fashion Jewelry</a></li>\r\n                                    </ul>\r\n                                  </div>\r\n                                </div> -->\r\n                                            </div>\r\n                                        </div>\r\n                                    </div>\r\n                                </li>\r\n                                <li class=\"nav-item\">\r\n                                    <a class=\"nav-link\"\r\n                                        href=\"https://classiquecreationsnycbeta.preprod.customvirtual.app/client/deep/jewelry/-1/search/?saved_search=%7B%22page_number%22%3A1%2C%22page_size%22%3A30%2C%22price_mode%22%3A1%2C%22is_center_size_selected%22%3A%22true%22%2C%22vdb_setting%22%3A%22true%22%2C%22results_view_type%22%3A%22grid%22%2C%22stock_item_ids%22%3A%5B%5D%2C%22jewelry_styles%22%3A%7B%22Men%27s%20Jewelry%22%3A%5B%22Men%27s%20Jewelry%20Fashion%20Ring%22%2C%22Men%27s%20Jewelry%20Bracelet%22%2C%22Men%27s%20Jewelry%20Pendant%22%5D%7D%2C%22minBudget%22%3Anull%2C%22maxBudget%22%3Anull%2C%22minCarat%22%3Anull%2C%22maxCarat%22%3Anull%2C%22itemType%22%3A2%7D\"\r\n                                        target=\"_parent\" title=\"Men's Jewelry\">\r\n                                        Men's Jewelry\r\n                                    </a>\r\n                                </li>\r\n                                <li class=\"nav-item\">\r\n                                    <a class=\"nav-link\" href=\"#\" title=\"Store Locato\">Store Locator</a>\r\n                                </li>\r\n                                <li class=\"nav-item dropdown\">\r\n                                    <a class=\"nav-link dropdown-toggle\" title=\"About Us\">\r\n                                        About Us\r\n                                    </a>\r\n                                    <div class=\"dropdown-menu\">\r\n                                        <div class=\"container\">\r\n                                            <div class=\"submenu-section about\">\r\n                                                <div class=\"submenu-list\">\r\n                                                    <div class=\"heading\">\r\n                                                        <h3>About Us</h3>\r\n                                                    </div>\r\n                                                    <div class=\"submenu-option\">\r\n                                                        <ul>\r\n                                                            <li>\r\n                                                                <a href=\"our-story.html\" title=\"Our Stor\">Our Story</a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"contact-us.html\" title=\"Contact Us\">Contact Us</a>\r\n                                                            </li>\r\n                                                            <li>\r\n                                                                <a href=\"#\" title=\"Store Locator\">Store Locator</a>\r\n                                                            </li>\r\n                                                        </ul>\r\n                                                    </div>\r\n                                                </div>\r\n                                                <div class=\"submenu-list\">\r\n                                                    <div class=\"heading\">\r\n                                                        <h3>Retailer Services</h3>\r\n                                                    </div>\r\n                                                    <div class=\"submenu-option\">\r\n                                                        <ul>\r\n                                                            <li>\r\n                                                                <a href=\"https://classiquecreationsnyc.customvirtual.app/webapp/user/login\"\r\n                                                                    target=\"_parent\">Retailer Login</a>\r\n                                                            </li>\r\n                                                            <li><a href=\"#\">Custom Design</a></li>\r\n                                                        </ul>\r\n                                                    </div>\r\n                                                </div>\r\n                                            </div>\r\n                                        </div>\r\n                                    </div>\r\n                                </li>\r\n                            </ul>\r\n                        </div>\r\n                    </nav>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </section>\r\n\r\n    .\r\n    <style>\r\n        #header ul {\r\n            list-style-type: none;\r\n            padding-inline-start: 0px;\r\n        }\r\n    \r\n        .header-top {\r\n            background: #2e4c4d;\r\n            padding: 10px 0px;\r\n        }\r\n    \r\n        .header-top .main-section {\r\n            display: flex;\r\n            align-items: center;\r\n            justify-content: space-between;\r\n        }\r\n    \r\n        .header-top .main-section .left-part p {\r\n            font-size: 14px;\r\n            font-weight: 500;\r\n            line-height: 18px;\r\n            letter-spacing: 0.1px;\r\n            color: #ffffff;\r\n            margin-bottom: 0px;\r\n    \r\n            font-family: \"Quicksand\", sans-serif;\r\n        }\r\n    \r\n        .header-top .main-section .right-part ul {\r\n            display: flex;\r\n            align-items: center;\r\n            justify-content: right;\r\n            margin-bottom: 0px;\r\n        }\r\n    \r\n        .header-top .main-section .right-part ul li {\r\n            margin-left: 20px;\r\n        }\r\n    \r\n        .header-top .main-section .right-part ul li a {\r\n            font-size: 14px;\r\n            font-weight: 500;\r\n            line-height: 18px;\r\n            letter-spacing: 0.1px;\r\n            color: #ffffff;\r\n    \r\n            font-family: \"Quicksand\", sans-serif;\r\n        }\r\n    \r\n        .header-top .main-section .right-part ul li a .fa {\r\n            margin-left: 10px;\r\n        }\r\n    \r\n        .main-header-wrapper {\r\n            background: #ffffff;\r\n            padding: 10px 0px;\r\n        }\r\n\r\n         .main-section{\r\n\tdisplay: flex;\r\n\tgrid-template-columns: 1fr 1fr 1fr;\r\n align-items: center;\r\n color: #fff;\r\n          }\r\n\r\n.left-section {\r\n color: black\r\n margin-letf: 30px\r\n}\r\n    \r\n        .main-header-wrapper .main-section ul>li a img {\r\n            max-width: 300px;\r\n        }\r\n    \r\n        .menu-fluid {\r\n            background: #f7f7f7;\r\n            padding: 0px 0px;\r\n            border-top: 1px solid #e9e9e9;\r\n            position: relative;\r\n        }\r\n    \r\n        .menu-fluid .navbar {\r\n            padding: 0;\r\n            position: initial;\r\n        }\r\n    \r\n        .menu-fluid .navbar-nav .nav-item {\r\n            margin: 0px 15px;\r\n            position: inherit;\r\n        }\r\n    \r\n        .menu-fluid .navbar-nav .nav-item .nav-link {\r\n            font-size: 16px;\r\n            font-weight: 500;\r\n            line-height: 16px;\r\n            letter-spacing: 0.1px;\r\n            color: #2e4c4d;\r\n            padding: 18px 0px;\r\n    \r\n            font-family: \"Quicksand\", sans-serif;\r\n        }\r\n    \r\n        .menu-fluid .navbar-nav .nav-item:hover .dropdown-menu {\r\n            display: block;\r\n            width: 100%;\r\n            border-radius: 0px;\r\n            background: #f1f1f1;\r\n            padding: 10px 0px;\r\n        }\r\n    \r\n        .menu-fluid .navbar-nav .submenu-section {\r\n            display: flex;\r\n            justify-content: space-between;\r\n            width: 100%;\r\n        }\r\n    \r\n        .menu-fluid .navbar-nav .submenu-section.about {\r\n            justify-content: start;\r\n        }\r\n    \r\n        .menu-fluid .navbar-nav .submenu-section.about .submenu-list {\r\n            width: 25%;\r\n        }\r\n    \r\n        .menu-fluid .navbar-nav .submenu-section .submenu-list .heading h3 {\r\n            font-size: 16px;\r\n            font-weight: 600;\r\n            line-height: 28px;\r\n            color: #2e4c4d;\r\n            margin-bottom: 30px;\r\n            text-transform: capitalize;\r\n            position: relative;\r\n            font-family: \"Quicksand\", sans-serif;\r\n        }\r\n    \r\n        .menu-fluid .navbar-nav .submenu-section .submenu-list .heading h3:after {\r\n            content: \"\";\r\n            position: absolute;\r\n            width: 120px;\r\n            height: 2px;\r\n            background: #2e4c4d;\r\n            bottom: -10px;\r\n            left: 0;\r\n    \r\n            font-family: \"Quicksand\", sans-serif;\r\n        }\r\n    \r\n        .menu-fluid .navbar-nav .submenu-section .submenu-list .submenu-option ul li {\r\n            margin-bottom: 10px;\r\n        }\r\n    \r\n        .menu-fluid .navbar-nav .submenu-section .submenu-list .submenu-option ul li a {\r\n            font-size: 16px;\r\n            font-weight: 500;\r\n            line-height: 18px;\r\n            color: #666666;\r\n    \r\n            font-family: \"Quicksand\", sans-serif;\r\n        }\r\n    \r\n        .menu-fluid .navbar-nav .submenu-section .submenu-list .submenu-option ul li a:hover {\r\n            font-weight: 600;\r\n        }\r\n\r\n    </style>",
+    "meta_data": {
+      "keywords": "",
+      "page_title": "",
+      "description": "",
+      "website_verification_tag": ""
+    },
+    "web_plugins_script": "",
+    "additional_attributes": {
+      "app_id": "",
+      "api_key": "",
+      "ad_delay": "",
+      "max_depth": "100",
+      "max_ratio": "10",
+      "max_table": "100",
+      "max_width": "865",
+      "min_depth": "0",
+      "min_ratio": "0",
+      "min_table": "0",
+      "min_width": "0",
+      "max_height": "525",
+      "max_length": "1320",
+      "min_height": "0",
+      "min_length": "0",
+      "project_id": "",
+      "delist_days": "7",
+      "terms_de_url": "",
+      "terms_en_url": "",
+      "terms_ko_url": "",
+      "terms_zh_url": "",
+      "retail_markup": "",
+      "owner_info_pin": "",
+      "pay_online_text": "",
+      "pay_offline_text": "",
+      "remind_after_days": "1",
+      "mobile_three_d_url": "https://d2dtfeai6qg5ne.cloudfront.net/iframe-test/webgi.html",
+      "preferred_language": "en",
+      "supported_language": "",
+      "warning_after_days": "1",
+      "delist_warning_days": "5",
+      "messaging_sender_id": "",
+      "buying_group_options": "",
+      "email_footer_address": "",
+      "jewelry_slug_formula": "",
+      "recaptcha_client_key": "",
+      "recaptcha_secret_key": "",
+      "new_arrival_item_time": "360",
+      "purchased_delist_days": "",
+      "hide_guest_prices_text": "",
+      "hide_prices_for_product": "",
+      "buyer_excel_column_for_bmh": "",
+      "api_request_expiration_days": "30",
+      "seller_excel_column_for_bmh": "",
+      "show_items_price_less_then_26": false,
+      "enable_buy_request_at_null_zero": "",
+      "overide_email_confirmation_text": "",
+      "retailer_default_theme_company_id": "",
+      "before_auction_end_notification_timer": "180",
+      "before_auction_start_notification_timer": "1440",
+      "retailer_default_custom_menu_company_id": ""
+    },
+    "business_plan": null,
+    "internal_landing_page_url_v3": "",
+    "fcm_config": null,
+    "onesignal_app_id": "",
+    "onesignal_rest_api_key": "",
+    "secondary_logo_url": null,
+    "analytic_ga4_id": null,
+    "landing_pages": {}
+  },
+  "orgSettings": [
+    {
+      "feature_id": 40,
+      "feature_name": "enterprise",
+      "feature_description": "Enterprise Organization",
+      "access": 2
+    },
+    {
+      "feature_id": 41,
+      "feature_name": "group_specific_price",
+      "feature_description": "Inventory/Price Groups",
+      "access": 2
+    },
+    {
+      "feature_id": 47,
+      "feature_name": "company_name_required",
+      "feature_description": "Allow Company Name Required",
+      "access": 2
+    },
+    {
+      "feature_id": 52,
+      "feature_name": "require_phone_during_registration",
+      "feature_description": "Make Contact Number a required field during registration",
+      "access": 2
+    },
+    {
+      "feature_id": 54,
+      "feature_name": "update_availability_status",
+      "feature_description": "Update Availability Indicator/Status based on Item Request",
+      "access": 2
+    },
+    {
+      "feature_id": 63,
+      "feature_name": "collect_address",
+      "feature_description": "Allow Collect Address",
+      "access": 2
+    },
+    {
+      "feature_id": 73,
+      "feature_name": "orange_mode_bmh",
+      "feature_description": "Enable Buy/Memo/Hold requests for orange mode",
+      "access": 2
+    },
+    {
+      "feature_id": 108,
+      "feature_name": "external_landing_page",
+      "feature_description": "Enable External Landing Page",
+      "access": 2
+    },
+    {
+      "feature_id": 142,
+      "feature_name": "enable_custom_search_menu",
+      "feature_description": "Enable Custom Search Menu",
+      "access": 2
+    },
+    {
+      "feature_id": 146,
+      "feature_name": "enable_custom_navigation",
+      "feature_description": "Enable Custom Navigation",
+      "access": 2
+    },
+    {
+      "feature_id": 147,
+      "feature_name": "disable_fuzzy_logic",
+      "feature_description": "Disable Fuzzy Logic",
+      "access": 2
+    },
+    {
+      "feature_id": 152,
+      "feature_name": "price_mode_line_on_webapp_header",
+      "feature_description": "Enable Price Mode line on Webapp header",
+      "access": 2
+    },
+    {
+      "feature_id": 153,
+      "feature_name": "collect_address_required",
+      "feature_description": "Allow Collect Address Required",
+      "access": 2
+    },
+    {
+      "feature_id": 187,
+      "feature_name": "share_collection",
+      "feature_description": "Allow Collection Share",
+      "access": 2
+    },
+    {
+      "feature_id": 195,
+      "feature_name": "search_result_with_image_only",
+      "feature_description": "Allow Search Result With Image Only",
+      "access": 2
+    },
+    {
+      "feature_id": 199,
+      "feature_name": "order_cart",
+      "feature_description": "Allow Order Cart",
+      "access": 2
+    },
+    {
+      "feature_id": 200,
+      "feature_name": "jewelry_item_configuration",
+      "feature_description": "Allow Jewelry Item Configuration",
+      "access": 2
+    },
+    {
+      "feature_id": 250,
+      "feature_name": "unified_fav_collection",
+      "feature_description": "Enable Unified Favorites/Collections",
+      "access": 2
+    },
+    {
+      "feature_id": 257,
+      "feature_name": "assign_salespeople_to_companies",
+      "feature_description": "Enable Salesperson Model  (Assign Sales People to Companies)",
+      "access": 2
+    },
+    {
+      "feature_id": 259,
+      "feature_name": "group_price_markups",
+      "feature_description": "Groups Price Markups",
+      "access": 2
+    },
+    {
+      "feature_id": 264,
+      "feature_name": "display_custom_company_logo_html_header",
+      "feature_description": "Display Customer Company logo in Custom HTML Header",
+      "access": 2
+    },
+    {
+      "feature_id": 267,
+      "feature_name": "suppress_iframe_to_load_html",
+      "feature_description": "Allow Suppress Iframe To Load Html",
+      "access": 2
+    },
+    {
+      "feature_id": 270,
+      "feature_name": "enable_product_level_markup",
+      "feature_description": "App users can set product-level markups",
+      "access": 2
+    },
+    {
+      "feature_id": 274,
+      "feature_name": "item_description_web_for_jewelry",
+      "feature_description": "Enable item description on the web for jewelry",
+      "access": 2
+    },
+    {
+      "feature_id": 275,
+      "feature_name": "featured_items",
+      "feature_description": "Enable Feature Items",
+      "access": 2
+    },
+    {
+      "feature_id": 281,
+      "feature_name": "enable_image_video_report_native_share",
+      "feature_description": "Allow Enable Image Video Report Native Share",
+      "access": 2
+    },
+    {
+      "feature_id": 287,
+      "feature_name": "unified_stock_item_request",
+      "feature_description": null,
+      "access": 2
+    },
+    {
+      "feature_id": 288,
+      "feature_name": "show_subtitle_on_grid_view",
+      "feature_description": "Show sub-title on grid view",
+      "access": 2
+    },
+    {
+      "feature_id": 303,
+      "feature_name": "allow_stock_num_search_by_brand",
+      "feature_description": "Enable Stock# search through Brands",
+      "access": 2
+    },
+    {
+      "feature_id": 310,
+      "feature_name": "mandatory_logo",
+      "feature_description": "Display Logo as per B2B2C functionality",
+      "access": 2
+    },
+    {
+      "feature_id": 356,
+      "feature_name": "hybrid",
+      "feature_description": "Hybrid model for WDC",
+      "access": 2
+    },
+    {
+      "feature_id": 359,
+      "feature_name": "enable_product_ui_v2",
+      "feature_description": null,
+      "access": 2
+    },
+    {
+      "feature_id": 364,
+      "feature_name": "ask_question",
+      "feature_description": "Enable Ask a Question",
+      "access": 2
+    },
+    {
+      "feature_id": 405,
+      "feature_name": "updated_bmh_emails",
+      "feature_description": "",
+      "access": 2
+    },
+    {
+      "feature_id": 417,
+      "feature_name": "allow_item_share_with_or_without_prices",
+      "feature_description": "Allow Item Share with/without prices",
+      "access": 2
+    },
+    {
+      "feature_id": 423,
+      "feature_name": "hybrid_jewelry_model",
+      "feature_description": "Enable Jewelry Hybrid Mode",
+      "access": 2
+    },
+    {
+      "feature_id": 424,
+      "feature_name": "share_inventory_as_pdf",
+      "feature_description": "Allow PDF Attachments for sharing inventories via Email",
+      "access": 2
+    },
+    {
+      "feature_id": 500,
+      "feature_name": "use_separate_variation_api",
+      "feature_description": "Use Separate Variation Api",
+      "access": 2
+    },
+    {
+      "feature_id": 506,
+      "feature_name": "show_items_price_less_then_26",
+      "feature_description": "Show Items < $26",
+      "access": 2
+    },
+    {
+      "feature_id": 510,
+      "feature_name": "send_minimal_variations_in_api",
+      "feature_description": "Send minimal jewelry variations in the variations API",
+      "access": 2
+    }
+  ],
+  "customizations": [],
+  "globals": [],
+  "customTexts": [],
+  "jsonNavMenu": null,
+  "company": {
+    "id": 84014,
+    "name": "Classique Creations Beta",
+    "logo_url": "",
+    "created_at": "2024-04-22T01:58:11.598Z",
+    "updated_at": "2024-12-02T07:39:40.095Z",
+    "request_email_address": "qa-vdb+stg_usr__84014@vdbapp.com",
+    "customer_visibility": "{\"blacklist\":{\"countries\":[],\"vendors\":[],\"retailers\":[],\"blacklisted_by\":[]},\"vendors\":[],\"retailers\":[]}",
+    "company_code": "CLC",
+    "name_on_info_card": null,
+    "contact_phone": "",
+    "data_url": "{\"diamond_data_url\":\"\",\"diamond_data_results\":\"\",\"gemstone_data_url\":\"\",\"gemstone_data_results\":\"\",\"jewelry_data_url\":\"\",\"jewelry_data_results\":\"\",\"lab_grown_data_url\":\"\",\"lab_grown_data_results\":\"\",\"data_url_auth_type\":\"\",\"data_url_auth_user\":\"\",\"data_url_auth_password\":\"\",\"diamond_data_auth_url\":\"\",\"lab_grown_data_auth_url\":\"\",\"diamond_token_api_body\":\"\",\"diamond_stock_api_body\":\"\",\"lab_grown_token_api_body\":\"\",\"lab_grown_stock_api_body\":\"\",\"jewelry_token_api_body\":\"\",\"jewelry_stock_api_body\":\"\",\"diamond_image_url_format\":\"\",\"lab_grown_image_url_format\":\"\",\"use_proxy\":\"false\",\"jewelry_image_url_format\":\"\",\"diamond_cert_url_format\":\"\",\"lab_grown_cert_url_format\":\"\",\"jewelry_cert_url_format\":\"\",\"gemstone_cert_url_format\":\"\",\"gemstone_image_url_format\":\"\",\"gemstone_token_api_body\":\"\",\"gemstone_stock_api_body\":\"\"}",
+    "company_type": "vendor",
+    "country": "United States",
+    "state": "New York",
+    "city": "New York",
+    "street_address": "1156, 6th Avenue, New York NY",
+    "zip_code": "10036",
+    "contact_person": "Lorraine",
+    "latitude": null,
+    "longitude": null,
+    "website": "https://classiquecreationsnyc.com/",
+    "jbt_number": "",
+    "data_format": "csv",
+    "emails_visibility": null,
+    "salesperson": null,
+    "contact_iphone": "",
+    "accepts_memo": true,
+    "salesforce_id": "",
+    "uploaded_logo": "Registration-logo_2x__1_.png",
+    "can_set_logo": true,
+    "salesforce_sync_pending": false,
+    "last_ftp_ran_at": "2024-11-11T05:50:55.883Z",
+    "last_ftp_error": "",
+    "request_count": 10140,
+    "inventory_updates_count": 92,
+    "mobile_phone": "2129211900",
+    "search_pref": false,
+    "can_force_green_price_profile": false,
+    "has_price_markups": false,
+    "mobile_phone_country_code": "1",
+    "contact_phone_country_code": "",
+    "contact_iphone_country_code": "",
+    "studio_pro": false,
+    "show_vdb_watermark": false,
+    "can_set_watermark": false,
+    "uploaded_watermark": null,
+    "cal_disc_percent": false,
+    "has_multiple_locations": false,
+    "organization_id": 799,
+    "can_create_company_price_markups": true,
+    "main_logo": "Header-logo.png",
+    "allow_custom_menu": true,
+    "allow_search_coach_overlay": true,
+    "bmh_request_type": "",
+    "purchasing_agent_email": null,
+    "can_set_delivery_date": false,
+    "allow_welcome_screen": true,
+    "allow_lab_grown": false,
+    "can_lock_user_mode": true,
+    "default_price_mode": 2,
+    "show_powered_by_vdb": true,
+    "auto_activate": false,
+    "last_diamond_inventory_updated_at": null,
+    "last_gemstone_inventory_updated_at": null,
+    "allow_stock_types": {
+      "diamond": "false",
+      "jewelry": "true",
+      "gemstone": "false",
+      "lab_grown_diamond": "false",
+      "default_stock_type": "jewelry"
+    },
+    "http_request_method": 2,
+    "allow_custom_menu_types": {
+      "diamond": "true",
+      "jewelry": "true",
+      "gemstone": "false",
+      "lab_grown_diamond": "false"
+    },
+    "allow_custom_theme": true,
+    "allow_custom_theme_types": {
+      "diamond": "true",
+      "jewelry": "true",
+      "gemstone": "false",
+      "lab_grown_diamond": "false"
+    },
+    "default_markup": "2.5",
+    "share_logo": "Share_Email_2x__4_.png",
+    "round_up_prices": false,
+    "owner_info": {
+      "label": "CLC",
+      "price_mode": "white",
+      "show_owner_info": "true"
+    },
+    "owner_info_users": null,
+    "price_markups_status": {
+      "diamond": "NA",
+      "jewelry": "NA",
+      "gemstone": "NA",
+      "lab_grown_diamond": "NA"
+    },
+    "hubspot_id": null,
+    "hubspot_sync_pending": null,
+    "additional_attributes": {
+      "ftp_folder": {
+        "diamond": "",
+        "jewelry": "",
+        "gemstone": "",
+        "lab_grown_diamond": ""
+      },
+      "gia_api_key": "",
+      "gdrive_folder": {
+        "diamond": "",
+        "jewelry": "",
+        "gemstone": "",
+        "lab_grown_diamond": ""
+      },
+      "ftp_credentials": {
+        "folder": "",
+        "server": "",
+        "password": "",
+        "username": "",
+        "file_name": "",
+        "is_ssl_required": "false"
+      },
+      "jbt_error_status": "not_applicable",
+      "jbt_error_comment": "",
+      "remind_after_days": "1",
+      "company_identifier": "",
+      "jewelry_addon_keys": "config_field_5,config_field_6,config_field_8",
+      "custom_pricing_klass": "ClassiqueStrategy",
+      "ftp_upload_frequency": "",
+      "inventory_access_url": {
+        "diamond_csv_inventory_access_url": {},
+        "diamond_json_inventory_access_url": {},
+        "labgrowndiamond_csv_inventory_access_url": {},
+        "labgrowndiamond_json_inventory_access_url": {}
+      },
+      "jewelry_slug_formula": "metal_type,config_field_3,config_field_9,config_field_7,supported_shapes,config_field_1,config_field_4,config_field_5,config_field_6,config_field_8",
+      "datafetch_split_range": "",
+      "iframe_ref_company_id": "",
+      "jewelry_search_formula": "",
+      "search_result_view_type": {
+        "diamond": "",
+        "jewelry": "",
+        "gemstone": "",
+        "lab_grown_diamond": ""
+      },
+      "limit_stock_item_request": ""
+    },
+    "salesperson_id": 0,
+    "lock_user_currency": false,
+    "lock_user_currency_value": null,
+    "user_login_price_mode": null,
+    "inventory_count": {
+      "jewelry_count": 289294,
+      "jewelry_list_count": 289293
+    },
+    "iframe_status": false,
+    "iframe_key": null,
+    "iframe_referer": "",
+    "require_webhooks": false,
+    "third_party_stock_items_filter_string": null,
+    "three_d_formula": {
+      "info": [
+        {
+          "option_attr": [
+            "config_field_4",
+            "config_field_1",
+            "config_field_2",
+            "shape",
+            "center_size",
+            "center_type"
+          ],
+          "option_type": "model",
+          "option_extension": ".glb",
+          "option_identifier": "head"
+        },
+        {
+          "option_attr": [
+            "metal_type"
+          ],
+          "option_type": "material",
+          "option_extension": ".pmat",
+          "option_identifier": "metal,Metal"
+        },
+        {
+          "option_attr": [
+            "shape"
+          ],
+          "option_type": "material",
+          "option_extension": ".dmat",
+          "option_identifier": "mainstone,main stone,sidestone,sidestones,railstone,Railstone,Shankstone,mainstone-round,mainstone-pear,mainstone-cushion,mainstone-oval,mai,stone-radiant,mainstone-emerald,mainstone-princess,sidestone-round,sidestone-pear,sidestone-cushion,sidestone-radiant,sidestone-oval,sidestone-emerald,sidestone-princess,sidestone-halfmoon,mainstone-trillion,mainstone-heart,mainstone-hexagon,mainstone-lozenge,mainstone-baguette,sidestone-heart,sidestone-trillion,sidestone-hexagon,sidestone-lozenge,sidestone-baguette,sidestone 2,sidestone 3,sidestone 4,sidestone2,Diamond_Round"
+        }
+      ],
+      "base_url": "https://d2dtfeai6qg5ne.cloudfront.net/3D_Assets/CLC/",
+      "attribute_in_url_sequence": ""
+    },
+    "three_d_settings": {
+      "vjson": "https://d2dtfeai6qg5ne.cloudfront.net/3D_Assets/CLC/Classique.vjson",
+      "three_d_data_type": "webgi"
+    },
+    "dynamic_jewelry_variant_keys": "metals,config_field_3,config_field_9,config_field_7",
+    "round_up_by": null,
+    "secondary_logo_url": "",
+    "show_datafetch_error_alerts": false,
+    "zenskar_customer_id": null
+  },
+  "activeFeatures": [
+    {
+      "feature_id": 206,
+      "feature_description": "Opt-Out of API Inventory Sharing",
+      "access": 1
+    },
+    {
+      "feature_id": 240,
+      "feature_description": "Ultra-fast Exavault FTP Server (regular speed)",
+      "access": 1
+    },
+    {
+      "feature_id": 354,
+      "feature_description": "App users can see \"Call for Status\" availability status (custom apps only)",
+      "access": 1
+    },
+    {
+      "feature_id": 367,
+      "feature_description": "Allow breaking large inventory files into delete and update CSV",
+      "access": 1
+    },
+    {
+      "feature_id": 416,
+      "feature_description": "Enable this to mark this company as Demo/QA Company/Internal Usage",
+      "access": 1
+    },
+    {
+      "feature_id": 466,
+      "feature_description": "Allow Deluxe Inventory Upload",
+      "access": 1
+    },
+    {
+      "feature_id": 472,
+      "feature_description": "Limit user and request data for salesperson associated with that company only",
+      "access": 1
+    },
+    {
+      "feature_id": 514,
+      "feature_description": "Enable 3D media on product detail page",
+      "access": 1
+    },
+    {
+      "feature_id": 515,
+      "feature_description": "Enable front ends to generate 3D urls on product detail page",
+      "access": 1
+    },
+    {
+      "feature_id": 518,
+      "feature_description": "This switch is to be enabled for making images url non mandatory to list jewlery.",
+      "access": 1
+    },
+    {
+      "feature_id": 531,
+      "feature_description": "Dynamic Jewelry Variant (TWM)",
+      "access": 1
+    },
+    {
+      "feature_id": 550,
+      "feature_description": "Enable User Level Multiplier Markup on Backend",
+      "access": 1
+    }
+  ],
+  "locations": [
+    {
+      "id": 82048,
+      "location_name": "Classique Creations NYC",
+      "street_address": "1156, 6th Avenue, New York NY",
+      "country": "United States",
+      "state": "New York",
+      "city": "New York",
+      "zip": "10036",
+      "contact_person": "Lorraine",
+      "contact_email": "qa-vdb+stg_cmpny__v_84014_l_82048@vdbapp.com",
+      "mobile_phone": "2129211900",
+      "office_phone": "",
+      "website": "https://classiquecreationsnyc.com/",
+      "vendor_id": 84014,
+      "is_primary": true,
+      "created_at": "2024-04-22T01:58:11.651Z",
+      "updated_at": "2024-11-22T03:48:51.022Z",
+      "contact_iphone": "",
+      "mobile_phone_country_code": "1",
+      "contact_phone_country_code": "",
+      "contact_iphone_country_code": "",
+      "contact_whatsapp": "",
+      "contact_whatsapp_country_code": ""
+    }
+  ],
+  "authToken": "psu638r1nfwkbayvjsfx",
+  "overrides": {
+    "newOrgName": "Copy of Classique Creations Beta test01",
+    "newDomainUrl": "copy-classiquec",
+    "newCompanyName": "Copy of Classique Creations Beta 23"
+  },
+  "result": {
+    "orgName": "Copy of Classique Creations Beta test01",
+    "orgId": "1326",
+    "newOrgId": "1326",
+    "companyName": "Copy of Classique Creations Beta 23",
+    "newCompanyId": "91504",
+    "featuresActivated": 0,
+    "featuresFailed": 0,
+    "customizations": [],
+    "customTexts": []
+  }
+}

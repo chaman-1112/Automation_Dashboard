@@ -1,0 +1,658 @@
+{
+  "org": {
+    "id": 491,
+    "name": "Love 2 Love",
+    "emails": {
+      "qa": "qa-vdb+stg_usr__491@vdbapp.com",
+      "bcc": "qa-vdb+stg_usr__491@vdbapp.com",
+      "dev": "qa-vdb+stg_usr__491@vdbapp.com",
+      "system": "qa-vdb+stg_usr__491@vdbapp.com",
+      "primary": "qa-vdb+stg_usr__491@vdbapp.com",
+      "reports": "qa-vdb+stg_usr__491@vdbapp.com",
+      "support": "qa-vdb+stg_usr__491@vdbapp.com",
+      "reply_to": "qa-vdb+stg_usr__491@vdbapp.com",
+      "secondary": "qa-vdb+stg_usr__491@vdbapp.com",
+      "contact_us": "qa-vdb+stg_usr__491@vdbapp.com",
+      "inventory_reports": "qa-vdb+stg_usr__491@vdbapp.com"
+    },
+    "phone": {
+      "primary": "+1 866-799-8885",
+      "secondary": ""
+    },
+    "domain_url": "www.love2love.co,love2love.customvirtual.app,www.puregrowndiamonds.com,puregrown.customvirtual.app,puregrown.preprod.customvirtual.app,love2love.customvirtual.app,love2love.preprod.customvirtual.app,love2love.preprod.co,love2love1.customvirtual.app",
+    "status": 0,
+    "created_at": "2022-05-19T08:57:31.266Z",
+    "updated_at": "2025-03-24T04:13:12.298Z",
+    "android_app_identifier": "https://play.google.com/store/apps/details?id=com.love2love.android&hl=en_IN&gl=US",
+    "ios_app_identifier": "https://apps.apple.com/nz/app/love2love-by-pgd/id6475755101",
+    "favicon_url": "https://d2dtfeai6qg5ne.cloudfront.net/love2love/img/logo/favicon.png",
+    "analytic_id": "G-BJJHR7Y0NV",
+    "iframe_status": false,
+    "iframe_key": null,
+    "iframe_referer": "",
+    "web_status": true,
+    "ios_cert": "Bag Attributes\r\n    friendlyName: Apple Push Services: com.ios.love2love\r\n    localKeyID: 7D D9 F9 D3 9C EC 5A 4E A5 77 79 C0 99 06 5E 45 3E 77 B8 94 \r\nsubject=UID=com.ios.love2love, CN=Apple Push Services: com.ios.love2love, OU=Y5C72LGG5C, O=PURE GROWN DIAMONDS, INC., C=US\r\nissuer=CN=Apple Worldwide Developer Relations Certification Authority, OU=G4, O=Apple Inc., C=US\r\n-----BEGIN CERTIFICATE-----\r\nMIIGqDCCBZCgAwIBAgIQXXGMC+FMQJbw5OXg1/O7FjANBgkqhkiG9w0BAQsFADB1\r\nMUQwQgYDVQQDDDtBcHBsZSBXb3JsZHdpZGUgRGV2ZWxvcGVyIFJlbGF0aW9ucyBD\r\nZXJ0aWZpY2F0aW9uIEF1dGhvcml0eTELMAkGA1UECwwCRzQxEzARBgNVBAoMCkFw\r\ncGxlIEluYy4xCzAJBgNVBAYTAlVTMB4XDTI0MTAxNjEyMTUxOVoXDTI1MTExNTEy\r\nMTUxOFowgZoxITAfBgoJkiaJk/IsZAEBDBFjb20uaW9zLmxvdmUybG92ZTEvMC0G\r\nA1UEAwwmQXBwbGUgUHVzaCBTZXJ2aWNlczogY29tLmlvcy5sb3ZlMmxvdmUxEzAR\r\nBgNVBAsMClk1QzcyTEdHNUMxIjAgBgNVBAoMGVBVUkUgR1JPV04gRElBTU9ORFMs\r\nIElOQy4xCzAJBgNVBAYTAlVTMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC\r\nAQEA83QkVRQ22Q4NaZHq8sZq/uFokQc0eDg3b7fVX8teFFiZ11/tkKLmWt24Ssqx\r\nLNUhoOxXtzR2ZWV3SFtYqS0oCkSKYzq/ObMhiveqCA8rvtbnFLy5MGekL0Daod+r\r\n5Nf0TfeEmYCZ7dZ0lFgUFgvUtwev7ibrLRIfRdC7P4VBqXVyPlDroXQo7OF5mxRG\r\nLsl+1Df5srTHRYb2HgXWkSV8fvETupLYY4MpK0MSCBFAk9W75urGr5+0A4W8Bdpd\r\nOOUxPTpRuPZOYqr5RjlTVnYxheXSq9zw791pRNtpvSo+q0pwnRLo4LOFjpDEYTo9\r\nMBU7tGwZVDZY9va81Hza5WurawIDAQABo4IDDDCCAwgwDAYDVR0TAQH/BAIwADAf\r\nBgNVHSMEGDAWgBRb2fod55oaC6OZdiJQhj6RyFt3qDBwBggrBgEFBQcBAQRkMGIw\r\nLQYIKwYBBQUHMAKGIWh0dHA6Ly9jZXJ0cy5hcHBsZS5jb20vd3dkcmc0LmRlcjAx\r\nBggrBgEFBQcwAYYlaHR0cDovL29jc3AuYXBwbGUuY29tL29jc3AwMy13d2RyZzQw\r\nMTCCAR0GA1UdIASCARQwggEQMIIBDAYJKoZIhvdjZAUBMIH+MIHDBggrBgEFBQcC\r\nAjCBtgyBs1JlbGlhbmNlIG9uIHRoaXMgY2VydGlmaWNhdGUgYnkgYW55IHBhcnR5\r\nIGFzc3VtZXMgYWNjZXB0YW5jZSBvZiB0aGUgdGhlbiBhcHBsaWNhYmxlIHN0YW5k\r\nYXJkIHRlcm1zIGFuZCBjb25kaXRpb25zIG9mIHVzZSwgY2VydGlmaWNhdGUgcG9s\r\naWN5IGFuZCBjZXJ0aWZpY2F0aW9uIHByYWN0aWNlIHN0YXRlbWVudHMuMDYGCCsG\r\nAQUFBwIBFipodHRwczovL3d3dy5hcHBsZS5jb20vY2VydGlmaWNhdGVhdXRob3Jp\r\ndHkwEwYDVR0lBAwwCgYIKwYBBQUHAwIwMgYDVR0fBCswKTAnoCWgI4YhaHR0cDov\r\nL2NybC5hcHBsZS5jb20vd3dkcmc0LTguY3JsMB0GA1UdDgQWBBR92fnTnOxaTqV3\r\necCZBl5FPne4lDAOBgNVHQ8BAf8EBAMCB4AwgacGCiqGSIb3Y2QGAwYEgZgwgZUM\r\nEWNvbS5pb3MubG92ZTJsb3ZlMAcMBXRvcGljDBZjb20uaW9zLmxvdmUybG92ZS52\r\nb2lwMAYMBHZvaXAMHmNvbS5pb3MubG92ZTJsb3ZlLmNvbXBsaWNhdGlvbjAODAxj\r\nb21wbGljYXRpb24MGmNvbS5pb3MubG92ZTJsb3ZlLnZvaXAtcHR0MAsMCS52b2lw\r\nLXB0dDAQBgoqhkiG92NkBgMBBAIFADAQBgoqhkiG92NkBgMCBAIFADANBgkqhkiG\r\n9w0BAQsFAAOCAQEAm4hJhcPq9JthynRi5F4BB46cOF3iqogT3GkHoBUj5aqXrot6\r\niPbiW0DhId247bEaOQzAsEmEfk+bmDRGQK8YvfBcEZoWc0kouhdRq7tcvfdQJFue\r\nh2jI6dn7/b9dVHWhkg0OpNW0ZnIXHVXpfB6NJ0LimeJMWg/DaQgEgYEITMrx6Z/u\r\nhosl3JQzFQMMa1WAqbyP9olX/BSm8QtrPTo7Vg3//OpbYbYecljcLNXKbZjzgV7r\r\nCZ5+zeQijKATqZBI4ppaVn3yI3sQm1QrEur7+aA8gC70ASaiO74XWS8BoHYO8BfN\r\nLv/Z9mdpnb+B8zA2ReuIOsnevPDYfwAXvRYU6w==\r\n-----END CERTIFICATE-----\r\nBag Attributes\r\n    friendlyName: com.ios.love2love\r\n    localKeyID: 7D D9 F9 D3 9C EC 5A 4E A5 77 79 C0 99 06 5E 45 3E 77 B8 94 \r\nKey Attributes: <No Attributes>\r\n-----BEGIN PRIVATE KEY-----\r\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDzdCRVFDbZDg1p\r\nkeryxmr+4WiRBzR4ODdvt9Vfy14UWJnXX+2QouZa3bhKyrEs1SGg7Fe3NHZlZXdI\r\nW1ipLSgKRIpjOr85syGK96oIDyu+1ucUvLkwZ6QvQNqh36vk1/RN94SZgJnt1nSU\r\nWBQWC9S3B6/uJustEh9F0Ls/hUGpdXI+UOuhdCjs4XmbFEYuyX7UN/mytMdFhvYe\r\nBdaRJXx+8RO6kthjgykrQxIIEUCT1bvm6savn7QDhbwF2l045TE9OlG49k5iqvlG\r\nOVNWdjGF5dKr3PDv3WlE22m9Kj6rSnCdEujgs4WOkMRhOj0wFTu0bBlUNlj29rzU\r\nfNrla6trAgMBAAECggEAJSxry83tXhFGPQN5454mgkq648I84cp7tIRWgW0VLXgl\r\n7XwJU1d8Yw2N8WWnzhexLdhIwIGzPmJS52qDTDnH7mFu3B4BSvcuPQD6JobigB5i\r\nZIk4ocqBiHGXsLXtkmDjPfB4f9PiLS3c2TXlw0QFM/lphKzOpjApNEjd/qIDV7N6\r\nA9cfBClzg5Q2Ws9N4UqC/tYO4eV8N42OQtXxFEpjTB2/dZ9h8OFHx8qSBNglkVnN\r\nMpTYs+0eJoQ3kmcpYBs0apwigLskOn5t1dUqnxSVoWG5CmM/wMego4Qu0g5g68mM\r\nd7S7tXdvsD9plKa9+mkL6jLJO33u/1rWW4qCN4aeQQKBgQD6H0nvfKEUGyHt1sI1\r\noYr4yvuLPI3D6cE54Pkcvfbg77+SVVKQ4Gb8IENGiHxdATpTeKkng9JePkzhgDCw\r\np4ItcG15AZ79pRsmoqdD8I93Ug3tPtQS2JXso8l2rQRz0hp8dwtJOS3jOeVsIufW\r\no1UZRbSja5G/5g0zt+Z7rPEvSwKBgQD5LLxdmrhu3hX2xrVbUB5cDAXsWif7emzx\r\n0qyXLkskaSBGI03zi4VaRTCCETDNH9ynYOAyqF2q0IupG3Pn/P7soJsWJGgZKPBI\r\n0k8ZpnCLpNsiYp2Ff9le7LiOmJjwHgRHTzY5PoD5ZQoN0tFSpJ40Tt/lFNg1xksj\r\nfWtFtuJAYQKBgQCRnWmj3UDBvdIQ7zh9lKCdmz66nvRBnHL7yTf+PbHe3nT/MmEx\r\nKxOJsRa5l3gfhTl5owOHl7z/VPHZTpIKJlspLQzup7zyGg8mfQc4DHLZmpG1DyDU\r\nH/eYnvoI901iSG1XDM8rP/ixEuG4BNJIKSq/3c7+XP+rYrlI5MVwNwzq5QKBgQDZ\r\nIJZzqqMUWQoipDzceRA7fW6b6mP0y1Wr07z5cCmibMjm1VTT6LwnUStX68rus9j/\r\nMXesLPKSKm/IyFdTzC4H3FvIC6l6YyYfDsRGwbZIuTsK14wUDLhJ81VPTMHYWw+3\r\nY9sIPuL8b4M3UIF+1lvVkPWhFWziTwyivGOBuD+ngQKBgA+UlaA0hjij8Hxs8CBI\r\nTs1ClvC7x0QIOSvUFA3vDAFuAT/OSWoWa1iAnzu+sb+WYvL0iizkxkNbGfP+koWZ\r\nMj1CLe3OJGEv27v3B0mcjBXpx2+RgRk/LBexcE/ua2h6Ac5kcDBjvQZyMcNx1sIz\r\n019gdOV81RyY++3AL1D1L41v\r\n-----END PRIVATE KEY-----",
+    "android_cert": "-----BEGIN PRIVATE KEY-----\r\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQChIJQ9hGp8Qhzd\r\nr+jmv3oDqD8h7uIoLP8MdpoDglqMUsLjcI5P06uw7hBiFSR/sd+kgzNsMNftYF1k\r\n6oaDtSdsT2uX61smVqEDrJIl40yuy3NsQXxZ0nYs3oEwn0RRC/rdrrF6Ke+WSYOj\r\n1mFXVYHLhu0gXve/7Z2G8mFCQ+6GnOUUPeQe/AWvQyiMRJzt4Nd3cxeM/qMvTNGO\r\n+NUo5xLNo66qxE+q1jj3IGgU14aeN+T5QmThPmyKpnnFVG+ywPKPOtJl6+bDRkEx\r\nSMnRZL4J0quv5GC7qFOGaHPeigOBvUwhdbD1RjQ++l83ibsv3ndmTpHKTRPugH8r\r\nDgS+H3BvAgMBAAECggEAH4kJ6y5iYduahJ/1uE6CC4Qy9YNEQXspNdcfNsPCUuAe\r\n9UmV1tvVGyLQ10NGoxwTF3eEJ2yO9U7lXeR25Y9WQZZv8tBQHLX5U35L7Ni7b+Zh\r\ndfx53rsdlMrndBFw3QK8C9UdvkjoS8Jrjgr6pnHtdRR0OVoH9WJvHLz4ljEGczkD\r\n0qENHBi50Mt/jSY4kk5ekZmz3JDDgkrFV7AbzYZ78u7sl03dyvUQqlXkNfC4YDaB\r\nuqEmmT6kQs3elP3a7rPGVEV05/Qe5uQ3P6SypbId/7zCnM/6kX3PEWhOiZoQO7Y8\r\nK6cb6sKv6YHIlDS9xWw0AWU9JwnI75bNfToIFInZWQKBgQD9Rh7L/ikAe2X4Nxym\r\n09eP+oIFHGqMIvgWxTGNS5akyy9JatGhUczw+xn3EU7SBwsdpScA51LgZOWcmeIX\r\nduCSH0fP25Zox+n+u6GGfE14UtBJX04y2l+T14e03brffZimlS3lydrIzOPk1cG4\r\nhg3HUIx0GpAyyU4oyNYDsA3wYwKBgQDE75LioFZK31H7eo7zRs7Pr13LMkh1UYe1\r\nI3T/y9TBAPGTMblIvX5UlbUbD1MD1c4MxHrdJc8foTVGDW8xyLDR9PRgkrSRYIZd\r\n8Vg4jNPo6DL4s/JJYxPHCaNNmH7uSxTSfq5A+rp9G7zm62ytm/lFXNc47UOPbMjC\r\nRsi1DHkwjQKBgQCxlH1BDIw3lAYEr55Qdz9BsSnRNvJciYgmLCmdcAqfRT3G6H47\r\nWWNqTyvHmoDa65cXxvIqFbHCMP6LFXidVst74rx+hvglzyo1Yy/dk41+h24jU/xX\r\n4VtTo//33L1vqD82KjtsvUFXrsnTY67QKkrtnHM1+E5YZ4AjAmx9ujr6mQKBgQCp\r\n86YfbDzmkmkLUd+7A8MPBB5cmUKy5hePbP6bW6v3Ky2on7Sddp1XzQ0iB1R2V1DA\r\naBUE7Jz6b8G3RA6P0x5OjS0co5Etm+bbKdd/cRBxnHmtfXh3uG+35NkaLymL+xdy\r\njV65ECWfSgZW55MObVDq4INjvIv8O84KEB4+1SDJtQKBgG7kQn1mTPIFqzD3F8JN\r\nDUMu01dshJ6HEcKo82eaRP8nqa1oH5Oqsi4MrI0WgBlgYF9ZT+d0uMYMwAlOkJ23\r\noFAqNBVwrXecJau/ZmZlE5LVKpg1BNJg5HtIsbR/3ET3EqqRZ7rZKgb/1AWlIViQ\r\nsE7Z45ZNaAfpwS2MJqoaZYMA\r\n-----END PRIVATE KEY-----",
+    "ios_cert_env": true,
+    "allow_company_name": true,
+    "segment_key": "",
+    "sentry_dsn": null,
+    "main_logo_url": "Registration-logo_2x__2_.png",
+    "menu_logo_url": "Registration-logo_2x__2_.png",
+    "redirect_urls": {
+      "logo_url": "https://www.love2love.co/",
+      "sign_out_url": "https://www.love2love.co/"
+    },
+    "primary_company_id": 28213,
+    "search_result_view_type": {
+      "diamond": "show_both_default_as_list",
+      "jewelry": "show_both_default_as_grid",
+      "gemstone": "show_both_default_as_grid",
+      "lab_grown_diamond": "show_both_default_as_grid"
+    },
+    "allow_bulk_requests": {
+      "diamond": "both",
+      "jewelry": "both",
+      "gemstone": "false",
+      "lab_grown_diamond": "both"
+    },
+    "public_key": "",
+    "custom_currency_symbol": "usd",
+    "custom_text": {
+      "contact_us_text": "\"Questions, suggestions, or comments welcome! </br>Send a message below or call </br> +1 866-799-8885 \",",
+      "login_title_text": "Start shopping and get access to your Favorites, Saved Searches and Collections.",
+      "social_redirect_links": "",
+      "unknown_jewelry_ring_size": "",
+      "login_already_member_label": "",
+      "login_login_button_caption": "",
+      "login_not_registered_label": "",
+      "login_signup_button_caption": "",
+      "organization_home_title_text": "Love 2 Love",
+      "signup_submit_button_caption": "",
+      "signup_registration_form_header": "",
+      "order_cart_shipping_instructions": "",
+      "shopping_cart_offline_payment_instructions": ""
+    },
+    "spa_segment_key": "",
+    "deeplink_config": {
+      "apn": "com.love2love.android",
+      "ibi": "com.ios.love2love",
+      "isi": "6475755101",
+      "base_url": "https://love2love.page.link/",
+      "link_url": "www.love2love.co/client/deep",
+      "login_deeplink": "https://love2love.page.link/?link=https://www.love2love.co/client/deep/diamond/-1/action_view/sign_in&apn=com.love2love.android&isi=6475755101&ibi=com.ios.love2love"
+    },
+    "external_landing_page_url": "https://d2dtfeai6qg5ne.cloudfront.net/love2love/index.html",
+    "internal_landing_page_url": "https://d2dtfeai6qg5ne.cloudfront.net/love2love/internal.html",
+    "setting_attributes": {
+      "on_hand_text": {
+        "0": "",
+        "1": "In Stock",
+        "2": "By Order"
+      },
+      "jewelry_cart_url": "",
+      "media_visibility": {
+        "get_cert_media": "",
+        "get_image_media": "",
+        "get_video_media": ""
+      },
+      "site_redirect_url": "",
+      "web_grid_view_ad_positioning": "0",
+      "web_list_view_ad_positioning": "0",
+      "ipad_grid_view_ad_positioning": "0",
+      "ipad_list_view_ad_positioning": "0",
+      "market_stock_correction_percent": "",
+      "mobile_grid_view_ad_positioning": "0",
+      "mobile_list_view_ad_positioning": "0"
+    },
+    "custom_header_html": "<style>\r\n  \r\n    .taly-header{\r\n         height:125px;\r\n         display: flex;\r\n         flex-direction: row;\r\n         justify-content: space-between;\r\n         background:##FAF9F7;\r\n         align-items: center;\r\n         padding: 0 40px;\r\n         width: 100%;\r\n     }\r\n     .taly-header .logo{\r\n         font-size: 22px;\r\n        \r\n     }\r\n     .taly-header .logo img {\r\n        width: 280px;\r\n        margin-left: -50px;\r\n    padding-left: 20px;\r\n    height: 150px !important;\r\n }\r\n .taly-header .menu-item {\r\n     color: #000000;\r\n }\r\n .taly-header.menu-item .menu:hover{\r\n     color: #000000 !important;\r\n }\r\n .taly.menu-item .menu span:hover{\r\n     color:#EDEDED !important;\r\n }\r\n .menu-item .menu:hover{ color:#000000 !important}\r\n .taly-header .sub-menu li:hover {\r\n     background-color: #EDEDED !important;\r\n     color: #000000 !important;\r\n }\r\n     .taly-header .logo a{\r\n        color: inherit;\r\n        text-decoration: none;\r\n     }\r\n     .taly-header .sub-menu li{\r\n        min-width: 250px;\r\n     }\r\n    .taly-header .powered-by {\r\n     position: absolute;\r\n     top: 0;\r\n     left: 0;\r\n     width: 20px;\r\n     height: 130px;\r\n     }\r\n     .taly-header .powered-by span {\r\n     display: block;\r\n     color: #000 !important;\r\n     font-size: 12px;\r\n     width: 130px;\r\n     -webkit-transform: rotate(-90deg);\r\n     transform: rotate(-90deg);\r\n     position: absolute;\r\n     top: 22px;\r\n     left: -55px;\r\n }\r\n \r\n \r\n </style>\r\n\r\n<div class=\"taly-header\">\r\n    <div class=\"logo\">\r\n        <a href=\"https://www.love2love.co/\"></a>\r\n    </div>\r\n    <div class=\"right-section\">\r\n    </div>\r\n</div>",
+    "meta_data": {
+      "keywords": "",
+      "page_title": "",
+      "description": "",
+      "website_verification_tag": ""
+    },
+    "web_plugins_script": "",
+    "additional_attributes": {
+      "app_id": "",
+      "api_key": "",
+      "ad_delay": "",
+      "max_depth": "100",
+      "max_ratio": "10",
+      "max_table": "100",
+      "max_width": "865",
+      "min_depth": "0",
+      "min_ratio": "0",
+      "min_table": "0",
+      "min_width": "0",
+      "max_height": "525",
+      "max_length": "1320",
+      "min_height": "0",
+      "min_length": "0",
+      "project_id": "",
+      "delist_days": "14",
+      "terms_de_url": "",
+      "terms_en_url": "",
+      "terms_ko_url": "",
+      "terms_zh_url": "",
+      "retail_markup": "",
+      "owner_info_pin": "",
+      "pay_online_text": "",
+      "pay_offline_text": "",
+      "remind_after_days": "1",
+      "mobile_three_d_url": "https://3d.vdbapp.com/mobile-3d-player-iframe/webgi.html",
+      "preferred_language": "en",
+      "supported_language": "",
+      "warning_after_days": "2",
+      "delist_warning_days": "9",
+      "messaging_sender_id": "",
+      "buying_group_options": "",
+      "email_footer_address": "",
+      "jewelry_slug_formula": "",
+      "recaptcha_client_key": "",
+      "recaptcha_secret_key": "",
+      "new_arrival_item_time": "",
+      "purchased_delist_days": "",
+      "hide_guest_prices_text": "",
+      "hide_prices_for_product": "",
+      "buyer_excel_column_for_bmh": "",
+      "api_request_expiration_days": "30",
+      "seller_excel_column_for_bmh": "",
+      "show_items_price_less_then_26": true,
+      "enable_buy_request_at_null_zero": "Diamond",
+      "overide_email_confirmation_text": "",
+      "retailer_default_theme_company_id": "",
+      "before_auction_end_notification_timer": "180",
+      "before_auction_start_notification_timer": "1440",
+      "retailer_default_custom_menu_company_id": ""
+    },
+    "business_plan": 3,
+    "internal_landing_page_url_v3": "",
+    "fcm_config": {
+      "android_project_id": "love2love",
+      "android_client_email": "firebase-adminsdk-6yz8w@love2love.iam.gserviceaccount.com",
+      "android_private_key_id": "aea4a33331e02a19589f9734d8d00dfbeef7f78e"
+    },
+    "onesignal_app_id": "",
+    "onesignal_rest_api_key": "",
+    "secondary_logo_url": null,
+    "analytic_ga4_id": null,
+    "landing_pages": {}
+  },
+  "orgSettings": [
+    {
+      "feature_id": 40,
+      "feature_name": "enterprise",
+      "feature_description": "Enterprise Organization",
+      "access": 2
+    },
+    {
+      "feature_id": 41,
+      "feature_name": "group_specific_price",
+      "feature_description": "Inventory/Price Groups",
+      "access": 2
+    },
+    {
+      "feature_id": 45,
+      "feature_name": "org_home_page_banner",
+      "feature_description": "Allow Org Home Page Banner",
+      "access": 2
+    },
+    {
+      "feature_id": 47,
+      "feature_name": "company_name_required",
+      "feature_description": "Allow Company Name Required",
+      "access": 2
+    },
+    {
+      "feature_id": 52,
+      "feature_name": "require_phone_during_registration",
+      "feature_description": "Make Contact Number a required field during registration",
+      "access": 2
+    },
+    {
+      "feature_id": 54,
+      "feature_name": "update_availability_status",
+      "feature_description": "Update Availability Indicator/Status based on Item Request",
+      "access": 2
+    },
+    {
+      "feature_id": 63,
+      "feature_name": "collect_address",
+      "feature_description": "Allow Collect Address",
+      "access": 2
+    },
+    {
+      "feature_id": 72,
+      "feature_name": "internal_landing_page",
+      "feature_description": "Enable Internal Landing Page",
+      "access": 2
+    },
+    {
+      "feature_id": 74,
+      "feature_name": "hide_unavailable_items",
+      "feature_description": "Hide items that are Unavailable",
+      "access": 2
+    },
+    {
+      "feature_id": 108,
+      "feature_name": "external_landing_page",
+      "feature_description": "Enable External Landing Page",
+      "access": 2
+    },
+    {
+      "feature_id": 142,
+      "feature_name": "enable_custom_search_menu",
+      "feature_description": "Enable Custom Search Menu",
+      "access": 2
+    },
+    {
+      "feature_id": 146,
+      "feature_name": "enable_custom_navigation",
+      "feature_description": "Enable Custom Navigation",
+      "access": 2
+    },
+    {
+      "feature_id": 147,
+      "feature_name": "disable_fuzzy_logic",
+      "feature_description": "Disable Fuzzy Logic",
+      "access": 2
+    },
+    {
+      "feature_id": 152,
+      "feature_name": "price_mode_line_on_webapp_header",
+      "feature_description": "Enable Price Mode line on Webapp header",
+      "access": 2
+    },
+    {
+      "feature_id": 153,
+      "feature_name": "collect_address_required",
+      "feature_description": "Allow Collect Address Required",
+      "access": 2
+    },
+    {
+      "feature_id": 187,
+      "feature_name": "share_collection",
+      "feature_description": "Allow Collection Share",
+      "access": 2
+    },
+    {
+      "feature_id": 195,
+      "feature_name": "search_result_with_image_only",
+      "feature_description": "Allow Search Result With Image Only",
+      "access": 2
+    },
+    {
+      "feature_id": 200,
+      "feature_name": "jewelry_item_configuration",
+      "feature_description": "Allow Jewelry Item Configuration",
+      "access": 2
+    },
+    {
+      "feature_id": 250,
+      "feature_name": "unified_fav_collection",
+      "feature_description": "Enable Unified Favorites/Collections",
+      "access": 2
+    },
+    {
+      "feature_id": 257,
+      "feature_name": "assign_salespeople_to_companies",
+      "feature_description": "Enable Salesperson Model  (Assign Sales People to Companies)",
+      "access": 2
+    },
+    {
+      "feature_id": 258,
+      "feature_name": "enable_advanced_list_view",
+      "feature_description": "Enable advanced list view",
+      "access": 2
+    },
+    {
+      "feature_id": 264,
+      "feature_name": "display_custom_company_logo_html_header",
+      "feature_description": "Display Customer Company logo in Custom HTML Header",
+      "access": 2
+    },
+    {
+      "feature_id": 267,
+      "feature_name": "suppress_iframe_to_load_html",
+      "feature_description": "Allow Suppress Iframe To Load Html",
+      "access": 2
+    },
+    {
+      "feature_id": 270,
+      "feature_name": "enable_product_level_markup",
+      "feature_description": "App users can set product-level markups",
+      "access": 2
+    },
+    {
+      "feature_id": 274,
+      "feature_name": "item_description_web_for_jewelry",
+      "feature_description": "Enable item description on the web for jewelry",
+      "access": 2
+    },
+    {
+      "feature_id": 281,
+      "feature_name": "enable_image_video_report_native_share",
+      "feature_description": "Allow Enable Image Video Report Native Share",
+      "access": 2
+    },
+    {
+      "feature_id": 287,
+      "feature_name": "unified_stock_item_request",
+      "feature_description": null,
+      "access": 2
+    },
+    {
+      "feature_id": 288,
+      "feature_name": "show_subtitle_on_grid_view",
+      "feature_description": "Show sub-title on grid view",
+      "access": 1
+    },
+    {
+      "feature_id": 299,
+      "feature_name": "enable_discount_in_markup_mode",
+      "feature_description": null,
+      "access": 2
+    },
+    {
+      "feature_id": 303,
+      "feature_name": "allow_stock_num_search_by_brand",
+      "feature_description": "Enable Stock# search through Brands",
+      "access": 2
+    },
+    {
+      "feature_id": 310,
+      "feature_name": "mandatory_logo",
+      "feature_description": "Display Logo as per B2B2C functionality",
+      "access": 2
+    },
+    {
+      "feature_id": 359,
+      "feature_name": "enable_product_ui_v2",
+      "feature_description": null,
+      "access": 2
+    },
+    {
+      "feature_id": 363,
+      "feature_name": "orange_mode_bulk_request",
+      "feature_description": "Enable Bulk BMH Request in Orange Mode",
+      "access": 2
+    },
+    {
+      "feature_id": 405,
+      "feature_name": "updated_bmh_emails",
+      "feature_description": "",
+      "access": 2
+    },
+    {
+      "feature_id": 411,
+      "feature_name": "purchasing_agent_for_b2b2c",
+      "feature_description": "Enable Purchasing Agent for B2B2C Retailers",
+      "access": 2
+    },
+    {
+      "feature_id": 417,
+      "feature_name": "allow_item_share_with_or_without_prices",
+      "feature_description": "Allow Item Share with/without prices",
+      "access": 2
+    },
+    {
+      "feature_id": 423,
+      "feature_name": "hybrid_jewelry_model",
+      "feature_description": "Enable Jewelry Hybrid Mode",
+      "access": 2
+    },
+    {
+      "feature_id": 424,
+      "feature_name": "share_inventory_as_pdf",
+      "feature_description": "Allow PDF Attachments for sharing inventories via Email",
+      "access": 1
+    },
+    {
+      "feature_id": 474,
+      "feature_name": "enable_share_a_quote",
+      "feature_description": "Enable Share a Quote",
+      "access": 1
+    },
+    {
+      "feature_id": 480,
+      "feature_name": "disable_product_ui_v2_on_android",
+      "feature_description": "Disable Product UI V2 On Android",
+      "access": 2
+    },
+    {
+      "feature_id": 500,
+      "feature_name": "use_separate_variation_api",
+      "feature_description": "Use Separate Variation Api",
+      "access": 2
+    },
+    {
+      "feature_id": 506,
+      "feature_name": "show_items_price_less_then_26",
+      "feature_description": "Show Items < $26",
+      "access": 2
+    }
+  ],
+  "customizations": [],
+  "globals": [],
+  "customTexts": [],
+  "jsonNavMenu": null,
+  "company": {
+    "id": 35524,
+    "name": "BELLA DESIGN JEWELERS",
+    "logo_url": null,
+    "created_at": "2022-11-07T04:41:26.695Z",
+    "updated_at": "2024-03-01T03:50:58.933Z",
+    "request_email_address": "qa-vdb+stg_usr__35524@vdbapp.com",
+    "customer_visibility": "{\"blacklist\":{\"countries\":[],\"vendors\":[],\"retailers\":[],\"blacklisted_by\":[]},\"vendors\":[],\"retailers\":[]}",
+    "company_code": null,
+    "name_on_info_card": null,
+    "contact_phone": "440-543-5006",
+    "data_url": null,
+    "company_type": "retailer",
+    "country": "United States",
+    "state": "Ohio",
+    "city": "Chagrin Falls",
+    "street_address": "8560 Washington Street",
+    "zip_code": "44023",
+    "contact_person": "Rock White",
+    "latitude": null,
+    "longitude": null,
+    "website": null,
+    "jbt_number": null,
+    "data_format": "csv",
+    "emails_visibility": null,
+    "salesperson": null,
+    "contact_iphone": null,
+    "accepts_memo": true,
+    "salesforce_id": null,
+    "uploaded_logo": null,
+    "can_set_logo": true,
+    "salesforce_sync_pending": true,
+    "last_ftp_ran_at": null,
+    "last_ftp_error": null,
+    "request_count": 0,
+    "inventory_updates_count": 0,
+    "mobile_phone": null,
+    "search_pref": false,
+    "can_force_green_price_profile": false,
+    "has_price_markups": false,
+    "mobile_phone_country_code": null,
+    "contact_phone_country_code": "1",
+    "contact_iphone_country_code": null,
+    "studio_pro": false,
+    "show_vdb_watermark": false,
+    "can_set_watermark": false,
+    "uploaded_watermark": null,
+    "cal_disc_percent": false,
+    "has_multiple_locations": false,
+    "organization_id": 491,
+    "can_create_company_price_markups": false,
+    "main_logo": null,
+    "allow_custom_menu": true,
+    "allow_search_coach_overlay": true,
+    "bmh_request_type": "",
+    "purchasing_agent_email": null,
+    "can_set_delivery_date": false,
+    "allow_welcome_screen": false,
+    "allow_lab_grown": true,
+    "can_lock_user_mode": false,
+    "default_price_mode": null,
+    "show_powered_by_vdb": true,
+    "auto_activate": false,
+    "last_diamond_inventory_updated_at": null,
+    "last_gemstone_inventory_updated_at": null,
+    "allow_stock_types": {
+      "diamond": "true",
+      "jewelry": "true",
+      "gemstone": "false",
+      "lab_grown_diamond": "true",
+      "default_stock_type": "lab_grown_diamond"
+    },
+    "http_request_method": 0,
+    "allow_custom_menu_types": {
+      "diamond": true,
+      "jewelry": true,
+      "gemstone": "false",
+      "lab_grown_diamond": "true"
+    },
+    "allow_custom_theme": true,
+    "allow_custom_theme_types": {
+      "diamond": true,
+      "jewelry": true,
+      "gemstone": "true",
+      "lab_grown_diamond": "true"
+    },
+    "default_markup": "0.0",
+    "share_logo": null,
+    "round_up_prices": false,
+    "owner_info": {
+      "label": "",
+      "price_mode": "all",
+      "show_owner_info": false
+    },
+    "owner_info_users": null,
+    "price_markups_status": {
+      "diamond": "NA",
+      "jewelry": "NA",
+      "gemstone": "NA",
+      "lab_grown_diamond": "NA"
+    },
+    "hubspot_id": null,
+    "hubspot_sync_pending": null,
+    "additional_attributes": {
+      "ftp_folder": {},
+      "gdrive_folder": {},
+      "ftp_credentials": {},
+      "inventory_access_url": {
+        "diamond_csv_inventory_access_url": {},
+        "diamond_json_inventory_access_url": {},
+        "labgrowndiamond_csv_inventory_access_url": {},
+        "labgrowndiamond_json_inventory_access_url": {}
+      },
+      "search_result_view_type": {}
+    },
+    "salesperson_id": 76504,
+    "lock_user_currency": false,
+    "lock_user_currency_value": null,
+    "user_login_price_mode": null,
+    "inventory_count": {},
+    "iframe_status": false,
+    "iframe_key": null,
+    "iframe_referer": null,
+    "require_webhooks": false,
+    "third_party_stock_items_filter_string": null,
+    "three_d_formula": null,
+    "three_d_settings": null,
+    "dynamic_jewelry_variant_keys": null,
+    "round_up_by": null,
+    "secondary_logo_url": null,
+    "show_datafetch_error_alerts": false,
+    "zenskar_customer_id": null
+  },
+  "activeFeatures": [
+    {
+      "feature_id": 49,
+      "feature_description": "Suppress auto activation email",
+      "access": 1
+    },
+    {
+      "feature_id": 61,
+      "feature_description": "Customize data mappings for diamonds / lab-grown",
+      "access": 1
+    },
+    {
+      "feature_id": 206,
+      "feature_description": "Opt-Out of API Inventory Sharing",
+      "access": 1
+    },
+    {
+      "feature_id": 240,
+      "feature_description": "Ultra-fast Exavault FTP Server (regular speed)",
+      "access": 1
+    },
+    {
+      "feature_id": 262,
+      "feature_description": "Upload HTML videos via gDrive",
+      "access": 1
+    },
+    {
+      "feature_id": 266,
+      "feature_description": "\"Premium\" supplier FTP inventory skips the queue and gets uploaded within ~30 minutes (if inventory is <5,000)",
+      "access": 1
+    },
+    {
+      "feature_id": 286,
+      "feature_description": "Upload multiple images via gDrive",
+      "access": 1
+    },
+    {
+      "feature_id": 301,
+      "feature_description": "Enable Product Level Markup",
+      "access": 1
+    },
+    {
+      "feature_id": 422,
+      "feature_description": "This will allow user to see inventory comments in orange mode",
+      "access": 1
+    },
+    {
+      "feature_id": 482,
+      "feature_description": "Disable Inventory Reminder Email",
+      "access": 1
+    }
+  ],
+  "locations": [
+    {
+      "id": 33495,
+      "location_name": "BELLA DESIGN JEWELERS",
+      "street_address": "8560 Washington Street",
+      "country": "United States",
+      "state": "Ohio",
+      "city": "Chagrin Falls",
+      "zip": "44023",
+      "contact_person": "Rock White",
+      "contact_email": "qa-vdb+stg_cmpny__v_35524_l_33495@vdbapp.com",
+      "mobile_phone": null,
+      "office_phone": "440-543-5006",
+      "website": null,
+      "vendor_id": 35524,
+      "is_primary": true,
+      "created_at": "2022-11-07T04:41:26.708Z",
+      "updated_at": "2022-11-07T04:41:26.708Z",
+      "contact_iphone": null,
+      "mobile_phone_country_code": null,
+      "contact_phone_country_code": "1",
+      "contact_iphone_country_code": null,
+      "contact_whatsapp": null,
+      "contact_whatsapp_country_code": null
+    }
+  ],
+  "authToken": "psu638r1nfwkbayvjsfx",
+  "overrides": {
+    "newOrgName": "Automation flow review org",
+    "newDomainUrl": "hgh5345",
+    "newCompanyName": "Automation flow review"
+  },
+  "result": {}
+}

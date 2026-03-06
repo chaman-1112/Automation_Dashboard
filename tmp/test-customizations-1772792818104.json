@@ -1,0 +1,1258 @@
+{
+  "customizations": [
+    {
+      "id": 141,
+      "resource_id": 577,
+      "resource_type": "Organization",
+      "type": "Pdp",
+      "product_type": "2",
+      "language_id": null,
+      "content": {
+        "gemstone": [
+          {
+            "sections": [
+              {
+                "icon": {
+                  "data": "test.com",
+                  "type": "image"
+                },
+                "name": "media",
+                "type": "static",
+                "label": "productDetail.diamond.labelText",
+                "order": 1,
+                "price_modes": [
+                  0,
+                  1,
+                  2
+                ],
+                "sub_section": [
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "image",
+                    "type": "image_box",
+                    "label": "",
+                    "order": 1,
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": "image_url"
+                  },
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "certificate",
+                    "type": "image_box",
+                    "label": "",
+                    "order": 1,
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": "certificate_url"
+                  },
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "media_corousal",
+                    "type": "corousal",
+                    "label": "",
+                    "order": 1,
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": "media"
+                  },
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "media_corousal",
+                    "type": "corousal",
+                    "label": "",
+                    "order": 1,
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": "media"
+                  },
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "share_icon",
+                    "type": "clickable_icon",
+                    "label": "",
+                    "order": 1,
+                    "on_click": "api.share_product",
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": ""
+                  },
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "add_fav_icon",
+                    "type": "clickable_icon",
+                    "label": "",
+                    "order": 1,
+                    "on_click": "api.add_to_fav",
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": "media"
+                  }
+                ],
+                "response_key": "image_url"
+              },
+              {
+                "icon": {
+                  "data": "test.com",
+                  "type": "image"
+                },
+                "name": "summary",
+                "type": "info-section",
+                "label": "productDetail.diamond.productName",
+                "order": 2,
+                "extra_css": {
+                  "label": "text:bold",
+                  "response": "font-family:italica;"
+                },
+                "price_modes": [
+                  0,
+                  1,
+                  2
+                ],
+                "sub_section": [
+                  {
+                    "icon": {
+                      "data": "report-issue",
+                      "type": "svg"
+                    },
+                    "name": "report_issue",
+                    "type": "clickable_icon",
+                    "label": "productDetailPage.reportAnIssue.text",
+                    "order": 1,
+                    "on_click": "api.report_an_issue",
+                    "extra_css": {
+                      "label": "text:bold",
+                      "response": "font-family:italica;"
+                    },
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": ""
+                  },
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "stock_no",
+                    "type": "clickable_icon",
+                    "label": "requestHistory.stock.text",
+                    "order": 2,
+                    "on_click": "",
+                    "extra_css": {
+                      "label": "text:bold",
+                      "response": "font-family:italica;"
+                    },
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": "stock_num"
+                  },
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "sub_title",
+                    "type": "heading",
+                    "label": "",
+                    "order": 4,
+                    "on_click": "",
+                    "extra_css": {
+                      "label": "text:bold",
+                      "response": "font-family:italica;"
+                    },
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": "sub_title"
+                  },
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "status",
+                    "type": "text_with_icon",
+                    "label": "productDetail.diamond.status",
+                    "order": 3,
+                    "on_click": "",
+                    "extra_css": {
+                      "label": "text:bold",
+                      "response": "font-family:italica;"
+                    },
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": "available"
+                  },
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "last_refresh",
+                    "type": "key_value",
+                    "label": "productDetailPage.lastRefreshed.text",
+                    "order": 5,
+                    "on_click": "",
+                    "extra_css": {
+                      "label": "",
+                      "response": ""
+                    },
+                    "price_modes": [
+                      "",
+                      "",
+                      ""
+                    ],
+                    "response_key": "updated_at"
+                  },
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "pricing_section",
+                    "type": "matrix",
+                    "label": "cash,{{P/Pc",
+                    "order": 6,
+                    "options": [
+                      {
+                        "icon": {
+                          "data": "test.com",
+                          "type": "image"
+                        },
+                        "name": "price",
+                        "type": "cell",
+                        "label": "productDetailPage.price.text",
+                        "order": 1,
+                        "on_click": "",
+                        "extra_css": {
+                          "label": "",
+                          "response": ""
+                        },
+                        "price_modes": [
+                          0,
+                          1,
+                          2
+                        ],
+                        "response_key": "price_title"
+                      },
+                      {
+                        "icon": {
+                          "data": "test.com",
+                          "type": "image"
+                        },
+                        "name": "price_per_carat",
+                        "type": "cell",
+                        "label": "productDetailPage.pricePerCarat.text",
+                        "order": 2,
+                        "on_click": "",
+                        "extra_css": {
+                          "label": "",
+                          "response": ""
+                        },
+                        "price_modes": [
+                          0,
+                          1,
+                          2
+                        ],
+                        "response_key": "cash_price_per_carat"
+                      },
+                      {
+                        "icon": {
+                          "data": "test.com",
+                          "type": "image"
+                        },
+                        "name": "discount_percent",
+                        "type": "cell",
+                        "label": "productDetailPage.discount.text",
+                        "order": 3,
+                        "on_click": "",
+                        "extra_css": {
+                          "label": "",
+                          "response": ""
+                        },
+                        "price_modes": [
+                          0,
+                          1,
+                          2
+                        ],
+                        "response_key": "cash_discount_percent"
+                      },
+                      {
+                        "icon": {
+                          "data": "test.com",
+                          "type": "image"
+                        },
+                        "name": "total_sales_price",
+                        "type": "cell",
+                        "label": "productDetailPage.totalPrice.text",
+                        "order": 4,
+                        "on_click": "",
+                        "extra_css": {
+                          "label": "",
+                          "response": ""
+                        },
+                        "price_modes": [
+                          0,
+                          1,
+                          2
+                        ],
+                        "response_key": "cash_price_total"
+                      }
+                    ],
+                    "on_click": "",
+                    "extra_css": {
+                      "label": "",
+                      "response": ""
+                    },
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": ""
+                  },
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "pricing_comment",
+                    "type": "text_with_icon",
+                    "label": "productDetail.diamond.pricingComment",
+                    "order": 5,
+                    "on_click": "",
+                    "extra_css": {
+                      "label": "text:bold",
+                      "response": "font-family:italica;"
+                    },
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": "pricing_comment"
+                  }
+                ]
+              },
+              {
+                "icon": {
+                  "data": "test.com",
+                  "type": "image"
+                },
+                "name": "findMatch",
+                "type": "button",
+                "label": "productDetail.diamond.findAMatch",
+                "order": 3,
+                "extra_css": {
+                  "label": "text:bold",
+                  "response": "font-family:italica;"
+                },
+                "price_modes": [],
+                "sub_section": []
+              },
+              {
+                "icon": {
+                  "data": "test.com",
+                  "type": "image"
+                },
+                "name": "product_details",
+                "type": "collapsable_box",
+                "label": "productDetail.gemstone.productDetail",
+                "order": 1,
+                "options": [
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "gem_type",
+                    "type": "key-value",
+                    "label": "productDetail.gemstone.label.type",
+                    "order": 1,
+                    "on_click": "",
+                    "extra_css": {
+                      "label": "",
+                      "response": ""
+                    },
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": "type"
+                  },
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "color",
+                    "type": "key_value",
+                    "label": "productDetail.gemstone.label.color",
+                    "order": 2,
+                    "on_click": "",
+                    "extra_css": {
+                      "label": "",
+                      "response": ""
+                    },
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": "color"
+                  },
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "shape",
+                    "type": "key_value",
+                    "label": "productDetail.gemstone.label.shape",
+                    "order": 3,
+                    "on_click": "",
+                    "extra_css": {
+                      "label": "",
+                      "response": ""
+                    },
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": "shape_long"
+                  },
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "size",
+                    "type": "key_value",
+                    "label": "productDetail.gemstone.label.carat",
+                    "order": 4,
+                    "on_click": "",
+                    "extra_css": {
+                      "label": "",
+                      "response": ""
+                    },
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": "carat"
+                  },
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "treatment",
+                    "type": "key_value",
+                    "label": "productDetail.gemstone.label.treatment",
+                    "order": 5,
+                    "on_click": "",
+                    "extra_css": {
+                      "label": "",
+                      "response": ""
+                    },
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": "treatment"
+                  },
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "city",
+                    "type": "key_value",
+                    "label": "productDetail.gemstone.label.location",
+                    "order": 6,
+                    "on_click": "",
+                    "extra_css": {
+                      "label": "",
+                      "response": ""
+                    },
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": "city"
+                  },
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "lab",
+                    "type": "key_value",
+                    "label": "productDetail.gemstone.label.lab",
+                    "order": 7,
+                    "on_click": "",
+                    "extra_css": {
+                      "label": "",
+                      "response": ""
+                    },
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": "lab"
+                  },
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "cert_num",
+                    "type": "key_value",
+                    "label": "productDetail.gemstone.label.reportnum",
+                    "order": 8,
+                    "on_click": "",
+                    "extra_css": {
+                      "label": "",
+                      "response": ""
+                    },
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": "cert_num"
+                  },
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "country_of_origin",
+                    "type": "key_value",
+                    "label": "productDetail.gemstone.label.countryorigin",
+                    "order": 9,
+                    "on_click": "",
+                    "extra_css": {
+                      "label": "",
+                      "response": ""
+                    },
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": "country_of_origin"
+                  },
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "measurement",
+                    "type": "key_value",
+                    "label": "productDetail.gemstone.label.measurement",
+                    "order": 10,
+                    "on_click": "",
+                    "extra_css": {
+                      "label": "",
+                      "response": ""
+                    },
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": "measurement"
+                  },
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "meas_ratio",
+                    "type": "key_value",
+                    "label": "productDetail.gemstone.label.measratio",
+                    "order": 11,
+                    "on_click": "",
+                    "extra_css": {
+                      "label": "",
+                      "response": ""
+                    },
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": "meas_ratio"
+                  },
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "treatment_notes",
+                    "type": "key_value",
+                    "label": "productDetail.gemstone.label.treatmentnotes",
+                    "order": 12,
+                    "on_click": "",
+                    "extra_css": {
+                      "label": "",
+                      "response": ""
+                    },
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": "treatment_notes"
+                  }
+                ],
+                "on_click": "",
+                "extra_css": {
+                  "label": "text:bold",
+                  "response": "font-family:italica;"
+                },
+                "price_modes": [
+                  0,
+                  1,
+                  2
+                ],
+                "response_key": ""
+              },
+              {
+                "icon": {
+                  "data": "test.com",
+                  "type": "image"
+                },
+                "name": "inventory_comment",
+                "type": "collapsable_box",
+                "label": "productDetail.diamond.inventoryComment",
+                "order": 2,
+                "on_click": "",
+                "extra_css": {
+                  "label": "text:bold",
+                  "response": "font-family:italica;"
+                },
+                "price_modes": [
+                  0,
+                  1,
+                  2
+                ],
+                "response_key": "inventory_comment"
+              },
+              {
+                "icon": {
+                  "data": "test.com",
+                  "type": "image"
+                },
+                "name": "supplier",
+                "type": "container",
+                "label": "productDetail.diamond.label.supplier",
+                "order": 5,
+                "extra_css": {
+                  "label": "text:bold",
+                  "response": "font-family:italica;"
+                },
+                "price_modes": [
+                  0,
+                  1,
+                  2
+                ],
+                "sub_section": [
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "jbt_detail",
+                    "type": "collapsable_box",
+                    "label": "productDetail.diamond.supplier.jbtDetail",
+                    "order": 1,
+                    "on_click": "",
+                    "extra_css": {
+                      "label": "text:bold",
+                      "response": "font-family:italica;"
+                    },
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": ""
+                  },
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "supplier_info",
+                    "type": "collapsable_box",
+                    "label": "productDetail.diamond.supplierInfo",
+                    "order": 2,
+                    "on_click": "",
+                    "extra_css": {
+                      "label": "text:bold",
+                      "response": "font-family:italica;"
+                    },
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": ""
+                  },
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "supplier_comment",
+                    "type": "collapsable_box",
+                    "label": "productDetail.diamond.supplierComment",
+                    "order": 3,
+                    "on_click": "",
+                    "extra_css": {
+                      "label": "text:bold",
+                      "response": "font-family:italica;"
+                    },
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": "inventory_comment"
+                  }
+                ]
+              },
+              {
+                "icon": {
+                  "data": "test.com",
+                  "type": "image"
+                },
+                "name": "action",
+                "type": "sticky_footer",
+                "label": "",
+                "order": 6,
+                "extra_css": {
+                  "label": "text:bold",
+                  "response": "font-family:italica;"
+                },
+                "price_modes": [
+                  0,
+                  1,
+                  2
+                ],
+                "sub_section": [
+                  {
+                    "icon": {
+                      "data": "",
+                      "type": ""
+                    },
+                    "name": "ask_supplier",
+                    "type": "button",
+                    "label": "productDetail.diamond.askSupplier",
+                    "order": 1,
+                    "on_click": "AskSupplier();",
+                    "extra_css": {
+                      "label": "text:bold",
+                      "response": "font-family:italica;"
+                    },
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": ""
+                  },
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "request_item",
+                    "type": "button",
+                    "label": "productDetail.diamond.requestItem",
+                    "order": 2,
+                    "on_click": "request_item();",
+                    "extra_css": {
+                      "label": "text:bold",
+                      "response": "font-family:italica;"
+                    },
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": ""
+                  }
+                ]
+              },
+              {
+                "icon": {
+                  "data": "test.com",
+                  "type": "image"
+                },
+                "name": "buymemohold",
+                "type": "container",
+                "label": "productDetail.bmh.label",
+                "order": 1,
+                "price_modes": [
+                  0,
+                  1,
+                  2
+                ],
+                "response_key": "bmh",
+                "sub-sections": [
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "bmh_buy",
+                    "type": "key-value",
+                    "label": "bmh.topTabs.buy.text",
+                    "order": 2,
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": "bmh_buy"
+                  },
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "bmh_memo",
+                    "type": "key-value",
+                    "label": "bmh.topTabs.memo.text",
+                    "order": 1,
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": "bmh_memo"
+                  },
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "bmh_hold",
+                    "type": "key-value",
+                    "label": "bmh.topTabs.hold.text",
+                    "order": 3,
+                    "on_click": "api.share_product",
+                    "price_modes": [
+                      2
+                    ],
+                    "response_key": "bmh_hold"
+                  }
+                ]
+              },
+              {
+                "icon": {
+                  "data": "test.com",
+                  "type": "image"
+                },
+                "name": "ask_supplier",
+                "type": "container",
+                "label": "productDetail.asksupplier.label",
+                "order": 1,
+                "price_modes": [
+                  0,
+                  1,
+                  2
+                ],
+                "response_key": "asksupplier",
+                "sub-sections": [
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "ask_supplier_heading",
+                    "type": "key-value",
+                    "label": "asksupplier.label.heading.text",
+                    "order": 1,
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": "ask_supplier_heading"
+                  },
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "ask_supplier_input",
+                    "type": "key-value",
+                    "label": "asksupplier.label.input.placeholder.text",
+                    "order": 2,
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": "ask_supplier_input"
+                  },
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "ask_supplier_place_request_button",
+                    "type": "action",
+                    "label": "asksupplier.label.placerequest",
+                    "order": 3,
+                    "on_click": "api.ask_supplier",
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": "ask_supplier_place_request_button"
+                  }
+                ]
+              },
+              {
+                "icon": {
+                  "data": "test.com",
+                  "type": "image"
+                },
+                "name": "pdp_share",
+                "type": "container",
+                "label": "",
+                "order": 1,
+                "price_modes": [
+                  0,
+                  1,
+                  2
+                ],
+                "response_key": "pdp_share",
+                "sub-sections": [
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "pdp_share_heading",
+                    "type": "container",
+                    "label": "",
+                    "order": 1,
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": "pdp_share_heading"
+                  },
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "pdp_share_option",
+                    "type": "container",
+                    "label": "",
+                    "order": 1,
+                    "options": [
+                      {
+                        "icon": {
+                          "data": "test.com",
+                          "type": "image"
+                        },
+                        "name": "pdp_share_via_email",
+                        "type": "cell",
+                        "label": "",
+                        "order": 1,
+                        "on_click": "",
+                        "extra_css": {
+                          "label": "",
+                          "response": ""
+                        },
+                        "price_modes": [
+                          0,
+                          1,
+                          2
+                        ],
+                        "response_key": "pdp_share_via_email"
+                      },
+                      {
+                        "icon": {
+                          "data": "test.com",
+                          "type": "image"
+                        },
+                        "name": "pdp_share_via_other_app",
+                        "type": "cell",
+                        "label": "",
+                        "order": 10,
+                        "on_click": "",
+                        "extra_css": {
+                          "label": "",
+                          "response": ""
+                        },
+                        "price_modes": [
+                          0,
+                          1,
+                          2
+                        ],
+                        "response_key": "pdp_share_via_other_app"
+                      }
+                    ],
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": "pdp_share_option"
+                  },
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "pdp_share_type",
+                    "type": "container",
+                    "label": "pdp_share_type",
+                    "order": 1,
+                    "options": [
+                      {
+                        "icon": {
+                          "data": "test.com",
+                          "type": "image"
+                        },
+                        "name": "pdp_share_via_email",
+                        "type": "cell",
+                        "label": "",
+                        "order": 1,
+                        "on_click": "",
+                        "extra_css": {
+                          "label": "",
+                          "response": ""
+                        },
+                        "price_modes": [
+                          0,
+                          1,
+                          2
+                        ],
+                        "response_key": "pdp_share_via_email"
+                      }
+                    ],
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": "pdp_share_option"
+                  },
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "pdp_share_type",
+                    "type": "productDetail.share.types.label.text",
+                    "label": "",
+                    "order": 12,
+                    "options": [
+                      {
+                        "icon": {
+                          "data": "test.com",
+                          "type": "image"
+                        },
+                        "name": "includePrice",
+                        "type": "cell",
+                        "label": "productDetail.share.includeprice.label.text",
+                        "order": 1,
+                        "on_click": "",
+                        "extra_css": {
+                          "label": "",
+                          "response": ""
+                        },
+                        "price_modes": [
+                          0,
+                          1,
+                          2
+                        ],
+                        "response_key": "includePrice"
+                      },
+                      {
+                        "icon": {
+                          "data": "test.com",
+                          "type": "image"
+                        },
+                        "name": "includeImages",
+                        "type": "cell",
+                        "label": "productDetail.share.includeimages.label.text",
+                        "order": 13,
+                        "on_click": "",
+                        "extra_css": {
+                          "label": "",
+                          "response": ""
+                        },
+                        "price_modes": [
+                          0,
+                          1,
+                          2
+                        ],
+                        "response_key": "includeImages"
+                      },
+                      {
+                        "icon": {
+                          "data": "test.com",
+                          "type": "image"
+                        },
+                        "name": "includeVideo",
+                        "type": "cell",
+                        "label": "productDetail.share.includevideo.label.text",
+                        "order": 1,
+                        "on_click": "",
+                        "extra_css": {
+                          "label": "",
+                          "response": ""
+                        },
+                        "price_modes": [
+                          0,
+                          1,
+                          2
+                        ],
+                        "response_key": "includeVideo"
+                      },
+                      {
+                        "icon": {
+                          "data": "test.com",
+                          "type": "image"
+                        },
+                        "name": "includereports",
+                        "type": "cell",
+                        "label": "productDetail.share.includereport.label.text",
+                        "order": 14,
+                        "on_click": "",
+                        "extra_css": {
+                          "label": "",
+                          "response": ""
+                        },
+                        "price_modes": [
+                          0,
+                          1,
+                          2
+                        ],
+                        "response_key": "includeReport"
+                      }
+                    ],
+                    "on_click": "",
+                    "extra_css": {
+                      "label": "",
+                      "response": ""
+                    },
+                    "price_modes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "response_key": "pdp_share_type"
+                  },
+                  {
+                    "icon": {
+                      "data": "test.com",
+                      "type": "image"
+                    },
+                    "name": "productShare",
+                    "type": "sticky_footer",
+                    "label": "productDetail.diamond.share",
+                    "order": 3,
+                    "extra_css": {
+                      "label": "text:bold",
+                      "response": "font-family:italica;"
+                    },
+                    "price_modes": [],
+                    "sub_section": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "s3_url": "https://illuminex-prod-customization-data.s3.amazonaws.com/customization/pdp/Organization/577.json",
+      "created_at": "2024-12-13T02:24:27.062Z",
+      "updated_at": "2025-01-10T08:03:37.958Z",
+      "version_id": "jFLJlUhe15v7h987mtUXPnDf01kw_YcI",
+      "config_version": 0
+    }
+  ],
+  "globals": [],
+  "customTexts": [],
+  "jsonNavMenu": null,
+  "overrides": {},
+  "result": {
+    "newOrgId": "1088",
+    "customizations": [
+      {
+        "id": 141,
+        "type": "Pdp",
+        "productType": "2",
+        "status": "created"
+      }
+    ],
+    "customTexts": []
+  }
+}

@@ -1,0 +1,567 @@
+{
+  "org": {
+    "id": 502,
+    "name": "Occasions Fine Jewelry Beta",
+    "emails": {
+      "qa": "qa-vdb+stg_usr__502@vdbapp.com",
+      "bcc": "qa-vdb+stg_usr__502@vdbapp.com",
+      "dev": "qa-vdb+stg_usr__502@vdbapp.com",
+      "system": "qa-vdb+stg_usr__502@vdbapp.com",
+      "primary": "qa-vdb+stg_usr__502@vdbapp.com",
+      "reports": "qa-vdb+stg_usr__502@vdbapp.com",
+      "support": "qa-vdb+stg_usr__502@vdbapp.com",
+      "reply_to": "qa-vdb+stg_usr__502@vdbapp.com",
+      "secondary": "qa-vdb+stg_usr__502@vdbapp.com",
+      "contact_us": "qa-vdb+stg_usr__502@vdbapp.com",
+      "inventory_reports": "qa-vdb+stg_usr__502@vdbapp.com"
+    },
+    "phone": {
+      "primary": "432 684 0510",
+      "secondary": "432 684 0510"
+    },
+    "domain_url": "occasionsfinejewelry.customvirtual.app;occasionsfinejewelry.preprod.customvirtual.app",
+    "status": 0,
+    "created_at": "2022-08-16T01:07:47.344Z",
+    "updated_at": "2025-03-24T04:13:32.528Z",
+    "android_app_identifier": "",
+    "ios_app_identifier": "",
+    "favicon_url": "",
+    "analytic_id": "",
+    "iframe_status": false,
+    "iframe_key": null,
+    "iframe_referer": "",
+    "web_status": true,
+    "ios_cert": "Bag Attributes     friendlyName: Apple Push Services: com.ios.occasions     localKeyID: 48 01 64 2C DC 0C FD BC EF 46 DE D5 7F 62 5A B7 DD 60 B5 10  subject=/UID=com.ios.occasions/CN=Apple Push Services: com.ios.occasions/OU=6Y8P22LY5Y/O=Occasions Fine Jewelry and Gifts inc./C=US issuer=/CN=Apple Worldwide Developer Relations Certification Authority/OU=G4/O=Apple Inc./C=US -----BEGIN CERTIFICATE----- MIIGtDCCBZygAwIBAgIQRfBXAFSvNn5Qx6kllg4WkzANBgkqhkiG9w0BAQsFADB1 MUQwQgYDVQQDDDtBcHBsZSBXb3JsZHdpZGUgRGV2ZWxvcGVyIFJlbGF0aW9ucyBD ZXJ0aWZpY2F0aW9uIEF1dGhvcml0eTELMAkGA1UECwwCRzQxEzARBgNVBAoMCkFw cGxlIEluYy4xCzAJBgNVBAYTAlVTMB4XDTIyMDgyMzA4NDc0NVoXDTIzMDkyMjA4 NDc0NFowgaYxITAfBgoJkiaJk/IsZAEBDBFjb20uaW9zLm9jY2FzaW9uczEvMC0G A1UEAwwmQXBwbGUgUHVzaCBTZXJ2aWNlczogY29tLmlvcy5vY2Nhc2lvbnMxEzAR BgNVBAsMCjZZOFAyMkxZNVkxLjAsBgNVBAoMJU9jY2FzaW9ucyBGaW5lIEpld2Vs cnkgYW5kIEdpZnRzIGluYy4xCzAJBgNVBAYTAlVTMIIBIjANBgkqhkiG9w0BAQEF AAOCAQ8AMIIBCgKCAQEAyjemVUSJQkD04tMcNuPTRlYrYBhBF1Pt9B5xS0OVfC+N 9f4OFcdu+m33jTcJpafjlk0iTLfniQsE9ZPc07FANl3YgO77FLHWF0Baa/zJJTNp RAX1yU5fFZsDEHxS7Fh+bumL2MpjlFeeCqu37LvPKJnEjDGxP8g1t7gXVHNeckL0 kvXAykaueqx0vLN8d/nMrK+d6+02Qp+PmlbTiQabgnDSq/cmvJKZtyVqqd/FWf3Q +dB8HlUNMwebgSJMZq6ANMz1yYy4bUC1xfd0Gt5NB4aqWoZG3ZRd39BMCDwg+XBX aX82qhmtnm3AHBWx3bBOx3k7MDLLtgRR0oQHGVlFKwIDAQABo4IDDDCCAwgwDAYD VR0TAQH/BAIwADAfBgNVHSMEGDAWgBRb2fod55oaC6OZdiJQhj6RyFt3qDBwBggr BgEFBQcBAQRkMGIwLQYIKwYBBQUHMAKGIWh0dHA6Ly9jZXJ0cy5hcHBsZS5jb20v d3dkcmc0LmRlcjAxBggrBgEFBQcwAYYlaHR0cDovL29jc3AuYXBwbGUuY29tL29j c3AwMy13d2RyZzQwMTCCAR0GA1UdIASCARQwggEQMIIBDAYJKoZIhvdjZAUBMIH+ MIHDBggrBgEFBQcCAjCBtgyBs1JlbGlhbmNlIG9uIHRoaXMgY2VydGlmaWNhdGUg YnkgYW55IHBhcnR5IGFzc3VtZXMgYWNjZXB0YW5jZSBvZiB0aGUgdGhlbiBhcHBs aWNhYmxlIHN0YW5kYXJkIHRlcm1zIGFuZCBjb25kaXRpb25zIG9mIHVzZSwgY2Vy dGlmaWNhdGUgcG9saWN5IGFuZCBjZXJ0aWZpY2F0aW9uIHByYWN0aWNlIHN0YXRl bWVudHMuMDYGCCsGAQUFBwIBFipodHRwczovL3d3dy5hcHBsZS5jb20vY2VydGlm aWNhdGVhdXRob3JpdHkwEwYDVR0lBAwwCgYIKwYBBQUHAwIwMgYDVR0fBCswKTAn oCWgI4YhaHR0cDovL2NybC5hcHBsZS5jb20vd3dkcmc0LTIuY3JsMB0GA1UdDgQW BBRIAWQs3Az9vO9G3tV/Ylq33WC1EDAOBgNVHQ8BAf8EBAMCB4AwgacGCiqGSIb3 Y2QGAwYEgZgwgZUMEWNvbS5pb3Mub2NjYXNpb25zMAcMBXRvcGljDBZjb20uaW9z Lm9jY2FzaW9ucy52b2lwMAYMBHZvaXAMHmNvbS5pb3Mub2NjYXNpb25zLmNvbXBs aWNhdGlvbjAODAxjb21wbGljYXRpb24MGmNvbS5pb3Mub2NjYXNpb25zLnZvaXAt cHR0MAsMCS52b2lwLXB0dDAQBgoqhkiG92NkBgMBBAIFADAQBgoqhkiG92NkBgMC BAIFADANBgkqhkiG9w0BAQsFAAOCAQEAsgxBeLveJ/O+pEYyG/Aaq2PfGmR3xcgO VJHSGAQsUkGaLXrOWY05me2YWLhVlas0OV+hRm6njbICdPWegCH/6/+8cLr/XOpA XSmYzPTzoSRimGLIoN8m7J8tbMPWRwQTsLOsRbNpHtaoKym6rjVJuV1UiE2IbJNc V5t1oAs4rjqrAPynX4OlsP/RfLl/j6VEmAln89JN8bn1Gb1oEPz+A4fzSSdFTi7M AbtejGC5IH0hSY0DqJMo2lohYX1H7xaRykcWaENMGZiKwHDVbaNLZ/CuDnYrtxK3 U0dywgne442WdmbydRED3CKM35qznaoSxaulpFV9QjUIZ/7ZVVO0fQ== -----END CERTIFICATE----- Bag Attributes     friendlyName: Pawan     localKeyID: 48 01 64 2C DC 0C FD BC EF 46 DE D5 7F 62 5A B7 DD 60 B5 10  Key Attributes: <No Attributes> -----BEGIN PRIVATE KEY----- MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDKN6ZVRIlCQPTi 0xw249NGVitgGEEXU+30HnFLQ5V8L431/g4Vx276bfeNNwmlp+OWTSJMt+eJCwT1 k9zTsUA2XdiA7vsUsdYXQFpr/MklM2lEBfXJTl8VmwMQfFLsWH5u6YvYymOUV54K q7fsu88omcSMMbE/yDW3uBdUc15yQvSS9cDKRq56rHS8s3x3+cysr53r7TZCn4+a VtOJBpuCcNKr9ya8kpm3JWqp38VZ/dD50HweVQ0zB5uBIkxmroA0zPXJjLhtQLXF 93Qa3k0HhqpahkbdlF3f0EwIPCD5cFdpfzaqGa2ebcAcFbHdsE7HeTswMsu2BFHS hAcZWUUrAgMBAAECggEAGyylTpoaM+wUvJKQHRQ6pR4ZUB2SSbc+p+qbYPjhEsI1 OpR8ghK96Ct08+YshrVsERume1bPZ4wyi2nmaBBOx7+Ow6zZ0usfERrVy+M5iKVD BSAj6nx8rKObItECN76gpvj9kRGJljq8A0UWP1rxuMwJLKnU3vRhu6GiiPfD/mih zG+gITGXwmyMsrdMye7meyMgEUk/HAZ4gKlImtnpxGqOEjeqo/yp8IVQALcDnvj7 0uj5i+Rgw6FDtaTFdNQDlGCobpTT2voomyl1BNcmAGc+YlHeiFPsjwD2WrrUI/ag pTeCrlQJ3WFzywHC/IZ84H63VLJ9mK6aYzvHx0IGoQKBgQDuEW9NnmNhL+WhthlI 396qWq55oDwVzt5H9PdumDxDL0OTRBzDOAgkyyVtcQbDoo/qmhXSB1+/rZPeK7WR 7vQTb7PRXIw62p7FWKxL1lJT94l9t/DH+9o/5PRO4RNKNoSHcLRXZn3TkV9iY16c JIt0aMKtBozSyU20qxkQfTja8QKBgQDZcuu8FCXIBAu2H+uigpNnjwd4/LwS5g/O QUxnwZksZNcxX193FyZg44iuAvScgLw25RGmqd53LNpH5wpUvfitHVdS5fIH+F6S eHQqq/cQLzNc5nqcuofGZpk1suIQB+9P2HbtZU53u0d6sFPY/gVU8wdea960QvOg CVPphzuJ2wKBgQCJ76ghvOev4+SU8cFsq+mDos78wY6OxDGeV50VgzdHZhctOIXB xrFRQDMLWjWlHIduUqDZ9FPR52yJiaHGUEEzEcGKSKknYIwlo98Qgblp1T7gjLcB 6DboVmwHV/mpQjU/lFmpWkUFVHGDvDeRGMuEQz6oqebmKqTPTWNUXnmWwQKBgHYB pejlzjMj7u8hl5ET58b1mgqQrchbzgwS59IPAH9VImuK5JYOnCdMk+pLdFBSlNH9 snyOB0sJrlQDEFo41nGsUK2OWLD2muxGLlTSCjxgQTGTassPd4u2NkMsFv64L6lX QgNHTTQxEHOGqZpDEMWvNjqJs8yD4Q7iwQUk/KytAoGASTegbDGS35PSCvKFxvJR q5ydyazesLMP9HiYrPvLN7VS61JtPDHZ5sFzo3W5RF8FlU9iscAyg7F08gpmZIqh LL8UEqzVkKDrhZgZHHVzUWHvxO7ysliF1FQI56tYet2QnT3sxf8GmWgcChpCEut3 x5oTxizn9jcdHQLbkOc798U= -----END PRIVATE KEY-----",
+    "android_cert": "AAAAoV13Lic:APA91bFn1zV_6tSJUTe_W19-_Ty-E7XAGiNRqcApbAU9wcrkzCy-FkbZ9XCI5w6cbDVkIcPHOVdmHffcMpw6IBu7RZEAC1aOnxkEj5k5oz_7b8g8r6wHpvEcgxSmH6LXY1-9rnWpNwQT",
+    "ios_cert_env": true,
+    "allow_company_name": true,
+    "segment_key": "",
+    "sentry_dsn": null,
+    "main_logo_url": null,
+    "menu_logo_url": null,
+    "redirect_urls": {
+      "logo_url": "https://occasionsfinejewelry.customvirtual.app",
+      "sign_out_url": "https://occasionsfinejewelry.customvirtual.app"
+    },
+    "primary_company_id": 31978,
+    "search_result_view_type": {
+      "diamond": "show_both_default_as_grid",
+      "jewelry": "show_both_default_as_grid",
+      "gemstone": "show_both_default_as_grid",
+      "lab_grown_diamond": "show_both_default_as_grid"
+    },
+    "allow_bulk_requests": {
+      "diamond": "false",
+      "jewelry": "false",
+      "gemstone": "false",
+      "lab_grown_diamond": "false"
+    },
+    "public_key": "89021",
+    "custom_currency_symbol": "usd",
+    "custom_text": {
+      "contact_us_text": "\"Questions, suggestions, or comments welcome! </br>Send a message below or call </br> +1-4326840510",
+      "login_title_text": "Start shopping and get access to your Favorites, Saved Searches and Collections.",
+      "unknown_jewelry_ring_size": "  Don't Know",
+      "login_already_member_label": "",
+      "login_login_button_caption": "",
+      "login_not_registered_label": "",
+      "login_signup_button_caption": "",
+      "organization_home_title_text": "Occasions Fine Jewelry",
+      "signup_submit_button_caption": "Submit",
+      "signup_registration_form_header": "Registration Form",
+      "order_cart_shipping_instructions": "test"
+    },
+    "spa_segment_key": "",
+    "deeplink_config": {
+      "apn": "",
+      "ibi": "",
+      "isi": "",
+      "base_url": "",
+      "link_url": "occasionsfinejewelry.customvirtual.app",
+      "login_deeplink": ""
+    },
+    "external_landing_page_url": "https://d2dtfeai6qg5ne.cloudfront.net/Occasions-Mobile/index.html",
+    "internal_landing_page_url": "",
+    "setting_attributes": {
+      "on_hand_text": {
+        "0": "Unavailable",
+        "1": "Available",
+        "2": "Please call for status"
+      },
+      "jewelry_cart_url": "",
+      "site_redirect_url": "",
+      "web_grid_view_ad_positioning": "0",
+      "web_list_view_ad_positioning": "0",
+      "ipad_grid_view_ad_positioning": "0",
+      "ipad_list_view_ad_positioning": "0",
+      "mobile_grid_view_ad_positioning": "0",
+      "mobile_list_view_ad_positioning": "0"
+    },
+    "custom_header_html": "<style>\r\n \r\n    .sde-header{\r\n         height:130px;\r\n         display: flex;\r\n         flex-direction: row;\r\n         justify-content: space-between;\r\n          background:#FBFBFB;\r\n         align-items: center;\r\n         padding: 0 40px;\r\n         width: 100%;\r\n     }\r\n     .sde-header .logo{\r\n         font-size: 22px;\r\n       \r\n     }\r\n     .sde-header .logo img {\r\n        width: 240px;\r\n        margin-left: -50px;\r\n    padding-left: 20px;\r\n    height: auto !important;\r\n }\r\n .sde-header .menu-item {\r\n     color: #2E3035;\r\n }\r\n .sde-header.menu-item .menu:hover{\r\n     color: #fff !important;\r\n }\r\n .sde.menu-item .menu span:hover{\r\n     color:#fff !important;\r\n }\r\n .menu-item .menu:hover{ color:#2E3035 !important}\r\n .sde-header .sub-menu li:hover {\r\n background-color: #EDEDED !important;\r\n     color: #000000!important;\r\n }\r\n     .sde-header .logo a{\r\n        color: inherit;\r\n        text-decoration: none;\r\n     }\r\n     .sde-header .sub-menu li{\r\n        min-width: 200px;\r\n     }\r\n    .sde-header .powered-by {\r\n     background:#FBFBFB;\r\n     position: absolute;\r\n     top: 0;\r\n     left: 0;\r\n     width: 20px;\r\n     height: 130px;\r\n     }\r\n     .sde-header .powered-by span {\r\n     display: block;\r\n     color: #fff !important;\r\n     font-size: 12px;\r\n     width: 130px;\r\n     -webkit-transform: rotate(-90deg);\r\n     transform: rotate(-90deg);\r\n     position: absolute;\r\n     top: 35px;\r\n     left: -55px;\r\n }\r\n\r\n\r\n </style>\r\n\r\n\r\n<div class=\"sde-header\"><div class=\"powered-by\">\r\n   \r\n    </div>\r\n    <div class=\"logo\">\r\n        <a href=\"/webapp/search/new\"><img src=\"\" alt=\"\"></a>\r\n    </div>\r\n    <div class=\"right-section\">\r\n    </div>\r\n</div>",
+    "meta_data": {
+      "keywords": "",
+      "page_title": "",
+      "description": "",
+      "website_verification_tag": ""
+    },
+    "web_plugins_script": "",
+    "additional_attributes": {
+      "app_id": "",
+      "api_key": "",
+      "ad_delay": "",
+      "max_depth": "100",
+      "max_ratio": "10",
+      "max_table": "100",
+      "max_width": "865",
+      "min_depth": "0",
+      "min_ratio": "0",
+      "min_table": "0",
+      "min_width": "0",
+      "max_height": "525",
+      "max_length": "1320",
+      "min_height": "0",
+      "min_length": "0",
+      "project_id": "",
+      "delist_days": "14",
+      "terms_de_url": "",
+      "terms_en_url": "",
+      "terms_ko_url": "",
+      "terms_zh_url": "",
+      "retail_markup": "",
+      "owner_info_pin": "",
+      "remind_after_days": "1",
+      "preferred_language": "en",
+      "supported_language": "",
+      "warning_after_days": "2",
+      "delist_warning_days": "9",
+      "messaging_sender_id": "",
+      "email_footer_address": "",
+      "new_arrival_item_time": "",
+      "hide_guest_prices_text": "",
+      "overide_email_confirmation_text": "",
+      "before_auction_end_notification_timer": "180",
+      "before_auction_start_notification_timer": "1440"
+    },
+    "business_plan": 0,
+    "internal_landing_page_url_v3": null,
+    "fcm_config": null,
+    "onesignal_app_id": null,
+    "onesignal_rest_api_key": null,
+    "secondary_logo_url": null,
+    "analytic_ga4_id": null,
+    "landing_pages": {}
+  },
+  "orgSettings": [
+    {
+      "feature_id": 52,
+      "feature_name": "require_phone_during_registration",
+      "feature_description": "Make Contact Number a required field during registration",
+      "access": 2
+    },
+    {
+      "feature_id": 54,
+      "feature_name": "update_availability_status",
+      "feature_description": "Update Availability Indicator/Status based on Item Request",
+      "access": 2
+    },
+    {
+      "feature_id": 63,
+      "feature_name": "collect_address",
+      "feature_description": "Allow Collect Address",
+      "access": 2
+    },
+    {
+      "feature_id": 64,
+      "feature_name": "public_login",
+      "feature_description": "Allow public users to access app without login?",
+      "access": 2
+    },
+    {
+      "feature_id": 68,
+      "feature_name": "shopping_cart",
+      "feature_description": "Enable Shopping Cart",
+      "access": 2
+    },
+    {
+      "feature_id": 70,
+      "feature_name": "suppress_actual_supplier_details_in_white_mode",
+      "feature_description": "Suppress Actual Supplier Details in White Mode'",
+      "access": 2
+    },
+    {
+      "feature_id": 74,
+      "feature_name": "hide_unavailable_items",
+      "feature_description": "Hide items that are Unavailable",
+      "access": 2
+    },
+    {
+      "feature_id": 108,
+      "feature_name": "external_landing_page",
+      "feature_description": "Enable External Landing Page",
+      "access": 2
+    },
+    {
+      "feature_id": 142,
+      "feature_name": "enable_custom_search_menu",
+      "feature_description": "Enable Custom Search Menu",
+      "access": 2
+    },
+    {
+      "feature_id": 146,
+      "feature_name": "enable_custom_navigation",
+      "feature_description": "Enable Custom Navigation",
+      "access": 2
+    },
+    {
+      "feature_id": 147,
+      "feature_name": "disable_fuzzy_logic",
+      "feature_description": "Disable Fuzzy Logic",
+      "access": 2
+    },
+    {
+      "feature_id": 187,
+      "feature_name": "share_collection",
+      "feature_description": "Allow Collection Share",
+      "access": 2
+    },
+    {
+      "feature_id": 195,
+      "feature_name": "search_result_with_image_only",
+      "feature_description": "Allow Search Result With Image Only",
+      "access": 2
+    },
+    {
+      "feature_id": 200,
+      "feature_name": "jewelry_item_configuration",
+      "feature_description": "Allow Jewelry Item Configuration",
+      "access": 2
+    },
+    {
+      "feature_id": 250,
+      "feature_name": "unified_fav_collection",
+      "feature_description": "Enable Unified Favorites/Collections",
+      "access": 2
+    },
+    {
+      "feature_id": 264,
+      "feature_name": "display_custom_company_logo_html_header",
+      "feature_description": "Display Customer Company logo in Custom HTML Header",
+      "access": 2
+    },
+    {
+      "feature_id": 267,
+      "feature_name": "suppress_iframe_to_load_html",
+      "feature_description": "Allow Suppress Iframe To Load Html",
+      "access": 1
+    },
+    {
+      "feature_id": 281,
+      "feature_name": "enable_image_video_report_native_share",
+      "feature_description": "Allow Enable Image Video Report Native Share",
+      "access": 2
+    },
+    {
+      "feature_id": 287,
+      "feature_name": "unified_stock_item_request",
+      "feature_description": null,
+      "access": 2
+    },
+    {
+      "feature_id": 310,
+      "feature_name": "mandatory_logo",
+      "feature_description": "Display Logo as per B2B2C functionality",
+      "access": 2
+    },
+    {
+      "feature_id": 358,
+      "feature_name": "enable_jewelry_builder",
+      "feature_description": "Enable Redesigned Product Details Page (By Enabling this switch the new product details screen will appear to the users, if this is disabled the user will see the existing pages on web app)",
+      "access": 2
+    },
+    {
+      "feature_id": 359,
+      "feature_name": "enable_product_ui_v2",
+      "feature_description": null,
+      "access": 2
+    },
+    {
+      "feature_id": 364,
+      "feature_name": "ask_question",
+      "feature_description": "Enable Ask a Question",
+      "access": 2
+    },
+    {
+      "feature_id": 405,
+      "feature_name": "updated_bmh_emails",
+      "feature_description": "",
+      "access": 2
+    },
+    {
+      "feature_id": 417,
+      "feature_name": "allow_item_share_with_or_without_prices",
+      "feature_description": "Allow Item Share with/without prices",
+      "access": 2
+    },
+    {
+      "feature_id": 424,
+      "feature_name": "share_inventory_as_pdf",
+      "feature_description": "Allow PDF Attachments for sharing inventories via Email",
+      "access": 1
+    }
+  ],
+  "customizations": [],
+  "globals": [],
+  "customTexts": [],
+  "jsonNavMenu": null,
+  "company": {
+    "id": 31978,
+    "name": "Occasions Fine Jewelry Beta",
+    "logo_url": "",
+    "created_at": "2022-08-16T03:22:17.685Z",
+    "updated_at": "2024-12-13T06:05:18.185Z",
+    "request_email_address": "qa-vdb+stg_usr__31978@vdbapp.com",
+    "customer_visibility": "{\"blacklist\":{\"countries\":[],\"vendors\":[],\"retailers\":[],\"blacklisted_by\":[]},\"vendors\":[],\"retailers\":[]}",
+    "company_code": "OFJSB",
+    "name_on_info_card": null,
+    "contact_phone": "432-684-0510",
+    "data_url": "{\"diamond_data_url\":\"\",\"diamond_data_results\":\"\",\"gemstone_data_url\":\"\",\"gemstone_data_results\":\"\",\"jewelry_data_url\":\"\",\"jewelry_data_results\":\"\",\"lab_grown_data_url\":\"\",\"lab_grown_data_results\":\"\",\"data_url_auth_type\":\"\",\"data_url_auth_user\":\"\",\"data_url_auth_password\":\"\",\"diamond_data_auth_url\":\"\",\"lab_grown_data_auth_url\":\"\",\"diamond_token_api_body\":\"\",\"diamond_stock_api_body\":\"\",\"lab_grown_token_api_body\":\"\",\"lab_grown_stock_api_body\":\"\",\"jewelry_token_api_body\":\"\",\"jewelry_stock_api_body\":\"\",\"diamond_image_url_format\":\"\",\"lab_grown_image_url_format\":\"\",\"use_proxy\":\"false\",\"jewelry_image_url_format\":\"\",\"diamond_cert_url_format\":\"\",\"lab_grown_cert_url_format\":\"\",\"jewelry_cert_url_format\":\"\"}",
+    "company_type": "vendor",
+    "country": "United States",
+    "state": "Texas",
+    "city": "Midland",
+    "street_address": "2308 W. LOOP 250 N",
+    "zip_code": "79705",
+    "contact_person": "Steve Mayer Beta",
+    "latitude": null,
+    "longitude": null,
+    "website": "http://www.occasionsfinejewelry.com/",
+    "jbt_number": "2643631",
+    "data_format": "csv",
+    "emails_visibility": null,
+    "salesperson": null,
+    "contact_iphone": "",
+    "accepts_memo": true,
+    "salesforce_id": "0016M00002SksDVQAZ",
+    "uploaded_logo": "Header-logo_3x__2_.png",
+    "can_set_logo": true,
+    "salesforce_sync_pending": false,
+    "last_ftp_ran_at": "2023-08-27T22:42:00.523Z",
+    "last_ftp_error": "no folder found with name OFJ",
+    "request_count": 2471,
+    "inventory_updates_count": 9,
+    "mobile_phone": "",
+    "search_pref": false,
+    "can_force_green_price_profile": false,
+    "has_price_markups": true,
+    "mobile_phone_country_code": "",
+    "contact_phone_country_code": "1",
+    "contact_iphone_country_code": "",
+    "studio_pro": false,
+    "show_vdb_watermark": false,
+    "can_set_watermark": false,
+    "uploaded_watermark": null,
+    "cal_disc_percent": false,
+    "has_multiple_locations": false,
+    "organization_id": 502,
+    "can_create_company_price_markups": false,
+    "main_logo": "Registration-logo_3x__1_.png",
+    "allow_custom_menu": true,
+    "allow_search_coach_overlay": true,
+    "bmh_request_type": "",
+    "purchasing_agent_email": null,
+    "can_set_delivery_date": true,
+    "allow_welcome_screen": true,
+    "allow_lab_grown": true,
+    "can_lock_user_mode": true,
+    "default_price_mode": 2,
+    "show_powered_by_vdb": true,
+    "auto_activate": true,
+    "last_diamond_inventory_updated_at": "2024-05-01T06:46:56.524Z",
+    "last_gemstone_inventory_updated_at": null,
+    "allow_stock_types": {
+      "diamond": "true",
+      "jewelry": "true",
+      "gemstone": "false",
+      "lab_grown_diamond": "true",
+      "default_stock_type": "jewelry"
+    },
+    "http_request_method": 0,
+    "allow_custom_menu_types": {
+      "diamond": "true",
+      "jewelry": "true",
+      "gemstone": "false",
+      "lab_grown_diamond": "true"
+    },
+    "allow_custom_theme": true,
+    "allow_custom_theme_types": {
+      "diamond": "true",
+      "jewelry": "true",
+      "gemstone": "false",
+      "lab_grown_diamond": "true"
+    },
+    "default_markup": "0.0",
+    "share_logo": "Share_Email_3x__1_.png",
+    "round_up_prices": true,
+    "owner_info": {
+      "show_owner_info": "false"
+    },
+    "owner_info_users": null,
+    "price_markups_status": {
+      "diamond": "FINISHED",
+      "jewelry": "NA",
+      "gemstone": "NA",
+      "lab_grown_diamond": "FINISHED"
+    },
+    "hubspot_id": null,
+    "hubspot_sync_pending": null,
+    "additional_attributes": {
+      "ftp_folder": {
+        "diamond": "",
+        "jewelry": "",
+        "gemstone": "",
+        "lab_grown_diamond": ""
+      },
+      "gia_api_key": "",
+      "gdrive_folder": {
+        "diamond": "1aU2fyLOHkIHOXDPn7D6dMrhZ0sCI2563",
+        "jewelry": "1m5XH5glTCJVbQ--UprZcXEpYXa2kgd0G",
+        "gemstone": "",
+        "lab_grown_diamond": "1jGUvgEX4wVfqCzWZOnVnprZmYsq9a5xe"
+      },
+      "ftp_credentials": {
+        "folder": "",
+        "server": "",
+        "password": "",
+        "username": "",
+        "file_name": "",
+        "is_ssl_required": "false",
+        "upload_method_type": "FTP Client"
+      },
+      "jbt_error_status": "not_applicable",
+      "jbt_error_comment": "",
+      "remind_after_days": "1",
+      "company_identifier": "",
+      "inventory_access_url": {
+        "diamond_csv_inventory_access_url": {},
+        "diamond_json_inventory_access_url": {},
+        "labgrowndiamond_csv_inventory_access_url": {},
+        "labgrowndiamond_json_inventory_access_url": {}
+      },
+      "jewelry_slug_formula": "",
+      "datafetch_split_range": "",
+      "iframe_ref_company_id": "",
+      "jewelry_search_formula": "",
+      "search_result_view_type": {
+        "diamond": "",
+        "jewelry": "",
+        "gemstone": "",
+        "lab_grown_diamond": ""
+      },
+      "limit_stock_item_request": ""
+    },
+    "salesperson_id": 0,
+    "lock_user_currency": false,
+    "lock_user_currency_value": null,
+    "user_login_price_mode": null,
+    "inventory_count": {
+      "diamond_count": 0,
+      "jewelry_count": 187,
+      "diamond_list_count": 1,
+      "jewelry_list_count": 67,
+      "lab_grown_diamond_count": 0,
+      "lab_grown_diamond_list_count": 1
+    },
+    "iframe_status": false,
+    "iframe_key": null,
+    "iframe_referer": "",
+    "require_webhooks": false,
+    "third_party_stock_items_filter_string": null,
+    "three_d_formula": null,
+    "three_d_settings": null,
+    "dynamic_jewelry_variant_keys": null,
+    "round_up_by": null,
+    "secondary_logo_url": "",
+    "show_datafetch_error_alerts": false,
+    "zenskar_customer_id": null
+  },
+  "activeFeatures": [
+    {
+      "feature_id": 144,
+      "feature_description": "Hide Mid Size Watch",
+      "access": 1
+    },
+    {
+      "feature_id": 246,
+      "feature_description": "Show coach overlay explaining price modes",
+      "access": 1
+    },
+    {
+      "feature_id": 262,
+      "feature_description": "Upload HTML videos via gDrive",
+      "access": 1
+    },
+    {
+      "feature_id": 266,
+      "feature_description": "\"Premium\" supplier FTP inventory skips the queue and gets uploaded within ~30 minutes (if inventory is <5,000)",
+      "access": 1
+    },
+    {
+      "feature_id": 286,
+      "feature_description": "Upload multiple images via gDrive",
+      "access": 1
+    },
+    {
+      "feature_id": 297,
+      "feature_description": "Check gDrive for images/videos/reports",
+      "access": 1
+    },
+    {
+      "feature_id": 357,
+      "feature_description": "VIMS user can set supplier-level markups",
+      "access": 1
+    },
+    {
+      "feature_id": 416,
+      "feature_description": "Enable this to mark this company as Demo/QA Company/Internal Usage",
+      "access": 1
+    },
+    {
+      "feature_id": 482,
+      "feature_description": "Disable Inventory Reminder Email",
+      "access": 1
+    }
+  ],
+  "locations": [
+    {
+      "id": 29958,
+      "location_name": " Occasions Fine Jewelry  Beta",
+      "street_address": "2308 W. LOOP 250 N",
+      "country": "United States",
+      "state": "Texas",
+      "city": "Midland",
+      "zip": "79705",
+      "contact_person": "Steve Mayer Beta",
+      "contact_email": "qa-vdb+stg_cmpny__v_31978_l_29958@vdbapp.com",
+      "mobile_phone": "",
+      "office_phone": "432-684-0510",
+      "website": "http://www.occasionsfinejewelry.com/",
+      "vendor_id": 31978,
+      "is_primary": true,
+      "created_at": "2022-08-16T03:22:17.719Z",
+      "updated_at": "2023-08-28T02:55:58.419Z",
+      "contact_iphone": "",
+      "mobile_phone_country_code": "",
+      "contact_phone_country_code": "1",
+      "contact_iphone_country_code": "",
+      "contact_whatsapp": "",
+      "contact_whatsapp_country_code": ""
+    }
+  ],
+  "authToken": "psu638r1nfwkbayvjsfx",
+  "overrides": {
+    "newOrgName": "Automation flow review org",
+    "newDomainUrl": "ds112",
+    "newCompanyName": "Automation flow review "
+  },
+  "result": {}
+}

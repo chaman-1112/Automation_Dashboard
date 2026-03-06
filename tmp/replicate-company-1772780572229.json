@@ -1,0 +1,290 @@
+{
+  "company": {
+    "id": 197563,
+    "name": "Band builder Test",
+    "logo_url": "",
+    "created_at": "2026-01-15T04:57:39.196Z",
+    "updated_at": "2026-03-02T06:57:05.782Z",
+    "request_email_address": "astha@vdbapp.com",
+    "customer_visibility": "{\"blacklist\":{\"countries\":[],\"vendors\":[],\"retailers\":[],\"blacklisted_by\":[]},\"vendors\":[],\"retailers\":[]}",
+    "company_code": "BBTT",
+    "name_on_info_card": null,
+    "contact_phone": "",
+    "data_url": "{\"diamond_data_url\":\"\",\"diamond_data_results\":\"\",\"gemstone_data_url\":\"\",\"gemstone_data_results\":\"\",\"jewelry_data_url\":\"\",\"jewelry_data_results\":\"\",\"lab_grown_data_url\":\"\",\"lab_grown_data_results\":\"\",\"data_url_auth_type\":\"\",\"data_url_auth_user\":\"\",\"data_url_auth_password\":\"\",\"diamond_data_auth_url\":\"\",\"lab_grown_data_auth_url\":\"\",\"diamond_token_api_body\":\"\",\"diamond_stock_api_body\":\"\",\"lab_grown_token_api_body\":\"\",\"lab_grown_stock_api_body\":\"\",\"jewelry_token_api_body\":\"\",\"jewelry_stock_api_body\":\"\",\"diamond_image_url_format\":\"\",\"lab_grown_image_url_format\":\"\",\"use_proxy\":\"false\",\"jewelry_image_url_format\":\"\",\"diamond_cert_url_format\":\"\",\"lab_grown_cert_url_format\":\"\",\"jewelry_cert_url_format\":\"\",\"gemstone_cert_url_format\":\"\",\"gemstone_image_url_format\":\"\",\"gemstone_token_api_body\":\"\",\"gemstone_stock_api_body\":\"\",\"diamond_page_count\":\"\",\"gemstone_page_count\":\"\",\"jewelry_page_count\":\"\",\"lab_grown_diamond_page_count\":\"\"}",
+    "company_type": "retailer",
+    "country": "United States",
+    "state": "New York",
+    "city": "New York",
+    "street_address": "580 Fifth Avenue Suite 629",
+    "zip_code": "",
+    "contact_person": "Elliot Atlas",
+    "latitude": null,
+    "longitude": null,
+    "website": "www.vdbapp.com",
+    "jbt_number": "",
+    "data_format": "csv",
+    "emails_visibility": null,
+    "salesperson": null,
+    "contact_iphone": "",
+    "accepts_memo": true,
+    "salesforce_id": "",
+    "uploaded_logo": null,
+    "can_set_logo": true,
+    "salesforce_sync_pending": true,
+    "last_ftp_ran_at": null,
+    "last_ftp_error": null,
+    "request_count": 6736,
+    "inventory_updates_count": 63,
+    "mobile_phone": "(954) 278-1806",
+    "search_pref": false,
+    "can_force_green_price_profile": false,
+    "has_price_markups": false,
+    "mobile_phone_country_code": "972",
+    "contact_phone_country_code": "",
+    "contact_iphone_country_code": "",
+    "studio_pro": false,
+    "show_vdb_watermark": false,
+    "can_set_watermark": false,
+    "uploaded_watermark": null,
+    "cal_disc_percent": false,
+    "has_multiple_locations": false,
+    "organization_id": 2694,
+    "can_create_company_price_markups": false,
+    "main_logo": null,
+    "allow_custom_menu": true,
+    "allow_search_coach_overlay": true,
+    "bmh_request_type": "",
+    "purchasing_agent_email": null,
+    "can_set_delivery_date": false,
+    "allow_welcome_screen": false,
+    "allow_lab_grown": false,
+    "can_lock_user_mode": false,
+    "default_price_mode": null,
+    "show_powered_by_vdb": true,
+    "auto_activate": false,
+    "last_diamond_inventory_updated_at": null,
+    "last_gemstone_inventory_updated_at": null,
+    "allow_stock_types": {
+      "diamond": "false",
+      "jewelry": "true",
+      "gemstone": "false",
+      "lab_grown_diamond": "false",
+      "default_stock_type": "jewelry"
+    },
+    "http_request_method": 0,
+    "allow_custom_menu_types": {
+      "diamond": "false",
+      "jewelry": "true",
+      "gemstone": "false",
+      "lab_grown_diamond": "false"
+    },
+    "allow_custom_theme": true,
+    "allow_custom_theme_types": {
+      "diamond": "false",
+      "jewelry": "true",
+      "gemstone": "false",
+      "lab_grown_diamond": "false"
+    },
+    "default_markup": "0.0",
+    "share_logo": null,
+    "round_up_prices": true,
+    "owner_info": {
+      "show_owner_info": "false"
+    },
+    "owner_info_users": null,
+    "price_markups_status": {
+      "diamond": "NA",
+      "jewelry": "FINISHED",
+      "gemstone": "NA",
+      "lab_grown_diamond": "NA"
+    },
+    "hubspot_id": null,
+    "hubspot_sync_pending": null,
+    "additional_attributes": {
+      "ftp_folder": {
+        "diamond": "",
+        "jewelry": "",
+        "gemstone": "",
+        "lab_grown_diamond": ""
+      },
+      "gia_api_key": "",
+      "gdrive_folder": {
+        "diamond": "",
+        "jewelry": "",
+        "gemstone": "",
+        "lab_grown_diamond": ""
+      },
+      "checkout_method": "",
+      "ftp_credentials": {
+        "folder": "",
+        "server": "",
+        "password": "",
+        "username": "",
+        "file_name": "",
+        "is_ssl_required": "false",
+        "upload_method_type": "FTP Client"
+      },
+      "jbt_error_status": "not_applicable",
+      "round_last_digit": "",
+      "shopify_api_shop": "",
+      "jbt_error_comment": "",
+      "remind_after_days": "1",
+      "company_identifier": "",
+      "jewelry_addon_keys": "",
+      "custom_pricing_klass": "",
+      "ftp_upload_frequency": "",
+      "inventory_access_url": {
+        "diamond_csv_inventory_access_url": {},
+        "diamond_json_inventory_access_url": {},
+        "labgrowndiamond_csv_inventory_access_url": {},
+        "labgrowndiamond_json_inventory_access_url": {}
+      },
+      "jewelry_slug_formula": "metal_type,config_field_4,config_field_9,size,config_field_5,config_field_8,config_field_7,config_field_13",
+      "datafetch_split_range": "",
+      "iframe_ref_company_id": "",
+      "jewelry_search_formula": "",
+      "stuller_account_number": "",
+      "api_feed_sync_frequency": "",
+      "knowi_dahboards_enabled": {
+        "organization": "false",
+        "borsheims_report": "false",
+        "lgd_market_watch": "false",
+        "lgd_advance_pricing": "false",
+        "gn_diamonds_app_analytics": "false",
+        "users_and_salesforce_leads": "false",
+        "jewelry_app_users_analytics": "false",
+        "kia_gems_searches_drilldown": "false",
+        "diamond_hunt_iframe_requests": "false",
+        "tiered_markup_retailer_insights": "false",
+        "gul_third_party_items_dashboard_": "false",
+        "goodstone_vims_–_beam_inventory": "false",
+        "concierge_diamonds_inventory_dashboard": "false",
+        "lumex_lab-grown_market_watch_-_searches": "false",
+        "kia_gems_lab-grown_market_watch_-_searches": "false",
+        "lumex_lab-grown_market_watch_-_high/best/average": "false",
+        "elegant_diamonds_&_jewelry_app_analytics(summary)": "false",
+        "kia_gems_lab-grown_market_watch_-_high/best/average": "false"
+      },
+      "search_result_view_type": {
+        "diamond": "",
+        "jewelry": "",
+        "gemstone": "",
+        "lab_grown_diamond": ""
+      },
+      "limit_stock_item_request": "",
+      "searchable_shapes_config": "",
+      "shopify_api_access_token": "",
+      "shopify_vendor_identifier": "",
+      "shopify_publication_channel": "",
+      "show_datafetch_error_alerts": "false"
+    },
+    "salesperson_id": 0,
+    "lock_user_currency": false,
+    "lock_user_currency_value": null,
+    "user_login_price_mode": null,
+    "inventory_count": {
+      "jewelry_count": 1920,
+      "jewelry_list_count": 1920
+    },
+    "iframe_status": false,
+    "iframe_key": null,
+    "iframe_referer": "",
+    "require_webhooks": false,
+    "third_party_stock_items_filter_string": null,
+    "three_d_formula": {
+      "info": [
+        {
+          "option_attr": [
+            "config_field_15"
+          ],
+          "option_type": "model",
+          "option_extension": ".glb",
+          "option_identifier": "head"
+        },
+        {
+          "option_attr": [
+            "config_field_4"
+          ],
+          "option_type": "material",
+          "option_extension": ".pmat",
+          "option_identifier": "metal-inside"
+        },
+        {
+          "option_attr": [
+            "config_field_17",
+            "metal_type"
+          ],
+          "option_type": "material",
+          "option_extension": ".pmat",
+          "option_identifier": "metal-outside"
+        },
+        {
+          "option_attr": [
+            "config_field_12"
+          ],
+          "option_type": "material",
+          "option_extension": ".dmat",
+          "option_identifier": "stone-round"
+        }
+      ],
+      "base_url": "https://d2dtfeai6qg5ne.cloudfront.net/3D_Assets/Frederick_Goldman/",
+      "attribute_in_url_sequence": ""
+    },
+    "three_d_settings": {
+      "vjson": "https://d2dtfeai6qg5ne.cloudfront.net/3D_Assets/Frederick_Goldman/Fred.vjson",
+      "three_d_data_type": "webgi"
+    },
+    "dynamic_jewelry_variant_keys": "",
+    "round_up_by": null,
+    "secondary_logo_url": "",
+    "zenskar_customer_id": null
+  },
+  "activeFeatures": [
+    {
+      "feature_id": 514,
+      "feature_description": "Enable 3D media on product detail page",
+      "access": 1
+    },
+    {
+      "feature_id": 515,
+      "feature_description": "Enable front ends to generate 3D urls on product detail page",
+      "access": 1
+    },
+    {
+      "feature_id": 518,
+      "feature_description": "This switch is to be enabled for making images url non mandatory to list jewlery.",
+      "access": 1
+    }
+  ],
+  "locations": [
+    {
+      "id": 196980,
+      "location_name": "VDB",
+      "street_address": "580 Fifth Avenue Suite 629",
+      "country": "United States",
+      "state": "New York",
+      "city": "New York",
+      "zip": "",
+      "contact_person": "Elliot Atlas",
+      "contact_email": "astha@vdbapp.com",
+      "mobile_phone": "(954) 278-1806",
+      "office_phone": "",
+      "website": "www.vdbapp.com",
+      "vendor_id": 197563,
+      "is_primary": true,
+      "created_at": "2026-01-15T04:57:39.339Z",
+      "updated_at": "2026-01-15T04:57:39.386Z",
+      "contact_iphone": "",
+      "mobile_phone_country_code": "972",
+      "contact_phone_country_code": "",
+      "contact_iphone_country_code": "",
+      "contact_whatsapp": "547244678",
+      "contact_whatsapp_country_code": ""
+    }
+  ],
+  "overrides": {
+    "orgId": "2925",
+    "newCompanyName": "Goldstar Beta "
+  },
+  "result": {}
+}

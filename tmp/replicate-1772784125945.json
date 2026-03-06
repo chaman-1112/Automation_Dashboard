@@ -1,0 +1,683 @@
+{
+  "org": {
+    "id": 381,
+    "name": "In-Store Luxury App (Demo app)",
+    "emails": {
+      "qa": "qa-vdb+stg_usr__381@vdbapp.com",
+      "bcc": "qa-vdb+stg_usr__381@vdbapp.com",
+      "dev": "qa-vdb+stg_usr__381@vdbapp.com",
+      "system": "qa-vdb+stg_usr__381@vdbapp.com",
+      "primary": "qa-vdb+stg_usr__381@vdbapp.com",
+      "reports": "qa-vdb+stg_usr__381@vdbapp.com",
+      "support": "qa-vdb+stg_usr__381@vdbapp.com",
+      "reply_to": "qa-vdb+stg_usr__381@vdbapp.com",
+      "secondary": "qa-vdb+stg_usr__381@vdbapp.com",
+      "contact_us": "qa-vdb+stg_usr__381@vdbapp.com",
+      "inventory_reports": "qa-vdb+stg_usr__381@vdbapp.com"
+    },
+    "phone": {
+      "primary": "1110102",
+      "secondary": "2220202"
+    },
+    "domain_url": "ringconfigurator.vdbapp.com,instoreluxury.customvirtual.app,luganoluxury.customvirtual.app,luganoluxury.preprod.customvirtual.app,ringconfigurator.preprod.vdbapp.com",
+    "status": 0,
+    "created_at": "2021-08-24T03:00:14.011Z",
+    "updated_at": "2025-03-24T04:13:13.539Z",
+    "android_app_identifier": "https://appdistribution.firebase.dev/i/99a8a10b7296e561",
+    "ios_app_identifier": "https://testflight.apple.com/join/rD6eF9pr",
+    "favicon_url": "https://d2dtfeai6qg5ne.cloudfront.net/jck/jsk-internal/index.html?scroll=true",
+    "analytic_id": "",
+    "iframe_status": false,
+    "iframe_key": null,
+    "iframe_referer": "",
+    "web_status": true,
+    "ios_cert": "Bag Attributes\r\n    friendlyName: Apple Push Services: com.vdb.luganoluxury\r\n    localKeyID: 48 01 64 2C DC 0C FD BC EF 46 DE D5 7F 62 5A B7 DD 60 B5 10 \r\nsubject=UID=com.vdb.luganoluxury, CN=Apple Push Services: com.vdb.luganoluxury, OU=7YN9RUZQ8Q, O=VIRTUAL DIAMOND BOUTIQUE INC., C=US\r\nissuer=CN=Apple Worldwide Developer Relations Certification Authority, OU=G4, O=Apple Inc., C=US\r\n-----BEGIN CERTIFICATE-----\r\nMIIGvjCCBaagAwIBAgIQaYikRR9d+jSwvDbj9woNmzANBgkqhkiG9w0BAQsFADB1\r\nMUQwQgYDVQQDDDtBcHBsZSBXb3JsZHdpZGUgRGV2ZWxvcGVyIFJlbGF0aW9ucyBD\r\nZXJ0aWZpY2F0aW9uIEF1dGhvcml0eTELMAkGA1UECwwCRzQxEzARBgNVBAoMCkFw\r\ncGxlIEluYy4xCzAJBgNVBAYTAlVTMB4XDTI0MDgyODEzMTA0NloXDTI1MDkyNzEz\r\nMTA0NVowgaQxJDAiBgoJkiaJk/IsZAEBDBRjb20udmRiLmx1Z2Fub2x1eHVyeTEy\r\nMDAGA1UEAwwpQXBwbGUgUHVzaCBTZXJ2aWNlczogY29tLnZkYi5sdWdhbm9sdXh1\r\ncnkxEzARBgNVBAsMCjdZTjlSVVpROFExJjAkBgNVBAoMHVZJUlRVQUwgRElBTU9O\r\nRCBCT1VUSVFVRSBJTkMuMQswCQYDVQQGEwJVUzCCASIwDQYJKoZIhvcNAQEBBQAD\r\nggEPADCCAQoCggEBAMo3plVEiUJA9OLTHDbj00ZWK2AYQRdT7fQecUtDlXwvjfX+\r\nDhXHbvpt9403CaWn45ZNIky354kLBPWT3NOxQDZd2IDu+xSx1hdAWmv8ySUzaUQF\r\n9clOXxWbAxB8UuxYfm7pi9jKY5RXngqrt+y7zyiZxIwxsT/INbe4F1RzXnJC9JL1\r\nwMpGrnqsdLyzfHf5zKyvnevtNkKfj5pW04kGm4Jw0qv3JrySmbclaqnfxVn90PnQ\r\nfB5VDTMHm4EiTGaugDTM9cmMuG1AtcX3dBreTQeGqlqGRt2UXd/QTAg8IPlwV2l/\r\nNqoZrZ5twBwVsd2wTsd5OzAyy7YEUdKEBxlZRSsCAwEAAaOCAxgwggMUMAwGA1Ud\r\nEwEB/wQCMAAwHwYDVR0jBBgwFoAUW9n6HeeaGgujmXYiUIY+kchbd6gwcAYIKwYB\r\nBQUHAQEEZDBiMC0GCCsGAQUFBzAChiFodHRwOi8vY2VydHMuYXBwbGUuY29tL3d3\r\nZHJnNC5kZXIwMQYIKwYBBQUHMAGGJWh0dHA6Ly9vY3NwLmFwcGxlLmNvbS9vY3Nw\r\nMDMtd3dkcmc0MDEwggEdBgNVHSAEggEUMIIBEDCCAQwGCSqGSIb3Y2QFATCB/jCB\r\nwwYIKwYBBQUHAgIwgbYMgbNSZWxpYW5jZSBvbiB0aGlzIGNlcnRpZmljYXRlIGJ5\r\nIGFueSBwYXJ0eSBhc3N1bWVzIGFjY2VwdGFuY2Ugb2YgdGhlIHRoZW4gYXBwbGlj\r\nYWJsZSBzdGFuZGFyZCB0ZXJtcyBhbmQgY29uZGl0aW9ucyBvZiB1c2UsIGNlcnRp\r\nZmljYXRlIHBvbGljeSBhbmQgY2VydGlmaWNhdGlvbiBwcmFjdGljZSBzdGF0ZW1l\r\nbnRzLjA2BggrBgEFBQcCARYqaHR0cHM6Ly93d3cuYXBwbGUuY29tL2NlcnRpZmlj\r\nYXRlYXV0aG9yaXR5MBMGA1UdJQQMMAoGCCsGAQUFBwMCMDIGA1UdHwQrMCkwJ6Al\r\noCOGIWh0dHA6Ly9jcmwuYXBwbGUuY29tL3d3ZHJnNC05LmNybDAdBgNVHQ4EFgQU\r\nSAFkLNwM/bzvRt7Vf2Jat91gtRAwDgYDVR0PAQH/BAQDAgeAMIGzBgoqhkiG92Nk\r\nBgMGBIGkMIGhDBRjb20udmRiLmx1Z2Fub2x1eHVyeTAHDAV0b3BpYwwZY29tLnZk\r\nYi5sdWdhbm9sdXh1cnkudm9pcDAGDAR2b2lwDCFjb20udmRiLmx1Z2Fub2x1eHVy\r\neS5jb21wbGljYXRpb24wDgwMY29tcGxpY2F0aW9uDB1jb20udmRiLmx1Z2Fub2x1\r\neHVyeS52b2lwLXB0dDALDAkudm9pcC1wdHQwEAYKKoZIhvdjZAYDAQQCBQAwEAYK\r\nKoZIhvdjZAYDAgQCBQAwDQYJKoZIhvcNAQELBQADggEBAHH3U8toY/QqeLLkluFw\r\nuhZPH5bfEvkTA4AC7rcqp+FKxH/gi+VQQTmCJN1xlKhbVi3gmV5eVDy8s6iiIwG9\r\n2H+xFHiffwIYRhPKZh6DGI6chSL6kYuY+qeTo/4xTWZJxD9dRFU66ppJYxMmmvkC\r\n3/24MZczgqtTeTOiDch3hvJ7sBZzxAr3frQyfVuHkdjWzRaSg2e617EXAoqp2OWU\r\ntTxgfFTL9oiOnR+nibrZhb5AerBjcWgKa1qXuz1kv4gh4UbwJQoB4aXLgvuzAcEv\r\npxiPiPz9gsY/n2tMKjlGNvvv62LPKseVxe6cN4xNvXJmUKooQpz4u5BPwDmSmFLC\r\ncgU=\r\n-----END CERTIFICATE-----\r\nBag Attributes\r\n    friendlyName: Pawan\r\n    localKeyID: 48 01 64 2C DC 0C FD BC EF 46 DE D5 7F 62 5A B7 DD 60 B5 10 \r\nKey Attributes: <No Attributes>\r\n-----BEGIN PRIVATE KEY-----\r\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDKN6ZVRIlCQPTi\r\n0xw249NGVitgGEEXU+30HnFLQ5V8L431/g4Vx276bfeNNwmlp+OWTSJMt+eJCwT1\r\nk9zTsUA2XdiA7vsUsdYXQFpr/MklM2lEBfXJTl8VmwMQfFLsWH5u6YvYymOUV54K\r\nq7fsu88omcSMMbE/yDW3uBdUc15yQvSS9cDKRq56rHS8s3x3+cysr53r7TZCn4+a\r\nVtOJBpuCcNKr9ya8kpm3JWqp38VZ/dD50HweVQ0zB5uBIkxmroA0zPXJjLhtQLXF\r\n93Qa3k0HhqpahkbdlF3f0EwIPCD5cFdpfzaqGa2ebcAcFbHdsE7HeTswMsu2BFHS\r\nhAcZWUUrAgMBAAECggEAGyylTpoaM+wUvJKQHRQ6pR4ZUB2SSbc+p+qbYPjhEsI1\r\nOpR8ghK96Ct08+YshrVsERume1bPZ4wyi2nmaBBOx7+Ow6zZ0usfERrVy+M5iKVD\r\nBSAj6nx8rKObItECN76gpvj9kRGJljq8A0UWP1rxuMwJLKnU3vRhu6GiiPfD/mih\r\nzG+gITGXwmyMsrdMye7meyMgEUk/HAZ4gKlImtnpxGqOEjeqo/yp8IVQALcDnvj7\r\n0uj5i+Rgw6FDtaTFdNQDlGCobpTT2voomyl1BNcmAGc+YlHeiFPsjwD2WrrUI/ag\r\npTeCrlQJ3WFzywHC/IZ84H63VLJ9mK6aYzvHx0IGoQKBgQDuEW9NnmNhL+WhthlI\r\n396qWq55oDwVzt5H9PdumDxDL0OTRBzDOAgkyyVtcQbDoo/qmhXSB1+/rZPeK7WR\r\n7vQTb7PRXIw62p7FWKxL1lJT94l9t/DH+9o/5PRO4RNKNoSHcLRXZn3TkV9iY16c\r\nJIt0aMKtBozSyU20qxkQfTja8QKBgQDZcuu8FCXIBAu2H+uigpNnjwd4/LwS5g/O\r\nQUxnwZksZNcxX193FyZg44iuAvScgLw25RGmqd53LNpH5wpUvfitHVdS5fIH+F6S\r\neHQqq/cQLzNc5nqcuofGZpk1suIQB+9P2HbtZU53u0d6sFPY/gVU8wdea960QvOg\r\nCVPphzuJ2wKBgQCJ76ghvOev4+SU8cFsq+mDos78wY6OxDGeV50VgzdHZhctOIXB\r\nxrFRQDMLWjWlHIduUqDZ9FPR52yJiaHGUEEzEcGKSKknYIwlo98Qgblp1T7gjLcB\r\n6DboVmwHV/mpQjU/lFmpWkUFVHGDvDeRGMuEQz6oqebmKqTPTWNUXnmWwQKBgHYB\r\npejlzjMj7u8hl5ET58b1mgqQrchbzgwS59IPAH9VImuK5JYOnCdMk+pLdFBSlNH9\r\nsnyOB0sJrlQDEFo41nGsUK2OWLD2muxGLlTSCjxgQTGTassPd4u2NkMsFv64L6lX\r\nQgNHTTQxEHOGqZpDEMWvNjqJs8yD4Q7iwQUk/KytAoGASTegbDGS35PSCvKFxvJR\r\nq5ydyazesLMP9HiYrPvLN7VS61JtPDHZ5sFzo3W5RF8FlU9iscAyg7F08gpmZIqh\r\nLL8UEqzVkKDrhZgZHHVzUWHvxO7ysliF1FQI56tYet2QnT3sxf8GmWgcChpCEut3\r\nx5oTxizn9jcdHQLbkOc798U=\r\n-----END PRIVATE KEY-----",
+    "android_cert": "",
+    "ios_cert_env": true,
+    "allow_company_name": true,
+    "segment_key": "lzqV1vBwQwV7zqpvIy8i0uwJc1AS5DJ9",
+    "sentry_dsn": null,
+    "main_logo_url": null,
+    "menu_logo_url": null,
+    "redirect_urls": {
+      "logo_url": "https://ringconfigurator.vdbapp.com/home",
+      "sign_out_url": "https://ringconfigurator.vdbapp.com/home"
+    },
+    "primary_company_id": 23876,
+    "search_result_view_type": {
+      "diamond": "show_both_default_as_grid",
+      "jewelry": "show_both_default_as_grid",
+      "gemstone": "show_both_default_as_grid",
+      "lab_grown_diamond": "show_both_default_as_grid"
+    },
+    "allow_bulk_requests": {
+      "diamond": "both",
+      "jewelry": "both",
+      "gemstone": "both",
+      "lab_grown_diamond": "both"
+    },
+    "public_key": "456789",
+    "custom_currency_symbol": "usd",
+    "custom_text": {
+      "contact_us_text": "Questions, suggestions, or comments welcome! </br>Send a message below or call </br> 1110102",
+      "login_title_text": "Start shopping and get access to your Favorites, Saved Searches and Collections.",
+      "social_redirect_links": "",
+      "unknown_jewelry_ring_size": "",
+      "login_already_member_label": "",
+      "login_login_button_caption": "",
+      "login_not_registered_label": "",
+      "login_signup_button_caption": "",
+      "organization_home_title_text": "BOUTIQUE HOME",
+      "signup_submit_button_caption": "",
+      "signup_registration_form_header": "",
+      "order_cart_shipping_instructions": "",
+      "shopping_cart_offline_payment_instructions": ""
+    },
+    "spa_segment_key": "",
+    "deeplink_config": {
+      "apn": "com.luganoluxury.android",
+      "ibi": "com.vdb.luganoluxury",
+      "isi": "1582758873",
+      "base_url": "https://instoreluxury.page.link",
+      "link_url": "ringconfigurator.vdbapp.com",
+      "login_deeplink": "https://instoreluxury.page.link/?link=https://ringconfigurator.vdbapp.com/client/deep/lab_grown_diamond/-1/action_view/sign_in&apn=com.luganoluxury.android&isi=1582758873&ibi=com.vdb.luganoluxury"
+    },
+    "external_landing_page_url": "",
+    "internal_landing_page_url": "https://d2dtfeai6qg5ne.cloudfront.net/jck/jsk-internal/index.html?scroll=true",
+    "setting_attributes": {
+      "on_hand_text": {
+        "0": "",
+        "1": "",
+        "2": ""
+      },
+      "jewelry_cart_url": "",
+      "media_visibility": {
+        "get_cert_media": "3",
+        "get_image_media": "2",
+        "get_video_media": "1"
+      },
+      "site_redirect_url": "",
+      "web_grid_view_ad_positioning": "0",
+      "web_list_view_ad_positioning": "0",
+      "ipad_grid_view_ad_positioning": "0",
+      "ipad_list_view_ad_positioning": "0",
+      "mobile_grid_view_ad_positioning": "0",
+      "mobile_list_view_ad_positioning": "0"
+    },
+    "custom_header_html": "<style>\r\n   .leg-header {\r\n      height: 101px;\r\n      display: flex;\r\n      flex-direction: row;\r\n      justify-content: space-between;\r\n      background: rgba(244, 244, 244, 0.8);\r\n      align-items: center;\r\n      padding: 0 40px;\r\n      width: 100%;\r\n   }\r\n\r\n   .leg-header .logo {\r\n      font-size: 22px;\r\n      font-weight: bolder;\r\n   }\r\n\r\n   .leg-header .logo img {\r\n      width: 230px;\r\n      padding-top: 0px;\r\n   }\r\n\r\n   .leg-header .menu-item {\r\n      color: #000;\r\n   }\r\n\r\n   .leg-header.menu-item .menu:hover {\r\n      color: #000 !important;\r\n   }\r\n\r\n   .leg.menu-item .menu span:hover {\r\n      color: #000 !important;\r\n   }\r\n\r\n   .menu-item .menu:hover {\r\n      color: #000 !important\r\n   }\r\n\r\n   .leg-header .sub-menu li:hover {\r\n      background-color: #9B9B9B;\r\n      color: #000 !important;\r\n   }\r\n\r\n   .leg-header .logo a {\r\n      color: inherit;\r\n      text-decoration: none;\r\n   }\r\n\r\n   .leg-header .sub-menu li {\r\n      min-width: 200px;\r\n   }\r\n\r\n   .leg-header .powered-by {\r\n      position: absolute;\r\n      top: 0;\r\n      left: 0;\r\n      width: 20px;\r\n      height: 130px;\r\n   }\r\n\r\n   .leg-header .powered-by span {\r\n      display: block;\r\n      color: #fff !important;\r\n      font-size: 12px;\r\n      width: 130px;\r\n      -webkit-transform: rotate(-90deg);\r\n      transform: rotate(-90deg);\r\n      position: absolute;\r\n      top: 33px;\r\n      left: -55px;\r\n      font-weight: normal;\r\n   }\r\n</style>\r\n<div class=\"leg-header\">\r\n   <div class=\"logo\">\r\n     <a href=\"/home\"><img src=” \" alt=\"\"></a>\r\n   </div>\r\n   <div class=\"right-section\">\r\n   </div>\r\n</div>\r\n",
+    "meta_data": {
+      "keywords": "",
+      "page_title": "",
+      "description": "",
+      "website_verification_tag": ""
+    },
+    "web_plugins_script": "",
+    "additional_attributes": {
+      "app_id": "",
+      "api_key": "",
+      "ad_delay": "",
+      "max_depth": "",
+      "max_ratio": "",
+      "max_table": "",
+      "max_width": "",
+      "min_depth": "",
+      "min_ratio": "",
+      "min_table": "",
+      "min_width": "",
+      "max_height": "",
+      "max_length": "",
+      "min_height": "",
+      "min_length": "",
+      "project_id": "",
+      "delist_days": "14",
+      "terms_de_url": "",
+      "terms_en_url": "",
+      "terms_ko_url": "",
+      "terms_zh_url": "",
+      "retail_markup": "",
+      "owner_info_pin": "",
+      "pay_online_text": "",
+      "pay_offline_text": "",
+      "remind_after_days": "1",
+      "mobile_three_d_url": "https://d2dtfeai6qg5ne.cloudfront.net/iframe-test/webgi.html",
+      "preferred_language": "en",
+      "supported_language": "",
+      "warning_after_days": "2",
+      "delist_warning_days": "9",
+      "messaging_sender_id": "",
+      "buying_group_options": "",
+      "email_footer_address": "",
+      "jewelry_slug_formula": "",
+      "recaptcha_client_key": "",
+      "recaptcha_secret_key": "",
+      "new_arrival_item_time": "",
+      "purchased_delist_days": "",
+      "hide_guest_prices_text": "Please <a href=\"https://luganoluxury.page.link/?link=https://luganoluxury.customvirtual.app/client/deep/jewelry/-1/action_view/sign_in/252235&&apn=com.luganoluxury.android&isi=1582758873&ibi=com.vdb.luganoluxury\"> log in</a> for prices.",
+      "hide_prices_for_product": "",
+      "buyer_excel_column_for_bmh": "",
+      "api_request_expiration_days": "30",
+      "seller_excel_column_for_bmh": "",
+      "show_items_price_less_then_26": false,
+      "enable_buy_request_at_null_zero": "",
+      "overide_email_confirmation_text": "",
+      "retailer_default_theme_company_id": "",
+      "before_auction_end_notification_timer": "180",
+      "before_auction_start_notification_timer": "1440",
+      "retailer_default_custom_menu_company_id": ""
+    },
+    "business_plan": 3,
+    "internal_landing_page_url_v3": "",
+    "fcm_config": null,
+    "onesignal_app_id": "",
+    "onesignal_rest_api_key": "",
+    "secondary_logo_url": null,
+    "analytic_ga4_id": null,
+    "landing_pages": {}
+  },
+  "orgSettings": [
+    {
+      "feature_id": 40,
+      "feature_name": "enterprise",
+      "feature_description": "Enterprise Organization",
+      "access": 2
+    },
+    {
+      "feature_id": 47,
+      "feature_name": "company_name_required",
+      "feature_description": "Allow Company Name Required",
+      "access": 2
+    },
+    {
+      "feature_id": 54,
+      "feature_name": "update_availability_status",
+      "feature_description": "Update Availability Indicator/Status based on Item Request",
+      "access": 1
+    },
+    {
+      "feature_id": 63,
+      "feature_name": "collect_address",
+      "feature_description": "Allow Collect Address",
+      "access": 2
+    },
+    {
+      "feature_id": 70,
+      "feature_name": "suppress_actual_supplier_details_in_white_mode",
+      "feature_description": "Suppress Actual Supplier Details in White Mode'",
+      "access": 2
+    },
+    {
+      "feature_id": 72,
+      "feature_name": "internal_landing_page",
+      "feature_description": "Enable Internal Landing Page",
+      "access": 2
+    },
+    {
+      "feature_id": 142,
+      "feature_name": "enable_custom_search_menu",
+      "feature_description": "Enable Custom Search Menu",
+      "access": 2
+    },
+    {
+      "feature_id": 146,
+      "feature_name": "enable_custom_navigation",
+      "feature_description": "Enable Custom Navigation",
+      "access": 2
+    },
+    {
+      "feature_id": 147,
+      "feature_name": "disable_fuzzy_logic",
+      "feature_description": "Disable Fuzzy Logic",
+      "access": 2
+    },
+    {
+      "feature_id": 152,
+      "feature_name": "price_mode_line_on_webapp_header",
+      "feature_description": "Enable Price Mode line on Webapp header",
+      "access": 1
+    },
+    {
+      "feature_id": 153,
+      "feature_name": "collect_address_required",
+      "feature_description": "Allow Collect Address Required",
+      "access": 2
+    },
+    {
+      "feature_id": 187,
+      "feature_name": "share_collection",
+      "feature_description": "Allow Collection Share",
+      "access": 2
+    },
+    {
+      "feature_id": 195,
+      "feature_name": "search_result_with_image_only",
+      "feature_description": "Allow Search Result With Image Only",
+      "access": 2
+    },
+    {
+      "feature_id": 200,
+      "feature_name": "jewelry_item_configuration",
+      "feature_description": "Allow Jewelry Item Configuration",
+      "access": 2
+    },
+    {
+      "feature_id": 244,
+      "feature_name": "retail_buy_request",
+      "feature_description": "Allow Retail Buy Request",
+      "access": 2
+    },
+    {
+      "feature_id": 250,
+      "feature_name": "unified_fav_collection",
+      "feature_description": "Enable Unified Favorites/Collections",
+      "access": 2
+    },
+    {
+      "feature_id": 257,
+      "feature_name": "assign_salespeople_to_companies",
+      "feature_description": "Enable Salesperson Model  (Assign Sales People to Companies)",
+      "access": 2
+    },
+    {
+      "feature_id": 258,
+      "feature_name": "enable_advanced_list_view",
+      "feature_description": "Enable advanced list view",
+      "access": 2
+    },
+    {
+      "feature_id": 264,
+      "feature_name": "display_custom_company_logo_html_header",
+      "feature_description": "Display Customer Company logo in Custom HTML Header",
+      "access": 2
+    },
+    {
+      "feature_id": 267,
+      "feature_name": "suppress_iframe_to_load_html",
+      "feature_description": "Allow Suppress Iframe To Load Html",
+      "access": 2
+    },
+    {
+      "feature_id": 273,
+      "feature_name": "disable_fuzzy_logic_when_subtypes",
+      "feature_description": "Allow Disable Fuzzy Logic When Subtypes",
+      "access": 2
+    },
+    {
+      "feature_id": 281,
+      "feature_name": "enable_image_video_report_native_share",
+      "feature_description": "Allow Enable Image Video Report Native Share",
+      "access": 2
+    },
+    {
+      "feature_id": 287,
+      "feature_name": "unified_stock_item_request",
+      "feature_description": null,
+      "access": 2
+    },
+    {
+      "feature_id": 288,
+      "feature_name": "show_subtitle_on_grid_view",
+      "feature_description": "Show sub-title on grid view",
+      "access": 2
+    },
+    {
+      "feature_id": 303,
+      "feature_name": "allow_stock_num_search_by_brand",
+      "feature_description": "Enable Stock# search through Brands",
+      "access": 1
+    },
+    {
+      "feature_id": 310,
+      "feature_name": "mandatory_logo",
+      "feature_description": "Display Logo as per B2B2C functionality",
+      "access": 2
+    },
+    {
+      "feature_id": 358,
+      "feature_name": "enable_jewelry_builder",
+      "feature_description": "Enable Redesigned Product Details Page (By Enabling this switch the new product details screen will appear to the users, if this is disabled the user will see the existing pages on web app)",
+      "access": 2
+    },
+    {
+      "feature_id": 359,
+      "feature_name": "enable_product_ui_v2",
+      "feature_description": null,
+      "access": 2
+    },
+    {
+      "feature_id": 360,
+      "feature_name": "prioritize_video_over_image",
+      "feature_description": "Prioritize Video over Image on product detail page",
+      "access": 2
+    },
+    {
+      "feature_id": 363,
+      "feature_name": "orange_mode_bulk_request",
+      "feature_description": "Enable Bulk BMH Request in Orange Mode",
+      "access": 2
+    },
+    {
+      "feature_id": 364,
+      "feature_name": "ask_question",
+      "feature_description": "Enable Ask a Question",
+      "access": 2
+    },
+    {
+      "feature_id": 405,
+      "feature_name": "updated_bmh_emails",
+      "feature_description": "",
+      "access": 2
+    },
+    {
+      "feature_id": 417,
+      "feature_name": "allow_item_share_with_or_without_prices",
+      "feature_description": "Allow Item Share with/without prices",
+      "access": 2
+    },
+    {
+      "feature_id": 423,
+      "feature_name": "hybrid_jewelry_model",
+      "feature_description": "Enable Jewelry Hybrid Mode",
+      "access": 2
+    },
+    {
+      "feature_id": 424,
+      "feature_name": "share_inventory_as_pdf",
+      "feature_description": "Allow PDF Attachments for sharing inventories via Email",
+      "access": 1
+    },
+    {
+      "feature_id": 500,
+      "feature_name": "use_separate_variation_api",
+      "feature_description": "Use Separate Variation Api",
+      "access": 2
+    }
+  ],
+  "customizations": [],
+  "globals": [],
+  "customTexts": [],
+  "jsonNavMenu": null,
+  "company": {
+    "id": 23876,
+    "name": "In-Store Luxury App",
+    "logo_url": "",
+    "created_at": "2021-08-24T03:15:29.602Z",
+    "updated_at": "2024-12-12T04:44:48.420Z",
+    "request_email_address": "qa-vdb+stg_usr__23876@vdbapp.com",
+    "customer_visibility": "{\"blacklist\":{\"countries\":[],\"vendors\":[],\"retailers\":[],\"blacklisted_by\":[11449]},\"vendors\":[],\"retailers\":[]}",
+    "company_code": "LL",
+    "name_on_info_card": null,
+    "contact_phone": "(212) 221-0975",
+    "data_url": "{\"diamond_data_url\":\"\",\"diamond_data_results\":\"\",\"gemstone_data_url\":\"\",\"gemstone_data_results\":\"\",\"jewelry_data_url\":\"\",\"jewelry_data_results\":\"\",\"lab_grown_data_url\":\"\",\"lab_grown_data_results\":\"\",\"data_url_auth_type\":\"\",\"data_url_auth_user\":\"\",\"data_url_auth_password\":\"\",\"diamond_data_auth_url\":\"\",\"lab_grown_data_auth_url\":\"\",\"diamond_token_api_body\":\"\",\"diamond_stock_api_body\":\"\",\"lab_grown_token_api_body\":\"\",\"lab_grown_stock_api_body\":\"\",\"jewelry_token_api_body\":\"\",\"jewelry_stock_api_body\":\"\",\"diamond_image_url_format\":\"\",\"lab_grown_image_url_format\":\"\",\"use_proxy\":\"false\",\"jewelry_image_url_format\":\"\",\"diamond_cert_url_format\":\"\",\"lab_grown_cert_url_format\":\"\",\"jewelry_cert_url_format\":\"\"}",
+    "company_type": "vendor",
+    "country": "United States",
+    "state": "New York",
+    "city": "New York",
+    "street_address": "580 5th Ave #629,",
+    "zip_code": "10036",
+    "contact_person": "Elliot Atlas",
+    "latitude": null,
+    "longitude": null,
+    "website": "",
+    "jbt_number": "",
+    "data_format": "csv",
+    "emails_visibility": null,
+    "salesperson": null,
+    "contact_iphone": "9810504911",
+    "accepts_memo": true,
+    "salesforce_id": "0016M00002VZPy3QAH",
+    "uploaded_logo": "_255x144__Main_Menu_And_Share_Email.png",
+    "can_set_logo": true,
+    "salesforce_sync_pending": false,
+    "last_ftp_ran_at": "2022-02-28T00:52:14.939Z",
+    "last_ftp_error": "no folder found with name LL\nno folder found with name LL\nno folder found with name LL\nno folder found with name LL",
+    "request_count": 25673,
+    "inventory_updates_count": 282,
+    "mobile_phone": "547244678",
+    "search_pref": false,
+    "can_force_green_price_profile": false,
+    "has_price_markups": false,
+    "mobile_phone_country_code": "972",
+    "contact_phone_country_code": "1",
+    "contact_iphone_country_code": "1",
+    "studio_pro": false,
+    "show_vdb_watermark": false,
+    "can_set_watermark": false,
+    "uploaded_watermark": null,
+    "cal_disc_percent": false,
+    "has_multiple_locations": false,
+    "organization_id": 381,
+    "can_create_company_price_markups": true,
+    "main_logo": "_255x144__Main_Menu_And_Share_Email.png",
+    "allow_custom_menu": true,
+    "allow_search_coach_overlay": true,
+    "bmh_request_type": "",
+    "purchasing_agent_email": null,
+    "can_set_delivery_date": false,
+    "allow_welcome_screen": false,
+    "allow_lab_grown": true,
+    "can_lock_user_mode": true,
+    "default_price_mode": 2,
+    "show_powered_by_vdb": true,
+    "auto_activate": true,
+    "last_diamond_inventory_updated_at": "2022-05-24T04:34:43.537Z",
+    "last_gemstone_inventory_updated_at": "2022-05-24T06:04:55.995Z",
+    "allow_stock_types": {
+      "diamond": "false",
+      "jewelry": "true",
+      "gemstone": "false",
+      "lab_grown_diamond": "true",
+      "default_stock_type": "jewelry"
+    },
+    "http_request_method": 0,
+    "allow_custom_menu_types": {
+      "diamond": "true",
+      "jewelry": "true",
+      "gemstone": "false",
+      "lab_grown_diamond": "true"
+    },
+    "allow_custom_theme": true,
+    "allow_custom_theme_types": {
+      "diamond": "true",
+      "jewelry": "true",
+      "gemstone": "true",
+      "lab_grown_diamond": "true"
+    },
+    "default_markup": "0.0",
+    "share_logo": "_255x144__Main_Menu_And_Share_Email.png",
+    "round_up_prices": true,
+    "owner_info": {
+      "show_owner_info": "false"
+    },
+    "owner_info_users": null,
+    "price_markups_status": {
+      "diamond": "NA",
+      "jewelry": "NA",
+      "gemstone": "NA",
+      "lab_grown_diamond": "NA"
+    },
+    "hubspot_id": null,
+    "hubspot_sync_pending": null,
+    "additional_attributes": {
+      "ftp_folder": {
+        "diamond": "",
+        "jewelry": "",
+        "gemstone": "",
+        "lab_grown_diamond": ""
+      },
+      "gia_api_key": "",
+      "gdrive_folder": {
+        "diamond": "",
+        "jewelry": "",
+        "gemstone": "",
+        "lab_grown_diamond": ""
+      },
+      "ftp_credentials": {
+        "folder": "",
+        "server": "",
+        "password": "",
+        "username": "",
+        "file_name": "",
+        "is_ssl_required": "false",
+        "upload_method_type": "FTP Client"
+      },
+      "jbt_error_status": "not_applicable",
+      "jbt_error_comment": "",
+      "remind_after_days": "1",
+      "company_identifier": "",
+      "inventory_access_url": {
+        "diamond_csv_inventory_access_url": {},
+        "diamond_json_inventory_access_url": {},
+        "labgrowndiamond_csv_inventory_access_url": {},
+        "labgrowndiamond_json_inventory_access_url": {}
+      },
+      "jewelry_slug_formula": "supported_shapes,center_clarity,config_field_1,center_type,config_field_2,metal_type",
+      "datafetch_split_range": "",
+      "iframe_ref_company_id": "",
+      "jewelry_search_formula": "",
+      "search_result_view_type": {
+        "diamond": "",
+        "jewelry": "",
+        "gemstone": "",
+        "lab_grown_diamond": ""
+      },
+      "limit_stock_item_request": ""
+    },
+    "salesperson_id": 0,
+    "lock_user_currency": false,
+    "lock_user_currency_value": "",
+    "user_login_price_mode": 2,
+    "inventory_count": {
+      "jewelry_count": 1754,
+      "jewelry_list_count": 1754,
+      "lab_grown_diamond_count": 53641,
+      "lab_grown_diamond_list_count": 53568
+    },
+    "iframe_status": false,
+    "iframe_key": null,
+    "iframe_referer": "",
+    "require_webhooks": false,
+    "third_party_stock_items_filter_string": null,
+    "three_d_formula": {
+      "info": [
+        {
+          "option_attr": [
+            "config_field_1",
+            "shape",
+            "center_clarity"
+          ],
+          "option_type": "model",
+          "option_extension": ".glb",
+          "option_identifier": "head"
+        },
+        {
+          "option_attr": [
+            "config_field_2"
+          ],
+          "option_type": "model",
+          "option_extension": ".glb",
+          "option_identifier": "shank"
+        },
+        {
+          "option_attr": [
+            "center_type"
+          ],
+          "option_type": "material",
+          "option_extension": ".pmat",
+          "option_identifier": "metal-head"
+        },
+        {
+          "option_attr": [
+            "metal_type"
+          ],
+          "option_type": "material",
+          "option_extension": ".pmat",
+          "option_identifier": "metal-shank"
+        },
+        {
+          "option_attr": [
+            "center_type"
+          ],
+          "option_type": "material",
+          "option_extension": ".dmat",
+          "option_identifier": "round,oval,stone-oval,stone-round,diamond"
+        }
+      ],
+      "base_url": "https://vdbapp.sirv.com/VDBDemoCads/",
+      "attribute_in_url_sequence": ""
+    },
+    "three_d_settings": {
+      "vjson": "https://vdbapp.sirv.com/ClientAssets3D/SSSD/SSS.vjson",
+      "three_d_data_type": "webgi"
+    },
+    "dynamic_jewelry_variant_keys": null,
+    "round_up_by": null,
+    "secondary_logo_url": "",
+    "show_datafetch_error_alerts": false,
+    "zenskar_customer_id": null
+  },
+  "activeFeatures": [
+    {
+      "feature_id": 55,
+      "feature_description": null,
+      "access": 1
+    },
+    {
+      "feature_id": 67,
+      "feature_description": "Enable Currency Conversion",
+      "access": 1
+    },
+    {
+      "feature_id": 194,
+      "feature_description": "App users can set markups when locked in orange mode",
+      "access": 1
+    },
+    {
+      "feature_id": 241,
+      "feature_description": "Currency conversion in white mode",
+      "access": 1
+    },
+    {
+      "feature_id": 482,
+      "feature_description": "Disable Inventory Reminder Email",
+      "access": 1
+    },
+    {
+      "feature_id": 483,
+      "feature_description": "Enable Whatsapp for this Company",
+      "access": 1
+    }
+  ],
+  "locations": [
+    {
+      "id": 21794,
+      "location_name": "In-Store Luxury App",
+      "street_address": "580 5th Ave #629,",
+      "country": "United States",
+      "state": "New York",
+      "city": "New York",
+      "zip": "10036",
+      "contact_person": "Elliot Atlas",
+      "contact_email": "qa-vdb+stg_cmpny__v_23876_l_21794@vdbapp.com",
+      "mobile_phone": "547244678",
+      "office_phone": "(212) 221-0975",
+      "website": "",
+      "vendor_id": 23876,
+      "is_primary": true,
+      "created_at": "2021-08-24T03:15:29.639Z",
+      "updated_at": "2024-11-17T00:47:47.816Z",
+      "contact_iphone": "9810504911",
+      "mobile_phone_country_code": "972",
+      "contact_phone_country_code": "1",
+      "contact_iphone_country_code": "1",
+      "contact_whatsapp": "547244678",
+      "contact_whatsapp_country_code": "972"
+    }
+  ],
+  "authToken": "psu638r1nfwkbayvjsfx",
+  "overrides": {
+    "newOrgName": "Automation flow review org",
+    "newDomainUrl": "abd232323",
+    "newCompanyName": "Automation flow review "
+  },
+  "result": {}
+}
