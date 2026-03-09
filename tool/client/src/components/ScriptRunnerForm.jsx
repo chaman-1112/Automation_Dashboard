@@ -45,6 +45,14 @@ const SCRIPT_FIELDS = {
             { key: 'targetOrgId', label: 'Target Org ID', placeholder: 'e.g. 1008' },
         ],
     },
+    copyCompanyCustomizations: {
+        title: 'Copy Company Customizations',
+        description: 'Copies all customizations (Global, Custom Texts, JsonNavMenu) between companies.',
+        fields: [
+            { key: 'sourceCompanyId', label: 'Source Company ID', placeholder: 'e.g. 39416' },
+            { key: 'targetCompanyId', label: 'Target Company ID', placeholder: 'e.g. 91268' },
+        ],
+    },
 };
 
 function ScriptRunnerForm({ scriptKey, isRunning, onSubmit }) {
