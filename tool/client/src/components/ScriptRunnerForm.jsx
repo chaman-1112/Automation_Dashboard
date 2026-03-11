@@ -53,6 +53,15 @@ const SCRIPT_FIELDS = {
             { key: 'targetCompanyId', label: 'Target Company ID', placeholder: 'e.g. 91268' },
         ],
     },
+    importCustomSearchMenusFromSheet: {
+        title: 'Import Custom Search Menus From Sheet',
+        description: 'Imports custom search menu types and menus using an Excel file path.',
+        fields: [
+            { key: 'targetOrgId', label: 'Target Org ID', placeholder: 'e.g. 380' },
+            { key: 'xlsxPath', label: 'XLSX Path', placeholder: 'e.g. C:/Users/me/Downloads/spreadsheet.xlsx' },
+            { key: 'sheetName', label: 'Sheet Name (optional)', placeholder: 'e.g. Sheet4', required: false },
+        ],
+    },
 };
 
 function ScriptRunnerForm({ scriptKey, isRunning, onSubmit }) {
@@ -61,7 +70,10 @@ function ScriptRunnerForm({ scriptKey, isRunning, onSubmit }) {
 
     if (!config) return null;
 
-    const allFilled = config.fields.every(f => (values[f.key] || '').trim());
+    const allFilled = config.fields.every((f) => {
+        if (f.required === false) return true;
+        return (values[f.key] || '').trim();
+    });
     const canSubmit = allFilled && !isRunning;
 
     const handleChange = (key, val) => {
@@ -71,7 +83,10 @@ function ScriptRunnerForm({ scriptKey, isRunning, onSubmit }) {
     const handleSubmit = (e) => {
         e.preventDefault();
         if (!canSubmit) return;
-        const args = config.fields.map(f => values[f.key].trim());
+        const args = config.fields
+            .map((f) => ({ ...f, value: (values[f.key] || '').trim() }))
+            .filter((f) => !(f.required === false && !f.value))
+            .map((f) => f.value);
         onSubmit({ script: scriptKey, args });
     };
 

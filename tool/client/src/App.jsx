@@ -93,6 +93,14 @@ const NAV_ITEMS = [
         iconColor: 'text-orange-600',
         scriptKey: 'testCustomizations',
     },
+    {
+        id: 'script-import-search-menus-sheet',
+        label: 'Script: Import Custom Search Menus (Sheet)',
+        icon: FileCode,
+        iconBg: 'bg-amber-100',
+        iconColor: 'text-amber-600',
+        scriptKey: 'importCustomSearchMenusFromSheet',
+    },
 ];
 
 function App() {
