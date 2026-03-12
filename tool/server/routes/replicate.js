@@ -35,7 +35,8 @@ function runNodeScript(scriptPath, args, sendEvent) {
         const child = spawn('node', [scriptPath, ...args], {
             cwd: PLAYWRIGHT_ROOT,
             env: process.env,
-            shell: true,
+            // Keep shell disabled so argv with spaces/parentheses stays intact.
+            shell: false,
         });
         activeProcess = child;
 
@@ -663,6 +664,8 @@ const ALLOWED_SCRIPTS = {
     'copyCompanyCustomizations': { file: 'scripts/copyCompanyCustomizations.js', argCount: 2 },
     'testFeatureActivation':  { file: 'scripts/testFeatureActivation.js',  argCount: 2 },
     'testCustomizations':     { file: 'scripts/testCustomizations.js',     argCount: 2 },
+    // targetOrgId, xlsxPath, [sheetName]
+    'importCustomSearchMenusFromSheet': { file: 'scripts/importCustomSearchMenusFromSheet.js', minArgCount: 2, maxArgCount: 3 },
 };
 
 router.post('/run-script', async (req, res) => {
@@ -675,8 +678,11 @@ router.post('/run-script', async (req, res) => {
     const config = ALLOWED_SCRIPTS[script];
     const scriptArgs = Array.isArray(args) ? args.map(String) : [];
 
-    if (scriptArgs.length !== config.argCount) {
-        return res.status(400).json({ error: `Script "${script}" requires ${config.argCount} argument(s), got ${scriptArgs.length}` });
+    const minArgs = Number.isInteger(config.minArgCount) ? config.minArgCount : config.argCount;
+    const maxArgs = Number.isInteger(config.maxArgCount) ? config.maxArgCount : config.argCount;
+    if (scriptArgs.length < minArgs || scriptArgs.length > maxArgs) {
+        const expected = minArgs === maxArgs ? `${minArgs}` : `${minArgs}-${maxArgs}`;
+        return res.status(400).json({ error: `Script "${script}" requires ${expected} argument(s), got ${scriptArgs.length}` });
     }
 
     res.writeHead(200, {
