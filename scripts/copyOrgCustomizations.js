@@ -102,6 +102,56 @@ async function postWithAuth(page, url, options, baseUrl, csrf, refererUrl) {
     });
 }
 
+async function sendCustomizationRequest(page, url, formPayload, multipartPayload, baseUrl, csrf, refererUrl, fallbackFormPayload = null) {
+    try {
+        const response = await postWithAuth(page, url, { form: formPayload }, baseUrl, csrf, refererUrl);
+        const status = response.status();
+        if (status === 302 || (status >= 200 && status < 300)) {
+            return { ok: true, status, csrf, refererUrl, via: 'form' };
+        }
+    } catch {
+        // Fallback to retry path below.
+    }
+
+    try {
+        const csrfData = await fetchCsrfToken(page, baseUrl);
+        const refreshedCsrf = csrfData.csrf;
+        const refreshedReferer = csrfData.refererUrl;
+        const response = await postWithAuth(page, url, { multipart: multipartPayload }, baseUrl, refreshedCsrf, refreshedReferer);
+        const status = response.status();
+        if (status === 302 || (status >= 200 && status < 300)) {
+            return { ok: true, status, csrf: refreshedCsrf, refererUrl: refreshedReferer, via: 'multipart' };
+        }
+        return { ok: false, status, csrf: refreshedCsrf, refererUrl: refreshedReferer, via: 'multipart' };
+    } catch (error) {
+        if (!fallbackFormPayload) {
+            return { ok: false, error, csrf, refererUrl, via: 'multipart' };
+        }
+    }
+
+    if (!fallbackFormPayload) {
+        return { ok: false, csrf, refererUrl, via: 'multipart' };
+    }
+
+    try {
+        const csrfData = await fetchCsrfToken(page, baseUrl);
+        const refreshedCsrf = csrfData.csrf;
+        const refreshedReferer = csrfData.refererUrl;
+        const fallbackPayload = {
+            ...fallbackFormPayload,
+            'authenticity_token': refreshedCsrf,
+        };
+        const response = await postWithAuth(page, url, { form: fallbackPayload }, baseUrl, refreshedCsrf, refreshedReferer);
+        const status = response.status();
+        if (status === 302 || (status >= 200 && status < 300)) {
+            return { ok: true, status, csrf: refreshedCsrf, refererUrl: refreshedReferer, via: 'form-fallback' };
+        }
+        return { ok: false, status, csrf: refreshedCsrf, refererUrl: refreshedReferer, via: 'form-fallback' };
+    } catch (error) {
+        return { ok: false, error, csrf, refererUrl, via: 'form-fallback' };
+    }
+}
+
 const TYPE_CONFIG = {
     'Pdp':                               { path: 'pdps',                  param: 'pdp' },
     'SearchResult':                      { path: 'search_results',        param: 'search_result' },
@@ -230,7 +280,46 @@ async function copyOrgCustomizations(sourceOrgId, targetOrgId) {
 
         // ── Step 5: POST Customizations ──
         let created = 0;
+        let updated = 0;
         let failed = 0;
+
+        const { rows: targetCustomizations } = await pool.query(
+            `SELECT id, type, product_type
+             FROM customizations
+             WHERE resource_id = $1`,
+            [targetOrgId]
+        );
+        const targetCustomizationMap = new Map(
+            targetCustomizations.map((row) => [`${row.type}::${String(row.product_type)}`, row.id])
+        );
+
+        const { rows: targetGlobals } = await pool.query(
+            `SELECT id FROM custom_texts
+             WHERE type = 'Global' AND resource_type = ANY($2::text[]) AND resource_id = $1
+             ORDER BY id DESC
+             LIMIT 1`,
+            [targetOrgId, resourceTypesForRead]
+        );
+        const targetGlobalId = targetGlobals[0]?.id || null;
+
+        const { rows: targetCustomTexts } = await pool.query(
+            `SELECT id, language_id
+             FROM custom_texts
+             WHERE resource_id = $1 AND resource_type = ANY($2::text[]) AND language_id IS NOT NULL`,
+            [targetOrgId, resourceTypesForRead]
+        );
+        const targetCustomTextMap = new Map(
+            targetCustomTexts.map((row) => [String(row.language_id), row.id])
+        );
+
+        const { rows: targetNavMenuRows } = await pool.query(
+            `SELECT id FROM custom_texts
+             WHERE type = 'JsonNavigationMenu' AND resource_type = ANY($2::text[]) AND resource_id = $1
+             ORDER BY id DESC
+             LIMIT 1`,
+            [targetOrgId, resourceTypesForRead]
+        );
+        const targetNavMenuId = targetNavMenuRows[0]?.id || null;
 
         if (customizations.length > 0) {
             log('\nStep 5: Posting customizations...', 'blue');
@@ -247,67 +336,55 @@ async function copyOrgCustomizations(sourceOrgId, targetOrgId) {
                 const contentStr = typeof c.content === 'string' ? c.content : JSON.stringify(c.content);
                 const resourceType = resolveResourceType(c.resource_type || 'Organization');
                 const productType = String(c.product_type);
-                const url = `${baseUrl}/superadmin/${config.path}`;
+                const existingId = targetCustomizationMap.get(`${c.type}::${productType}`);
+                const isUpdate = Boolean(existingId);
+                const url = isUpdate
+                    ? `${baseUrl}/superadmin/${config.path}/${existingId}`
+                    : `${baseUrl}/superadmin/${config.path}`;
 
-                log(`\n→ ${c.type} | product_type=${productType} | ${contentStr.length} chars`, 'yellow');
+                log(`\n→ ${c.type} | product_type=${productType} | ${isUpdate ? `update id=${existingId}` : 'create'} | ${contentStr.length} chars`, 'yellow');
 
-                let ok = false;
+                const methodField = isUpdate ? { '_method': 'patch' } : {};
+                const formPayload = {
+                    'utf8': '✓',
+                    'authenticity_token': csrf,
+                    ...methodField,
+                    [`${config.param}[resource_id]`]: String(targetOrgId),
+                    [`${config.param}[resource_type]`]: resourceType,
+                    [`${config.param}[product_type]`]: productType,
+                    [`${config.param}[content]`]: contentStr,
+                };
+                const multipartPayload = {
+                    ...formPayload,
+                };
 
-                // Attempt 1: form-encoded POST
-                try {
-                    const response = await postWithAuth(page, url, {
-                        form: {
-                            'utf8': '✓',
-                            'authenticity_token': csrf,
-                            [`${config.param}[resource_id]`]: String(targetOrgId),
-                            [`${config.param}[resource_type]`]: resourceType,
-                            [`${config.param}[product_type]`]: productType,
-                            [`${config.param}[content]`]: contentStr,
-                        },
-                    }, baseUrl, csrf, refererUrl);
-                    const status = response.status();
-                    if (status === 302 || (status >= 200 && status < 300)) {
-                        log(`  ✓ OK (${status})`, 'green');
-                        ok = true;
-                        created++;
+                const result = await sendCustomizationRequest(
+                    page,
+                    url,
+                    formPayload,
+                    multipartPayload,
+                    baseUrl,
+                    csrf,
+                    refererUrl
+                );
+                csrf = result.csrf;
+                refererUrl = result.refererUrl;
+
+                if (result.ok) {
+                    log(`  ✓ ${isUpdate ? 'Updated' : 'Created'} (${result.status})${result.via === 'multipart' ? ' via multipart' : ''}`, 'green');
+                    if (isUpdate) {
+                        updated++;
                     } else {
-                        log(`  ✗ FAIL (${status}) — retrying with multipart...`, 'red');
+                        created++;
                     }
-                } catch (err) {
-                    log(`  ✗ ERROR: ${err.message} — retrying...`, 'red');
-                }
-
-                // Attempt 2: multipart POST with fresh CSRF
-                if (!ok) {
-                    try {
-                        const csrfData = await fetchCsrfToken(page, baseUrl);
-                        csrf = csrfData.csrf;
-                        refererUrl = csrfData.refererUrl;
-
-                        const response = await postWithAuth(page, url, {
-                            multipart: {
-                                'utf8': '✓',
-                                'authenticity_token': csrf,
-                                [`${config.param}[resource_id]`]: String(targetOrgId),
-                                [`${config.param}[resource_type]`]: resourceType,
-                                [`${config.param}[product_type]`]: productType,
-                                [`${config.param}[content]`]: contentStr,
-                            },
-                        }, baseUrl, csrf, refererUrl);
-                        const status = response.status();
-                        if (status === 302 || (status >= 200 && status < 300)) {
-                            log(`  ✓ OK via multipart (${status})`, 'green');
-                            ok = true;
-                            created++;
-                        } else {
-                            log(`  ✗ Multipart also failed (${status})`, 'red');
-                        }
-                    } catch (err) {
-                        log(`  ✗ Multipart error: ${err.message}`, 'red');
+                } else {
+                    if (result.error) {
+                        log(`  ✗ ERROR: ${result.error.message}`, 'red');
+                    } else {
+                        log(`  ✗ FAIL (${result.status})`, 'red');
                     }
+                    failed++;
                 }
-
-                if (!ok) failed++;
             }
         }
 
@@ -317,60 +394,42 @@ async function copyOrgCustomizations(sourceOrgId, targetOrgId) {
             const contentStr = typeof navMenu.content === 'string' ? navMenu.content : JSON.stringify(navMenu.content);
             log(`→ NavMenu | ${contentStr.length} chars`, 'yellow');
 
-            let ok = false;
-            try {
-                const response = await postWithAuth(page, `${baseUrl}/superadmin/json_navigation_menus`, {
-                    form: {
-                        'utf8': '✓',
-                        'authenticity_token': csrf,
-                        'json_navigation_menu[resource_type]': resolveResourceType('Organization'),
-                        'json_navigation_menu[resource_id]': String(targetOrgId),
-                        'json_navigation_menu[content]': contentStr,
-                        'commit': 'Create Json navigation menu',
-                    },
-                }, baseUrl, csrf, refererUrl);
-                const status = response.status();
-                if (status === 302 || (status >= 200 && status < 300)) {
-                    log(`  ✓ OK (${status})`, 'green');
-                    ok = true;
-                    created++;
+            const navIsUpdate = Boolean(targetNavMenuId);
+            const navUrl = navIsUpdate
+                ? `${baseUrl}/superadmin/json_navigation_menus/${targetNavMenuId}`
+                : `${baseUrl}/superadmin/json_navigation_menus`;
+            const navFormPayload = {
+                'utf8': '✓',
+                'authenticity_token': csrf,
+                ...(navIsUpdate ? { '_method': 'patch' } : {}),
+                'json_navigation_menu[resource_type]': resolveResourceType('Organization'),
+                'json_navigation_menu[resource_id]': String(targetOrgId),
+                'json_navigation_menu[content]': contentStr,
+                'commit': navIsUpdate ? 'Update Json navigation menu' : 'Create Json navigation menu',
+            };
+            const navResult = await sendCustomizationRequest(
+                page,
+                navUrl,
+                navFormPayload,
+                navFormPayload,
+                baseUrl,
+                csrf,
+                refererUrl
+            );
+            csrf = navResult.csrf;
+            refererUrl = navResult.refererUrl;
+
+            if (navResult.ok) {
+                log(`  ✓ ${navIsUpdate ? 'Updated' : 'Created'} (${navResult.status})${navResult.via === 'multipart' ? ' via multipart' : ''}`, 'green');
+                if (navIsUpdate) {
+                    updated++;
                 } else {
-                    log(`  ✗ FAIL (${status}) — retrying with fresh CSRF...`, 'red');
+                    created++;
                 }
-            } catch (err) {
-                log(`  ✗ ERROR: ${err.message} — retrying...`, 'red');
+            } else {
+                log(`  ✗ ${navResult.error ? `ERROR: ${navResult.error.message}` : `FAIL (${navResult.status})`}`, 'red');
+                failed++;
             }
-
-            if (!ok) {
-                try {
-                    const csrfData = await fetchCsrfToken(page, baseUrl);
-                    csrf = csrfData.csrf;
-                    refererUrl = csrfData.refererUrl;
-
-                    const response = await postWithAuth(page, `${baseUrl}/superadmin/json_navigation_menus`, {
-                        form: {
-                            'utf8': '✓',
-                            'authenticity_token': csrf,
-                            'json_navigation_menu[resource_type]': resolveResourceType('Organization'),
-                            'json_navigation_menu[resource_id]': String(targetOrgId),
-                            'json_navigation_menu[content]': contentStr,
-                            'commit': 'Create Json navigation menu',
-                        },
-                    }, baseUrl, csrf, refererUrl);
-                    const status = response.status();
-                    if (status === 302 || (status >= 200 && status < 300)) {
-                        log(`  ✓ OK on retry (${status})`, 'green');
-                        ok = true;
-                        created++;
-                    } else {
-                        log(`  ✗ Retry also failed (${status})`, 'red');
-                    }
-                } catch (err) {
-                    log(`  ✗ Retry error: ${err.message}`, 'red');
-                }
-            }
-
-            if (!ok) failed++;
         } else {
             log('\nStep 6: No JsonNavigationMenu — skipping', 'yellow');
         }
@@ -382,26 +441,48 @@ async function copyOrgCustomizations(sourceOrgId, targetOrgId) {
             const contentStr = typeof g.content === 'string' ? g.content : JSON.stringify(g.content);
             log(`→ Global (id=${g.id}) | ${contentStr.length} chars`, 'yellow');
 
-            try {
-                const response = await postWithAuth(page, `${baseUrl}/superadmin/globals`, {
-                    form: {
-                        'utf8': '✓',
-                        'authenticity_token': csrf,
-                        'global[resource_type]': resolveResourceType('Organization'),
-                        'global[resource_id]': String(targetOrgId),
-                        'global[content]': contentStr,
-                    },
-                }, baseUrl, csrf, refererUrl);
-                const status = response.status();
-                if (status === 302 || (status >= 200 && status < 300)) {
-                    log(`  ✓ OK (${status})`, 'green');
-                    created++;
-                } else {
-                    log(`  ✗ FAIL (${status})`, 'red');
-                    failed++;
+            const globalIsUpdate = Boolean(targetGlobalId);
+            const globalUrl = globalIsUpdate
+                ? `${baseUrl}/superadmin/globals/${targetGlobalId}`
+                : `${baseUrl}/superadmin/globals`;
+            const globalPayload = {
+                'utf8': '✓',
+                'authenticity_token': csrf,
+                ...(globalIsUpdate ? { '_method': 'patch' } : {}),
+                'global[resource_type]': resolveResourceType('Organization'),
+                'global[resource_id]': String(targetOrgId),
+                'global[content]': contentStr,
+            };
+            const globalFallbackPayload = globalIsUpdate
+                ? {
+                    'utf8': '✓',
+                    'global[resource_type]': resolveResourceType('Organization'),
+                    'global[resource_id]': String(targetOrgId),
+                    'global[content]': contentStr,
                 }
-            } catch (err) {
-                log(`  ✗ ERROR: ${err.message}`, 'red');
+                : null;
+            const globalResult = await sendCustomizationRequest(
+                page,
+                globalUrl,
+                globalPayload,
+                globalPayload,
+                baseUrl,
+                csrf,
+                refererUrl,
+                globalFallbackPayload
+            );
+            csrf = globalResult.csrf;
+            refererUrl = globalResult.refererUrl;
+
+            if (globalResult.ok) {
+                log(`  ✓ ${globalIsUpdate ? 'Updated' : 'Created'} (${globalResult.status})${globalResult.via === 'multipart' ? ' via multipart' : ''}`, 'green');
+                if (globalIsUpdate) {
+                    updated++;
+                } else {
+                    created++;
+                }
+            } else {
+                log(`  ✗ ${globalResult.error ? `ERROR: ${globalResult.error.message}` : `FAIL (${globalResult.status})`}`, 'red');
                 failed++;
             }
         } else {
@@ -418,27 +499,51 @@ async function copyOrgCustomizations(sourceOrgId, targetOrgId) {
                 const langId = String(ct.language_id);
                 log(`\n→ Custom Text | language_id=${langId} | ${contentStr.length} chars`, 'yellow');
 
-                try {
-                    const response = await postWithAuth(page, `${baseUrl}/superadmin/custom_texts`, {
-                        form: {
-                            'utf8': '✓',
-                            'authenticity_token': csrf,
-                            'custom_text[resource_type]': resolveResourceType('Organization'),
-                            'custom_text[resource_id]': String(targetOrgId),
-                            'custom_text[language_id]': langId,
-                            'custom_text[content]': contentStr,
-                        },
-                    }, baseUrl, csrf, refererUrl);
-                    const status = response.status();
-                    if (status === 302 || (status >= 200 && status < 300)) {
-                        log(`  ✓ OK (${status})`, 'green');
-                        created++;
-                    } else {
-                        log(`  ✗ FAIL (${status})`, 'red');
-                        failed++;
+                const existingCustomTextId = targetCustomTextMap.get(langId);
+                const customTextIsUpdate = Boolean(existingCustomTextId);
+                const customTextUrl = customTextIsUpdate
+                    ? `${baseUrl}/superadmin/custom_texts/${existingCustomTextId}`
+                    : `${baseUrl}/superadmin/custom_texts`;
+                const customTextPayload = {
+                    'utf8': '✓',
+                    'authenticity_token': csrf,
+                    ...(customTextIsUpdate ? { '_method': 'patch' } : {}),
+                    'custom_text[resource_type]': resolveResourceType('Organization'),
+                    'custom_text[resource_id]': String(targetOrgId),
+                    'custom_text[language_id]': langId,
+                    'custom_text[content]': contentStr,
+                };
+                const customTextFallbackPayload = customTextIsUpdate
+                    ? {
+                        'utf8': '✓',
+                        'custom_text[resource_type]': resolveResourceType('Organization'),
+                        'custom_text[resource_id]': String(targetOrgId),
+                        'custom_text[language_id]': langId,
+                        'custom_text[content]': contentStr,
                     }
-                } catch (err) {
-                    log(`  ✗ ERROR: ${err.message}`, 'red');
+                    : null;
+                const customTextResult = await sendCustomizationRequest(
+                    page,
+                    customTextUrl,
+                    customTextPayload,
+                    customTextPayload,
+                    baseUrl,
+                    csrf,
+                    refererUrl,
+                    customTextFallbackPayload
+                );
+                csrf = customTextResult.csrf;
+                refererUrl = customTextResult.refererUrl;
+
+                if (customTextResult.ok) {
+                    log(`  ✓ ${customTextIsUpdate ? 'Updated' : 'Created'} (${customTextResult.status})${customTextResult.via === 'multipart' ? ' via multipart' : ''}`, 'green');
+                    if (customTextIsUpdate) {
+                        updated++;
+                    } else {
+                        created++;
+                    }
+                } else {
+                    log(`  ✗ ${customTextResult.error ? `ERROR: ${customTextResult.error.message}` : `FAIL (${customTextResult.status})`}`, 'red');
                     failed++;
                 }
             }
@@ -454,8 +559,9 @@ async function copyOrgCustomizations(sourceOrgId, targetOrgId) {
         log(`Target Org: "${tgtOrg[0].name}" (#${targetOrgId})`, 'yellow');
         log(`Total Items: ${total}`, 'yellow');
         log(`✓ Created: ${created}`, 'green');
+        log(`↻ Updated: ${updated}`, 'green');
         log(`✗ Failed:  ${failed}`, failed > 0 ? 'red' : 'green');
-        log(`Success Rate: ${((created / total) * 100).toFixed(1)}%`, 'magenta');
+        log(`Success Rate: ${(((created + updated) / total) * 100).toFixed(1)}%`, 'magenta');
         log('='.repeat(70) + '\n', 'cyan');
 
     } catch (error) {

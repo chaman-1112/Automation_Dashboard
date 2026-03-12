@@ -70,6 +70,14 @@ const NAV_ITEMS = [
         scriptKey: 'copyOrgCustomizations',
     },
     {
+        id: 'script-copy-company-customizations',
+        label: 'Script: Copy Company Customizations(Global, Custom Texts, JsonNavMenu)',
+        icon: FileCode,
+        iconBg: 'bg-amber-100',
+        iconColor: 'text-amber-600',
+        scriptKey: 'copyCompanyCustomizations',
+    },
+    {
         id: 'script-test-features',
         label: 'Script: Feature Switches Copy(Company)',
         icon: Zap,

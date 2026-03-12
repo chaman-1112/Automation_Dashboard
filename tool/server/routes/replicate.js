@@ -660,6 +660,7 @@ const ALLOWED_SCRIPTS = {
     'copyCustomSearchMenus':  { file: 'scripts/copyCustomSearchMenus.js',  argCount: 2 },
     'copyOrgWhiteLabel':      { file: 'scripts/copyOrgWhiteLabel.js',      argCount: 2 },
     'copyOrgCustomizations':  { file: 'scripts/copyOrgCustomizations.js',  argCount: 2 },
+    'copyCompanyCustomizations': { file: 'scripts/copyCompanyCustomizations.js', argCount: 2 },
     'testFeatureActivation':  { file: 'scripts/testFeatureActivation.js',  argCount: 2 },
     'testCustomizations':     { file: 'scripts/testCustomizations.js',     argCount: 2 },
 };
