@@ -19,7 +19,9 @@ dotenv.config();
 
 const { Pool } = pg;
 
-const CLOUDFRONT_BASE = process.env.CLOUDFRONT_BASE;
+const CLOUDFRONT_BASE = String(process.env.CLOUDFRONT_BASE || '')
+    .trim()
+    .replace(/\/+$/, '');
 
 const PRODUCT_TYPE_MAP = {
     1: 'diamond',
@@ -139,6 +141,10 @@ async function fetchCustomSearchMenus(pool, sourceOrgId) {
 
 async function downloadIcon(type, rowId, filename) {
     if (!filename || !filename.trim()) return null;
+    if (!CLOUDFRONT_BASE) {
+        log(`    ⚠ CLOUDFRONT_BASE is not set; cannot download ${type}`, 'yellow');
+        return null;
+    }
     const url = `${CLOUDFRONT_BASE}/${type}/${rowId}/${filename}`;
     try {
         const res = await fetch(url);

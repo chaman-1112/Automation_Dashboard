@@ -1,0 +1,325 @@
+{
+  "company": {
+    "id": 16055,
+    "name": "Test 8620 sev1_VDB_TESTCOMPANY",
+    "logo_url": "",
+    "created_at": "2020-01-06T12:19:05.796Z",
+    "updated_at": "2025-12-03T08:22:52.094Z",
+    "request_email_address": "qa-vdb+stg_usr__16055@vdbapp.com",
+    "customer_visibility": "{\"blacklist\":{\"countries\":[],\"vendors\":[],\"retailers\":[],\"blacklisted_by\":[]},\"vendors\":[],\"retailers\":[]}",
+    "company_code": "",
+    "name_on_info_card": null,
+    "contact_phone": "7838247717",
+    "data_url": "{\"diamond_data_url\":\"https://demo9591229.mockable.io/test\",\"diamond_data_results\":\"diamond_data_results_blank\",\"gemstone_data_url\":\"\",\"gemstone_data_results\":\"\",\"jewelry_data_url\":\"\",\"jewelry_data_results\":\"\",\"lab_grown_data_url\":\"\",\"lab_grown_data_results\":\"\",\"data_url_auth_type\":\"\",\"data_url_auth_user\":\"\",\"data_url_auth_password\":\"\",\"diamond_data_auth_url\":\"skip_authentication\",\"lab_grown_data_auth_url\":\"\",\"diamond_token_api_body\":\"\",\"diamond_stock_api_body\":\"\",\"lab_grown_token_api_body\":\"\",\"lab_grown_stock_api_body\":\"\",\"jewelry_token_api_body\":\"\",\"jewelry_stock_api_body\":\"\",\"diamond_image_url_format\":\"\",\"lab_grown_image_url_format\":\"\",\"use_proxy\":\"false\",\"jewelry_image_url_format\":\"\",\"diamond_cert_url_format\":\"\",\"lab_grown_cert_url_format\":\"\",\"jewelry_cert_url_format\":\"\",\"gemstone_cert_url_format\":\"\",\"gemstone_image_url_format\":\"\",\"gemstone_token_api_body\":\"\",\"gemstone_stock_api_body\":\"\",\"diamond_page_count\":\"\",\"gemstone_page_count\":\"\",\"jewelry_page_count\":\"\",\"lab_grown_diamond_page_count\":\"\"}",
+    "company_type": "vendor",
+    "country": "United States",
+    "state": "Texas",
+    "city": "Euless",
+    "street_address": "1106 Marshall Dr",
+    "zip_code": "76039-3914",
+    "contact_person": "Gaurav Sehgal",
+    "latitude": null,
+    "longitude": null,
+    "website": "",
+    "jbt_number": "",
+    "data_format": "csv",
+    "emails_visibility": null,
+    "salesperson": "",
+    "contact_iphone": "7838247717",
+    "accepts_memo": true,
+    "salesforce_id": "0017R00002oTbG7QAK",
+    "uploaded_logo": null,
+    "can_set_logo": true,
+    "salesforce_sync_pending": false,
+    "last_ftp_ran_at": "2025-06-27T06:32:37.938Z",
+    "last_ftp_error": "FTP-LOGS-AMEYATEST 550 Issue during transfer: readfrom tcp 5.161.89.141:50088->52.73.204.236:8006: file does not exist\n /workspace/vendor/ruby-2.6.6/lib/ruby/2.6.0/net/ftp.rb:469:in `getresp'\n/workspace/vendor/ruby-2.6.6/lib/ruby/2.6.0/net/ftp.rb:481:in `voidresp'\n/workspace/vendor/ruby-2.6.6/lib/ruby/2.6.0/net/ftp.rb:645:in `block (2 levels) in retrbinary'\n/workspace/vendor/ruby-2.6.6/lib/ruby/2.6.0/net/ftp.rb:308:in `with_binary'\n/workspace/vendor/ruby-2.6.6/lib/ruby/2.6.0/net/ftp.rb:631:in `block in retrbinary'\n/workspace/vendor/ruby-2.6.6/lib/ruby/2.6.0/monitor.rb:235:in `mon_synchronize'\n/workspace/vendor/ruby-2.6.6/lib/ruby/2.6.0/net/ftp.rb:630:in `retrbinary'\n/workspace/vendor/ruby-2.6.6/lib/ruby/2.6.0/net/ftp.rb:764:in `getbinaryfile'\n/workspace/lib/downloaders/ftp_downloader.rb:176:in `download_ftp_to_local'\n/workspace/lib/downloaders/ftp_downloader.rb:281:in `get_latest_file_from_sftp'\n/workspace/lib/downloaders/ftp_downloader.rb:219:in `fetch_ftp_file'\n/workspace/lib/downloaders/ftp_downloader.rb:144:in `fetch_latest_file_from_ftp'\n/workspace/lib/downloaders/ftp_downloader.rb:537:in `block (4 levels) in run'\n/workspace/lib/downloaders/ftp_downloader.rb:535:in `each'\n/workspace/lib/downloaders/ftp_downloader.rb:535:in `block (3 levels) in run'\n/workspace/lib/downloaders/ftp_downloader.rb:515:in `each'\n/workspace/lib/downloaders/ftp_downloader.rb:515:in `block (2 levels) in run'\n/workspace/lib/downloaders/ftp_downloader.rb:487:in `each'\n/workspace/lib/downloaders/ftp_downloader.rb:487:in `block in run'\n/workspace/vendor/bundle/ruby/2.6.0/gems/activerecord-4.2.8/lib/active_record/relation/batches.rb:124:in `find_in_batches'\n/workspace/lib/downloaders/ftp_downloader.rb:486:in `each'\n/workspace/lib/downloaders/ftp_downloader.rb:486:in `run'\n/workspace/app/models/company.rb:930:in `run_ftp_import'\n/workspace/app/workers/ftp_import_worker.rb:36:in `perform'\n/workspace/vendor/bundle/ruby/2.6.0/gems/sidekiq-5.2.8/lib/sidekiq/processor.rb:192:in `execute_job'\n/workspace/vendor/bundle/ruby/2.6.0/gems/sidekiq-5.2.8/lib/sidekiq/processor.rb:165:in `block (2 levels) in process'\n/workspace/vendor/bundle/ruby/2.6.0/gems/sidekiq-5.2.8/lib/sidekiq/middleware/chain.rb:128:in `block in invoke'\n/workspace/vendor/bundle/ruby/2.6.0/gems/datadog-2.15.0/lib/datadog/tracing/contrib/sidekiq/server_tracer.rb:71:in `block in call'\n/workspace/vendor/bundle/ruby/2.6.0/gems/datadog-2.15.0/lib/datadog/tracing/trace_operation.rb:236:in `block in measure'\n/workspace/vendor/bundle/ruby/2.6.0/gems/datadog-2.15.0/lib/datadog/tracing/span_operation.rb:152:in `measure'\n/workspace/vendor/bundle/ruby/2.6.0/gems/datadog-2.15.0/lib/datadog/tracing/trace_operation.rb:236:in `measure'\n/workspace/vendor/bundle/ruby/2.6.0/gems/datadog-2.15.0/lib/datadog/tracing/tracer.rb:417:in `start_span'\n/workspace/vendor/bundle/ruby/2.6.0/gems/datadog-2.15.0/lib/datadog/tracing/tracer.rb:166:in `block in trace'\n/workspace/vendor/bundle/ruby/2.6.0/gems/datadog-2.15.0/lib/datadog/tracing/context.rb:45:in `activate!'\n/workspace/vendor/bundle/ruby/2.6.0/gems/datadog-2.15.0/lib/datadog/tracing/tracer.rb:165:in `trace'\n/workspace/vendor/bundle/ruby/2.6.0/gems/datadog-2.15.0/lib/datadog/tracing.rb:29:in `trace'\n/workspace/vendor/bundle/ruby/2.6.0/gems/datadog-2.15.0/lib/datadog/tracing/contrib/sidekiq/server_tracer.rb:33:in `call'\n/workspace/vendor/bundle/ruby/2.6.0/gems/sidekiq-5.2.8/lib/sidekiq/middleware/chain.rb:130:in `block in invoke'\n/workspace/vendor/bundle/ruby/2.6.0/gems/honeybadger-2.6.1/lib/honeybadger/plugins/sidekiq.rb:12:in `block in call'\n/workspace/vendor/bundle/ruby/2.6.0/gems/honeybadger-2.6.1/lib/honeybadger/trace.rb:87:in `instrument'\n/workspace/vendor/bundle/ruby/2.6.0/gems/honeybadger-2.6.1/lib/honeybadger/trace.rb:20:in `instrument'\n/workspace/vendor/bundle/ruby/2.6.0/gems/honeybadger-2.6.1/lib/honeybadger/plugins/sidekiq.rb:11:in `call'\n/workspace/vendor/bundle/ruby/2.6.0/gems/sidekiq-5.2.8/lib/sidekiq/middleware/chain.rb:130:in `block in invoke'\n/workspace/vendor/bundle/ruby/2.6.0/gems/sidekiq-5.2.8/lib/sidekiq/middleware/server/active_record.rb:16:in `call'\n/workspace/vendor/bundle/ruby/2.6.0/gems/sidekiq-5.2.8/lib/sidekiq/middleware/chain.rb:130:in `block in invoke'\n/workspace/vendor/bundle/ruby/2.6.0/gems/sidekiq-pro-5.0.0/lib/sidekiq/batch/middleware.rb:54:in `call'\n/workspace/vendor/bundle/ruby/2.6.0/gems/sidekiq-5.2.8/lib/sidekiq/middleware/chain.rb:130:in `block in invoke'\n/workspace/vendor/bundle/ruby/2.6.0/gems/sidekiq-5.2.8/lib/sidekiq/middleware/chain.rb:133:in `invoke'\n/workspace/vendor/bundle/ruby/2.6.0/gems/sidekiq-5.2.8/lib/sidekiq/processor.rb:164:in `block in process'\n/workspace/vendor/bundle/ruby/2.6.0/gems/sidekiq-5.2.8/lib/sidekiq/processor.rb:137:in `block (6 levels) in dispatch'\n/workspace/vendor/bundle/ruby/2.6.0/gems/sidekiq-5.2.8/lib/sidekiq/job_retry.rb:109:in `local'\n/workspace/vendor/bundle/ruby/2.6.0/gems/sidekiq-5.2.8/lib/sidekiq/processor.rb:136:in `block (5 levels) in dispatch'\n/workspace/vendor/bundle/ruby/2.6.0/gems/sidekiq-5.2.8/lib/sidekiq.rb:37:in `block in <module:Sidekiq>'\n/workspace/vendor/bundle/ruby/2.6.0/gems/sidekiq-5.2.8/lib/sidekiq/processor.rb:132:in `block (4 levels) in dispatch'\n/workspace/vendor/bundle/ruby/2.6.0/gems/sidekiq-5.2.8/lib/sidekiq/processor.rb:250:in `stats'\n/workspace/vendor/bundle/ruby/2.6.0/gems/sidekiq-5.2.8/lib/sidekiq/processor.rb:127:in `block (3 levels) in dispatch'\n/workspace/vendor/bundle/ruby/2.6.0/gems/sidekiq-5.2.8/lib/sidekiq/job_logger.rb:8:in `call'\n/workspace/vendor/bundle/ruby/2.6.0/gems/sidekiq-5.2.8/lib/sidekiq/processor.rb:126:in `block (2 levels) in dispatch'\n/workspace/vendor/bundle/ruby/2.6.0/gems/sidekiq-5.2.8/lib/sidekiq/job_retry.rb:74:in `global'\n/workspace/vendor/bundle/ruby/2.6.0/gems/sidekiq-5.2.8/lib/sidekiq/processor.rb:125:in `block in dispatch'\n/workspace/vendor/bundle/ruby/2.6.0/gems/sidekiq-5.2.8/lib/sidekiq/logging.rb:48:in `with_context'\n/workspace/vendor/bundle/ruby/2.6.0/gems/sidekiq-5.2.8/lib/sidekiq/logging.rb:42:in `with_job_hash_context'\n/workspace/vendor/bundle/ruby/2.6.0/gems/sidekiq-5.2.8/lib/sidekiq/processor.rb:124:in `dispatch'\n/workspace/vendor/bundle/ruby/2.6.0/gems/sidekiq-5.2.8/lib/sidekiq/processor.rb:163:in `process'\n/workspace/vendor/bundle/ruby/2.6.0/gems/sidekiq-5.2.8/lib/sidekiq/processor.rb:83:in `process_one'\n/workspace/vendor/bundle/ruby/2.6.0/gems/sidekiq-5.2.8/lib/sidekiq/processor.rb:71:in `run'\n/workspace/vendor/bundle/ruby/2.6.0/gems/sidekiq-5.2.8/lib/sidekiq/util.rb:16:in `watchdog'\n/workspace/vendor/bundle/ruby/2.6.0/gems/sidekiq-5.2.8/lib/sidekiq/util.rb:25:in `block in safe_thread'\nFTP-LOGS-AMEYATEST LabGrownDiamond:DataFetch:4164309: files modified time:(2025-05-27 07:08:04 UTC) is older than last import time (2025-06-27 09:04:55 UTC). hence skipping",
+    "request_count": 28196,
+    "inventory_updates_count": 291,
+    "mobile_phone": "7838247717",
+    "search_pref": true,
+    "can_force_green_price_profile": false,
+    "has_price_markups": true,
+    "mobile_phone_country_code": "91",
+    "contact_phone_country_code": "91",
+    "contact_iphone_country_code": "91",
+    "studio_pro": false,
+    "show_vdb_watermark": false,
+    "can_set_watermark": false,
+    "uploaded_watermark": null,
+    "cal_disc_percent": false,
+    "has_multiple_locations": false,
+    "organization_id": 1,
+    "can_create_company_price_markups": true,
+    "main_logo": null,
+    "allow_custom_menu": false,
+    "allow_search_coach_overlay": true,
+    "bmh_request_type": "purchasing_agent",
+    "purchasing_agent_email": "shreya+pa@vdbapp.com",
+    "can_set_delivery_date": true,
+    "allow_welcome_screen": false,
+    "allow_lab_grown": true,
+    "can_lock_user_mode": false,
+    "default_price_mode": null,
+    "show_powered_by_vdb": true,
+    "auto_activate": false,
+    "last_diamond_inventory_updated_at": "2025-12-04T12:51:22.571Z",
+    "last_gemstone_inventory_updated_at": "2025-01-17T05:18:21.550Z",
+    "allow_stock_types": {
+      "diamond": "true",
+      "jewelry": "true",
+      "gemstone": "true",
+      "lab_grown_diamond": "true",
+      "default_stock_type": "diamond"
+    },
+    "http_request_method": 2,
+    "allow_custom_menu_types": {
+      "diamond": "true",
+      "jewelry": "true",
+      "gemstone": "true",
+      "lab_grown_diamond": "true"
+    },
+    "allow_custom_theme": false,
+    "allow_custom_theme_types": {
+      "diamond": false,
+      "jewelry": false,
+      "gemstone": false,
+      "lab_grown_diamond": false
+    },
+    "default_markup": "0.0",
+    "share_logo": null,
+    "round_up_prices": true,
+    "owner_info": {
+      "show_owner_info": "false"
+    },
+    "owner_info_users": null,
+    "price_markups_status": {
+      "diamond": "QUEUED",
+      "jewelry": "QUEUED",
+      "gemstone": "NA",
+      "lab_grown_diamond": "FINISHED"
+    },
+    "hubspot_id": "2792719323",
+    "hubspot_sync_pending": true,
+    "additional_attributes": {
+      "ftp_folder": {
+        "diamond": "",
+        "jewelry": "",
+        "gemstone": "",
+        "lab_grown_diamond": ""
+      },
+      "gia_api_key": "12345678987654321",
+      "gdrive_folder": {
+        "diamond": "",
+        "jewelry": "",
+        "gemstone": "",
+        "lab_grown_diamond": ""
+      },
+      "checkout_method": "",
+      "ftp_credentials": {
+        "folder": "",
+        "server": "",
+        "password": "",
+        "username": "",
+        "file_name": "",
+        "is_ssl_required": "false",
+        "upload_method_type": "FTP Client"
+      },
+      "jbt_error_status": "not_applicable",
+      "shopify_api_shop": "",
+      "jbt_error_comment": "",
+      "remind_after_days": "1",
+      "company_identifier": "",
+      "jewelry_addon_keys": "",
+      "custom_pricing_klass": "",
+      "ftp_upload_frequency": "",
+      "inventory_access_url": {
+        "diamond_csv_inventory_access_url": {},
+        "diamond_json_inventory_access_url": {},
+        "labgrowndiamond_csv_inventory_access_url": {},
+        "labgrowndiamond_json_inventory_access_url": {}
+      },
+      "jewelry_slug_formula": "",
+      "datafetch_split_range": "",
+      "iframe_ref_company_id": "",
+      "jewelry_search_formula": "",
+      "knowi_dahboards_enabled": {
+        "organization": "false",
+        "lgd_market_watch": "1",
+        "lgd_advance_pricing": "false",
+        "users_and_salesforce_leads": "7",
+        "jewelry_app_users_analytics": "false",
+        "kia_gems_searches_drilldown": "false",
+        "gul_third_party_items_dashboard_": "false",
+        "lumex_lab-grown_market_watch_-_searches": "false",
+        "kia_gems_lab-grown_market_watch_-_searches": "5",
+        "lumex_lab-grown_market_watch_-_high/best/average": "false",
+        "elegant_diamonds_&_jewelry_app_analytics(summary)": "false",
+        "kia_gems_lab-grown_market_watch_-_high/best/average": "false"
+      },
+      "search_result_view_type": {
+        "diamond": "",
+        "jewelry": "",
+        "gemstone": "",
+        "lab_grown_diamond": ""
+      },
+      "limit_stock_item_request": "",
+      "searchable_shapes_config": "",
+      "shopify_api_access_token": "",
+      "shopify_publication_channel": ""
+    },
+    "salesperson_id": 0,
+    "lock_user_currency": false,
+    "lock_user_currency_value": "",
+    "user_login_price_mode": null,
+    "inventory_count": {
+      "diamond_count": 10,
+      "jewelry_count": 3552,
+      "gemstone_count": 126,
+      "diamond_list_count": 10,
+      "jewelry_list_count": 3552,
+      "gemstone_list_count": 126,
+      "lab_grown_diamond_count": 10,
+      "lab_grown_diamond_list_count": 10
+    },
+    "iframe_status": false,
+    "iframe_key": null,
+    "iframe_referer": "",
+    "require_webhooks": true,
+    "third_party_stock_items_filter_string": null,
+    "three_d_formula": null,
+    "three_d_settings": null,
+    "dynamic_jewelry_variant_keys": "",
+    "round_up_by": null,
+    "secondary_logo_url": "",
+    "show_datafetch_error_alerts": false,
+    "zenskar_customer_id": null
+  },
+  "activeFeatures": [
+    {
+      "feature_id": 44,
+      "feature_description": "Show \"banner ad\" on the app",
+      "access": 2
+    },
+    {
+      "feature_id": 48,
+      "feature_description": "Display \"LAB\" icon on upper right corner for lab-grown diamonds screens",
+      "access": 2
+    },
+    {
+      "feature_id": 55,
+      "feature_description": null,
+      "access": 2
+    },
+    {
+      "feature_id": 67,
+      "feature_description": "Enable Currency Conversion",
+      "access": 2
+    },
+    {
+      "feature_id": 149,
+      "feature_description": "Display lab-grown pop-up when switching to lab-grown diamonds",
+      "access": 2
+    },
+    {
+      "feature_id": 194,
+      "feature_description": "App users can set markups when locked in orange mode",
+      "access": 2
+    },
+    {
+      "feature_id": 203,
+      "feature_description": "Suppress Company banner ad",
+      "access": 2
+    },
+    {
+      "feature_id": 206,
+      "feature_description": "Opt-Out of API Inventory Sharing",
+      "access": 2
+    },
+    {
+      "feature_id": 240,
+      "feature_description": "Ultra-fast Exavault FTP Server (regular speed)",
+      "access": 2
+    },
+    {
+      "feature_id": 245,
+      "feature_description": "App users can send memos in orange mode",
+      "access": 2
+    },
+    {
+      "feature_id": 357,
+      "feature_description": "VIMS user can set supplier-level markups",
+      "access": 1
+    },
+    {
+      "feature_id": 416,
+      "feature_description": "Enable this to mark this company as Demo/QA Company/Internal Usage",
+      "access": 1
+    },
+    {
+      "feature_id": 419,
+      "feature_description": "Enable metal type variations for V2API",
+      "access": 1
+    },
+    {
+      "feature_id": 482,
+      "feature_description": "Disable Inventory Reminder Email",
+      "access": 1
+    },
+    {
+      "feature_id": 483,
+      "feature_description": "Enable Whatsapp for this Company",
+      "access": 1
+    },
+    {
+      "feature_id": 491,
+      "feature_description": "Move VDB public group to the last in the Search Group Sequence",
+      "access": 1
+    },
+    {
+      "feature_id": 549,
+      "feature_description": "Enable critical queue for JSON",
+      "access": 1
+    },
+    {
+      "feature_id": 559,
+      "feature_description": "Enable User-Level Product Visibility Access",
+      "access": 1
+    },
+    {
+      "feature_id": 561,
+      "feature_description": null,
+      "access": 1
+    }
+  ],
+  "locations": [
+    {
+      "id": 13957,
+      "location_name": "Test 8620 sev1_VDB_TESTCOMPANY",
+      "street_address": "1106 Marshall Dr",
+      "country": "United States",
+      "state": "Texas",
+      "city": "Euless",
+      "zip": "76039-3914",
+      "contact_person": "Gaurav Sehgal",
+      "contact_email": "qa-vdb+stg_cmpny__v_16055_l_13957@vdbapp.com",
+      "mobile_phone": "7838247717",
+      "office_phone": "7838247717",
+      "website": "",
+      "vendor_id": 16055,
+      "is_primary": true,
+      "created_at": "2020-01-06T12:19:05.817Z",
+      "updated_at": "2024-11-28T02:10:30.521Z",
+      "contact_iphone": "7838247717",
+      "mobile_phone_country_code": "91",
+      "contact_phone_country_code": "91",
+      "contact_iphone_country_code": "91",
+      "contact_whatsapp": "7838247717",
+      "contact_whatsapp_country_code": "91"
+    }
+  ],
+  "overrides": {
+    "orgId": "1",
+    "newCompanyName": "Krishan Testing company"
+  },
+  "result": {}
+}

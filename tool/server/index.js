@@ -16,7 +16,7 @@ const app = express();
 const PORT = process.env.API_PORT || 4001;
 
 app.use(cors());
-app.use(express.json());
+app.use(express.json({ limit: '25mb' }));
 
 // --- API Routes ---
 app.use('/api/data', dataRouter);
@@ -30,6 +30,12 @@ app.get('/api/health', async (req, res) => {
     } catch (err) {
         res.status(500).json({ status: 'error', db: 'disconnected', error: err.message });
     }
+});
+
+app.get('/api/whoami', (req, res) => {
+    const email = process.env.STAGE_SUPERADMIN_EMAIL || 'unknown';
+    const name = email.split('@')[0].replace(/\+/g, ' ');
+    res.json({ email, name });
 });
 
 app.listen(PORT, () => {

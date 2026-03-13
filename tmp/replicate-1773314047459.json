@@ -1,0 +1,569 @@
+{
+  "org": {
+    "id": 559,
+    "name": "Clarity Diamond",
+    "emails": {
+      "qa": "qa-vdb+stg_usr__559@vdbapp.com",
+      "bcc": "qa-vdb+stg_usr__559@vdbapp.com",
+      "dev": "qa-vdb+stg_usr__559@vdbapp.com",
+      "system": "qa-vdb+stg_usr__559@vdbapp.com",
+      "primary": "qa-vdb+stg_usr__559@vdbapp.com",
+      "reports": "qa-vdb+stg_usr__559@vdbapp.com",
+      "support": "qa-vdb+stg_usr__559@vdbapp.com",
+      "reply_to": "qa-vdb+stg_usr__559@vdbapp.com",
+      "secondary": "qa-vdb+stg_usr__559@vdbapp.com",
+      "contact_us": "qa-vdb+stg_usr__559@vdbapp.com",
+      "inventory_reports": "qa-vdb+stg_usr__559@vdbapp.com"
+    },
+    "phone": {
+      "primary": "+1 5126944910",
+      "secondary": "+1 5126944910"
+    },
+    "domain_url": "claritydiamond.customvirtual.app,search.claritydiamond.com",
+    "status": 0,
+    "created_at": "2023-02-03T07:34:53.734Z",
+    "updated_at": "2025-03-24T04:13:06.341Z",
+    "android_app_identifier": "https://play.google.com/store/apps/details?id=com.claritydiamonds.android",
+    "ios_app_identifier": "https://apps.apple.com/us/app/clarity-diamond/id6447292429",
+    "favicon_url": "https://d24ppbhzdyfrur.cloudfront.net/uploads/navigation_menu_item/png_icon/26/Favicon_16x16__No_Alpha__3x__1_.png",
+    "analytic_id": "",
+    "iframe_status": false,
+    "iframe_key": null,
+    "iframe_referer": "",
+    "web_status": true,
+    "ios_cert": "Bag Attributes\n    friendlyName: Apple Push Services: com.ios.claritydiamonds\n    localKeyID: 48 01 64 2C DC 0C FD BC EF 46 DE D5 7F 62 5A B7 DD 60 B5 10 \nsubject=/UID=com.ios.claritydiamonds/CN=Apple Push Services: com.ios.claritydiamonds/OU=W987385RYS/O=Plasmability LLC/C=US\nissuer=/CN=Apple Worldwide Developer Relations Certification Authority/OU=G4/O=Apple Inc./C=US\n-----BEGIN CERTIFICATE-----\nMIIGwzCCBaugAwIBAgIQZWXNuqbX43k8uyasAzrRBjANBgkqhkiG9w0BAQsFADB1\nMUQwQgYDVQQDDDtBcHBsZSBXb3JsZHdpZGUgRGV2ZWxvcGVyIFJlbGF0aW9ucyBD\nZXJ0aWZpY2F0aW9uIEF1dGhvcml0eTELMAkGA1UECwwCRzQxEzARBgNVBAoMCkFw\ncGxlIEluYy4xCzAJBgNVBAYTAlVTMB4XDTIzMDQwMzEwNTgxMloXDTI0MDUwMjEw\nNTgxMVowgZ0xJzAlBgoJkiaJk/IsZAEBDBdjb20uaW9zLmNsYXJpdHlkaWFtb25k\nczE1MDMGA1UEAwwsQXBwbGUgUHVzaCBTZXJ2aWNlczogY29tLmlvcy5jbGFyaXR5\nZGlhbW9uZHMxEzARBgNVBAsMClc5ODczODVSWVMxGTAXBgNVBAoMEFBsYXNtYWJp\nbGl0eSBMTEMxCzAJBgNVBAYTAlVTMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB\nCgKCAQEAyjemVUSJQkD04tMcNuPTRlYrYBhBF1Pt9B5xS0OVfC+N9f4OFcdu+m33\njTcJpafjlk0iTLfniQsE9ZPc07FANl3YgO77FLHWF0Baa/zJJTNpRAX1yU5fFZsD\nEHxS7Fh+bumL2MpjlFeeCqu37LvPKJnEjDGxP8g1t7gXVHNeckL0kvXAykaueqx0\nvLN8d/nMrK+d6+02Qp+PmlbTiQabgnDSq/cmvJKZtyVqqd/FWf3Q+dB8HlUNMweb\ngSJMZq6ANMz1yYy4bUC1xfd0Gt5NB4aqWoZG3ZRd39BMCDwg+XBXaX82qhmtnm3A\nHBWx3bBOx3k7MDLLtgRR0oQHGVlFKwIDAQABo4IDJDCCAyAwDAYDVR0TAQH/BAIw\nADAfBgNVHSMEGDAWgBRb2fod55oaC6OZdiJQhj6RyFt3qDBwBggrBgEFBQcBAQRk\nMGIwLQYIKwYBBQUHMAKGIWh0dHA6Ly9jZXJ0cy5hcHBsZS5jb20vd3dkcmc0LmRl\ncjAxBggrBgEFBQcwAYYlaHR0cDovL29jc3AuYXBwbGUuY29tL29jc3AwMy13d2Ry\nZzQwMTCCAR0GA1UdIASCARQwggEQMIIBDAYJKoZIhvdjZAUBMIH+MIHDBggrBgEF\nBQcCAjCBtgyBs1JlbGlhbmNlIG9uIHRoaXMgY2VydGlmaWNhdGUgYnkgYW55IHBh\ncnR5IGFzc3VtZXMgYWNjZXB0YW5jZSBvZiB0aGUgdGhlbiBhcHBsaWNhYmxlIHN0\nYW5kYXJkIHRlcm1zIGFuZCBjb25kaXRpb25zIG9mIHVzZSwgY2VydGlmaWNhdGUg\ncG9saWN5IGFuZCBjZXJ0aWZpY2F0aW9uIHByYWN0aWNlIHN0YXRlbWVudHMuMDYG\nCCsGAQUFBwIBFipodHRwczovL3d3dy5hcHBsZS5jb20vY2VydGlmaWNhdGVhdXRo\nb3JpdHkwEwYDVR0lBAwwCgYIKwYBBQUHAwIwMgYDVR0fBCswKTAnoCWgI4YhaHR0\ncDovL2NybC5hcHBsZS5jb20vd3dkcmc0LTguY3JsMB0GA1UdDgQWBBRIAWQs3Az9\nvO9G3tV/Ylq33WC1EDAOBgNVHQ8BAf8EBAMCB4Awgb8GCiqGSIb3Y2QGAwYEgbAw\nga0MF2NvbS5pb3MuY2xhcml0eWRpYW1vbmRzMAcMBXRvcGljDBxjb20uaW9zLmNs\nYXJpdHlkaWFtb25kcy52b2lwMAYMBHZvaXAMJGNvbS5pb3MuY2xhcml0eWRpYW1v\nbmRzLmNvbXBsaWNhdGlvbjAODAxjb21wbGljYXRpb24MIGNvbS5pb3MuY2xhcml0\neWRpYW1vbmRzLnZvaXAtcHR0MAsMCS52b2lwLXB0dDAQBgoqhkiG92NkBgMBBAIF\nADAQBgoqhkiG92NkBgMCBAIFADANBgkqhkiG9w0BAQsFAAOCAQEArTlBm9mvZ3XH\np0RECXNQY/xcHR5Lo/q7NSbKo+n1uyL2wCy3esoGBAZj4DC3ChvgYYH7YtemKpj8\n26h3524lkseLZbTMb5o8/VwgMaUka0j1UE1wvxPC7nh18XZhtT75a37+UznGYgpu\n+QLB9MsA3M910jes4DrDFFkvPe1SmmAvp0NYN01mXvhf4QNIFnNPxcNK1Wo/TZ8e\nV2hCcEzuUY7fgmMxbuTPYqHZd5noqONpdBn51OUqNpv++Wr0hsWQOJeMVr0erXzr\na4gcudemaKgeCAG2v5Y295IkaevB3Vw2M5Ruv7pPbZvk6lwISSpeGiW5pIuyXeXZ\nsIurJJBXmA==\n-----END CERTIFICATE-----\nBag Attributes\n    friendlyName: Pawan\n    localKeyID: 48 01 64 2C DC 0C FD BC EF 46 DE D5 7F 62 5A B7 DD 60 B5 10 \nKey Attributes: <No Attributes>\n-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDKN6ZVRIlCQPTi\n0xw249NGVitgGEEXU+30HnFLQ5V8L431/g4Vx276bfeNNwmlp+OWTSJMt+eJCwT1\nk9zTsUA2XdiA7vsUsdYXQFpr/MklM2lEBfXJTl8VmwMQfFLsWH5u6YvYymOUV54K\nq7fsu88omcSMMbE/yDW3uBdUc15yQvSS9cDKRq56rHS8s3x3+cysr53r7TZCn4+a\nVtOJBpuCcNKr9ya8kpm3JWqp38VZ/dD50HweVQ0zB5uBIkxmroA0zPXJjLhtQLXF\n93Qa3k0HhqpahkbdlF3f0EwIPCD5cFdpfzaqGa2ebcAcFbHdsE7HeTswMsu2BFHS\nhAcZWUUrAgMBAAECggEAGyylTpoaM+wUvJKQHRQ6pR4ZUB2SSbc+p+qbYPjhEsI1\nOpR8ghK96Ct08+YshrVsERume1bPZ4wyi2nmaBBOx7+Ow6zZ0usfERrVy+M5iKVD\nBSAj6nx8rKObItECN76gpvj9kRGJljq8A0UWP1rxuMwJLKnU3vRhu6GiiPfD/mih\nzG+gITGXwmyMsrdMye7meyMgEUk/HAZ4gKlImtnpxGqOEjeqo/yp8IVQALcDnvj7\n0uj5i+Rgw6FDtaTFdNQDlGCobpTT2voomyl1BNcmAGc+YlHeiFPsjwD2WrrUI/ag\npTeCrlQJ3WFzywHC/IZ84H63VLJ9mK6aYzvHx0IGoQKBgQDuEW9NnmNhL+WhthlI\n396qWq55oDwVzt5H9PdumDxDL0OTRBzDOAgkyyVtcQbDoo/qmhXSB1+/rZPeK7WR\n7vQTb7PRXIw62p7FWKxL1lJT94l9t/DH+9o/5PRO4RNKNoSHcLRXZn3TkV9iY16c\nJIt0aMKtBozSyU20qxkQfTja8QKBgQDZcuu8FCXIBAu2H+uigpNnjwd4/LwS5g/O\nQUxnwZksZNcxX193FyZg44iuAvScgLw25RGmqd53LNpH5wpUvfitHVdS5fIH+F6S\neHQqq/cQLzNc5nqcuofGZpk1suIQB+9P2HbtZU53u0d6sFPY/gVU8wdea960QvOg\nCVPphzuJ2wKBgQCJ76ghvOev4+SU8cFsq+mDos78wY6OxDGeV50VgzdHZhctOIXB\nxrFRQDMLWjWlHIduUqDZ9FPR52yJiaHGUEEzEcGKSKknYIwlo98Qgblp1T7gjLcB\n6DboVmwHV/mpQjU/lFmpWkUFVHGDvDeRGMuEQz6oqebmKqTPTWNUXnmWwQKBgHYB\npejlzjMj7u8hl5ET58b1mgqQrchbzgwS59IPAH9VImuK5JYOnCdMk+pLdFBSlNH9\nsnyOB0sJrlQDEFo41nGsUK2OWLD2muxGLlTSCjxgQTGTassPd4u2NkMsFv64L6lX\nQgNHTTQxEHOGqZpDEMWvNjqJs8yD4Q7iwQUk/KytAoGASTegbDGS35PSCvKFxvJR\nq5ydyazesLMP9HiYrPvLN7VS61JtPDHZ5sFzo3W5RF8FlU9iscAyg7F08gpmZIqh\nLL8UEqzVkKDrhZgZHHVzUWHvxO7ysliF1FQI56tYet2QnT3sxf8GmWgcChpCEut3\nx5oTxizn9jcdHQLbkOc798U=\n-----END PRIVATE KEY-----",
+    "android_cert": "-----BEGIN PRIVATE KEY-----\r\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC/VSuAXPUi6e29\r\nAUZB1LKzbqC7Peyjo5TLe1twFQBWmhBjweTQcBBsTTRuYO37IXfCC5ZmLY0M/FYh\r\nccDJJNz8+jkyFSP5LLwnYZjk9v8ITxt74jyKdvQqsw5urzxy/RmWtgK46OU6fVNr\r\nVhxdtc3hr3QdsCK0hK6XqfDsTuGFj5OeagoBxNBQ6RPJmuOQhPKitAMGL93FMI0d\r\ngSbLv12nYmf0liCUrjiwvqDZdRdS5bOrvUl0wRzsBDTSaA4V6y3m+ZrqxbOqU0Yp\r\nAXoHASIyDB6WW7rvR6YGg+mc3fo7bbN9qvJ4YA8moab4j2+K4sDu2IEmY2l4yvBa\r\n4wHtoWgpAgMBAAECggEAFmgoBwlb3/HbWKYcjzsUjnTnN+ZhnyxaEZZpt++NsZar\r\nUrNzU4G8OqK0ADUzyZQ6zSvEOkUdXqbyg0oqFKRPiQTYy+ez5ct6YXZJjI7sgRGa\r\nm2B8TI7vu0xq5UV6Y9EGPSMloHgN2FKzAT/9ZHAVI1gD1jI5bkCXncVWJKZ8PMLG\r\n240xHtIfapIugskdpUvG8UBjXJxqim/ZbRTfDpdxa1wcd6iWnrs86e5kMwj9uJGS\r\ndx7in6qV+82ab0e2u61v3cKvUrfkxaQNRxyrgkZZf+JS0DhHbfsFXkB3jeLs9iQo\r\n3UzsbCHmPfBYrQDBIjrX3uxt6sZgd/JGfGfJ6jUIEQKBgQD1SwU6QOH1Qg9l1Uwa\r\nOEdm26b8N84gTfJxobkQ1vGyIleCh9zGddQTbwA/j8sAOZY6PJe7Gs+X1v2X3nPj\r\nW0yulZ9QwaFvbyG7rNzhzFjN3tPU0qA2gHLU6inH+Xz/4/qZ2gvc/AfFyXLT7S+S\r\n2b80v0Jd6a0TDdF+DPuC8PZzVwKBgQDDUK0o2XaYlaMIpB/ly6A2VmKDbX2z74DO\r\n5w8cTD0BPN5n0Z+1mc6TXl0OBBvQzrGybQZ1fvc9B5w6OHLdd9fn7hsHp5ud+afE\r\nKOFPMa+dPhrZVAcTET6PszvNQ0U1n9Yz8dv7G1aM8pm0TdlCm/SnHH/dzS4H5GbN\r\n4A36Q5iIKQKBgQClgA+ucGvvg4joPyaJJJRaBYK61MNz90HdGBhPt+Z+QQG9QQ+K\r\nYXoe0jRk0VjBfIuECzQYvZHJ8uImGiE7s+Uer7R2odH+u3zvIUT0SVa/2cRkphYm\r\n9OsKZyPNErx81XAc7Vf1kFJgh4s/3ZJAW6BClF1F2xFCmSLtC5eOqNir+wKBgAys\r\nY63W4hzHWBjqMX6+qUEQZAZUlk8Bf9jxuZam5po0OqG2V+q7w0XBo12Xqqgx1Axu\r\no94K7xvvNWhzVSozp1iN+AmghpDfzyVjDeQlmOtFbe83hGivHE1KQPh/JJXH2MQM\r\n9a2eq9zZ4Zz5C5CoqDyZ3pfXw4KgzHiV4uE4h6tRAoGBAJlg6TrJahIo9LmtJ5Gr\r\n0F3Y3H9mB1EfbXNWBk4/Fi6i56ex44dqrnlEbdF5eutj2Lg7eqK6Tyy5pUMG2PSq\r\nYVWGy1bOLZ8VqZ7Jq9s3z+mFNo+AS0/3oQehRt7X0XqH4TPBKw6G2J1Q6v1RhVyk\r\nQmWlYpZDsSkNGGVN7GfnyY+d\r\n-----END PRIVATE KEY-----",
+    "ios_cert_env": true,
+    "allow_company_name": true,
+    "segment_key": "",
+    "sentry_dsn": null,
+    "main_logo_url": null,
+    "menu_logo_url": null,
+    "redirect_urls": {
+      "logo_url": "https://search.claritydiamond.com/",
+      "sign_out_url": "https://search.claritydiamond.com/"
+    },
+    "primary_company_id": 37936,
+    "search_result_view_type": {
+      "diamond": "show_both_default_as_grid",
+      "jewelry": "suppress_list_view",
+      "gemstone": "show_both_default_as_grid",
+      "lab_grown_diamond": "show_both_default_as_grid"
+    },
+    "allow_bulk_requests": {
+      "diamond": "false",
+      "jewelry": "false",
+      "gemstone": "false",
+      "lab_grown_diamond": "both"
+    },
+    "public_key": "",
+    "custom_currency_symbol": "usd",
+    "custom_text": {
+      "contact_us_text": "Questions, suggestions, or comments welcome! </br>Send a message below or call </br>+1 5126944910",
+      "login_title_text": "",
+      "social_redirect_links": "",
+      "unknown_jewelry_ring_size": "",
+      "login_already_member_label": "",
+      "login_login_button_caption": "",
+      "login_not_registered_label": "",
+      "login_signup_button_caption": "",
+      "organization_home_title_text": "Clarity Diamond",
+      "signup_submit_button_caption": "",
+      "signup_registration_form_header": "",
+      "order_cart_shipping_instructions": "",
+      "shopping_cart_offline_payment_instructions": ""
+    },
+    "spa_segment_key": "",
+    "deeplink_config": {
+      "apn": "com.claritydiamonds.android",
+      "ibi": "com.ios.claritydiamonds",
+      "isi": "6447292429",
+      "base_url": "https://claritydiamonds.page.link",
+      "link_url": "search.claritydiamond.com",
+      "login_deeplink": "https://claritydiamonds.page.link/?link=https://search.claritydiamond.com/client/deep/lab_grown_diamond/-1/action_view/sign_in&apn=com.claritydiamonds.android&isi=6447292429&ibi=com.ios.claritydiamonds"
+    },
+    "external_landing_page_url": "http://claritydiamond.com/",
+    "internal_landing_page_url": "https://all-demos.s3.amazonaws.com/clarity_diamond/internal_landing_page.html",
+    "setting_attributes": {
+      "on_hand_text": {
+        "0": "",
+        "1": "",
+        "2": ""
+      },
+      "jewelry_cart_url": "",
+      "media_visibility": {
+        "get_cert_media": "3",
+        "get_image_media": "1",
+        "get_video_media": "2"
+      },
+      "site_redirect_url": "",
+      "web_grid_view_ad_positioning": "0",
+      "web_list_view_ad_positioning": "0",
+      "ipad_grid_view_ad_positioning": "0",
+      "ipad_list_view_ad_positioning": "0",
+      "mobile_grid_view_ad_positioning": "0",
+      "mobile_list_view_ad_positioning": "0"
+    },
+    "custom_header_html": "<style>\r\n \r\n    .clarity-header{\r\n         height:130px;\r\n         display: flex;\r\n         flex-direction: row;\r\n         justify-content: space-between;\r\n          background:#FCFCFC;\r\n         align-items: center;\r\n         padding: 0 40px;\r\n         width: 100%;\r\n     }\r\n     .clarity-header .logo{\r\n         font-size: 22px;\r\n       \r\n     }\r\n     .clarity-header .logo img {\r\n        width: 240px;\r\n        margin-left: 0px;\r\n    padding-left: 20px;\r\n    height: auto !important;\r\n }\r\n .clarity-header .menu-item {\r\n     color: #000000;\r\n }\r\n .clarity-header.menu-item .menu:hover{\r\n     color: #fff !important;\r\n }\r\n .clarity.menu-item .menu span:hover{\r\n     color:#fff !important;\r\n }\r\n .menu-item .menu:hover{ color:#467387 !important}\r\n .clarity-header .sub-menu li:hover {\r\n background-color: #D6D6D6 !important;\r\n     color: #fff!important;\r\n }\r\n     .clarity-header .logo a{\r\n        color: inherit;\r\n        text-decoration: none;\r\n     }\r\n     .clarity-header .sub-menu li{\r\n        min-width: 200px;\r\n     }\r\n    .clarity-header .powered-by {\r\n     background:#FCFCFC;\r\n     position: absolute;\r\n     top: 0;\r\n     left: 0;\r\n     width: 20px;\r\n     height: 130px;\r\n     }\r\n     .clarity-header .powered-by span {\r\n     display: block;\r\n     color: #fff !important;\r\n     font-size: 12px;\r\n     width: 130px;\r\n     -webkit-transform: rotate(-90deg);\r\n     transform: rotate(-90deg);\r\n     position: absolute;\r\n     top: 35px;\r\n     left: -55px;\r\n }\r\n\r\n\r\n </style>\r\n\r\n\r\n<div class=\"clarity-header\"><div class=\"powered-by\">\r\n   \r\n    </div>\r\n    <div class=\"logo\">\r\n        <a href=\"https://search.claritydiamond.com/\"><img src=\"\" alt=\"\"></a>\r\n    </div>\r\n    <div class=\"right-section\">\r\n    </div>\r\n</div>",
+    "meta_data": {
+      "keywords": "",
+      "page_title": "",
+      "description": "",
+      "website_verification_tag": ""
+    },
+    "web_plugins_script": "",
+    "additional_attributes": {
+      "app_id": "",
+      "api_key": "",
+      "ad_delay": "",
+      "max_depth": "100",
+      "max_ratio": "10",
+      "max_table": "100",
+      "max_width": "865",
+      "min_depth": "0",
+      "min_ratio": "0",
+      "min_table": "0",
+      "min_width": "0",
+      "max_height": "525",
+      "max_length": "1320",
+      "min_height": "0",
+      "min_length": "0",
+      "project_id": "",
+      "delist_days": "7",
+      "terms_de_url": "",
+      "terms_en_url": "",
+      "terms_ko_url": "",
+      "terms_zh_url": "",
+      "retail_markup": "",
+      "owner_info_pin": "",
+      "pay_online_text": "",
+      "pay_offline_text": "",
+      "remind_after_days": "1",
+      "preferred_language": "en",
+      "supported_language": "",
+      "warning_after_days": "1",
+      "delist_warning_days": "5",
+      "messaging_sender_id": "",
+      "buying_group_options": "",
+      "email_footer_address": "",
+      "jewelry_slug_formula": "",
+      "recaptcha_client_key": "",
+      "recaptcha_secret_key": "",
+      "new_arrival_item_time": "",
+      "purchased_delist_days": "",
+      "hide_guest_prices_text": "",
+      "buyer_excel_column_for_bmh": "",
+      "api_request_expiration_days": "30",
+      "seller_excel_column_for_bmh": "",
+      "show_items_price_less_then_26": false,
+      "enable_buy_request_at_null_zero": "",
+      "overide_email_confirmation_text": "",
+      "retailer_default_theme_company_id": "",
+      "before_auction_end_notification_timer": "180",
+      "before_auction_start_notification_timer": "1440",
+      "retailer_default_custom_menu_company_id": ""
+    },
+    "business_plan": 3,
+    "internal_landing_page_url_v3": "",
+    "fcm_config": {
+      "android_project_id": "clarity-diamond",
+      "android_client_email": "firebase-adminsdk-7wqdm@clarity-diamond.iam.gserviceaccount.com",
+      "android_private_key_id": "7324a8f894f296738d16bfe8212f581d1bd5911f"
+    },
+    "onesignal_app_id": null,
+    "onesignal_rest_api_key": null,
+    "secondary_logo_url": null,
+    "analytic_ga4_id": null,
+    "landing_pages": {}
+  },
+  "orgSettings": [
+    {
+      "feature_id": 40,
+      "feature_name": "enterprise",
+      "feature_description": "Enterprise Organization",
+      "access": 2
+    },
+    {
+      "feature_id": 47,
+      "feature_name": "company_name_required",
+      "feature_description": "Allow Company Name Required",
+      "access": 2
+    },
+    {
+      "feature_id": 54,
+      "feature_name": "update_availability_status",
+      "feature_description": "Update Availability Indicator/Status based on Item Request",
+      "access": 2
+    },
+    {
+      "feature_id": 63,
+      "feature_name": "collect_address",
+      "feature_description": "Allow Collect Address",
+      "access": 2
+    },
+    {
+      "feature_id": 72,
+      "feature_name": "internal_landing_page",
+      "feature_description": "Enable Internal Landing Page",
+      "access": 2
+    },
+    {
+      "feature_id": 73,
+      "feature_name": "orange_mode_bmh",
+      "feature_description": "Enable Buy/Memo/Hold requests for orange mode",
+      "access": 2
+    },
+    {
+      "feature_id": 146,
+      "feature_name": "enable_custom_navigation",
+      "feature_description": "Enable Custom Navigation",
+      "access": 2
+    },
+    {
+      "feature_id": 152,
+      "feature_name": "price_mode_line_on_webapp_header",
+      "feature_description": "Enable Price Mode line on Webapp header",
+      "access": 2
+    },
+    {
+      "feature_id": 187,
+      "feature_name": "share_collection",
+      "feature_description": "Allow Collection Share",
+      "access": 2
+    },
+    {
+      "feature_id": 195,
+      "feature_name": "search_result_with_image_only",
+      "feature_description": "Allow Search Result With Image Only",
+      "access": 2
+    },
+    {
+      "feature_id": 250,
+      "feature_name": "unified_fav_collection",
+      "feature_description": "Enable Unified Favorites/Collections",
+      "access": 2
+    },
+    {
+      "feature_id": 258,
+      "feature_name": "enable_advanced_list_view",
+      "feature_description": "Enable advanced list view",
+      "access": 2
+    },
+    {
+      "feature_id": 264,
+      "feature_name": "display_custom_company_logo_html_header",
+      "feature_description": "Display Customer Company logo in Custom HTML Header",
+      "access": 2
+    },
+    {
+      "feature_id": 267,
+      "feature_name": "suppress_iframe_to_load_html",
+      "feature_description": "Allow Suppress Iframe To Load Html",
+      "access": 2
+    },
+    {
+      "feature_id": 281,
+      "feature_name": "enable_image_video_report_native_share",
+      "feature_description": "Allow Enable Image Video Report Native Share",
+      "access": 2
+    },
+    {
+      "feature_id": 287,
+      "feature_name": "unified_stock_item_request",
+      "feature_description": null,
+      "access": 2
+    },
+    {
+      "feature_id": 288,
+      "feature_name": "show_subtitle_on_grid_view",
+      "feature_description": "Show sub-title on grid view",
+      "access": 2
+    },
+    {
+      "feature_id": 289,
+      "feature_name": "external_landing_page_only_for_web",
+      "feature_description": null,
+      "access": 2
+    },
+    {
+      "feature_id": 299,
+      "feature_name": "enable_discount_in_markup_mode",
+      "feature_description": null,
+      "access": 2
+    },
+    {
+      "feature_id": 310,
+      "feature_name": "mandatory_logo",
+      "feature_description": "Display Logo as per B2B2C functionality",
+      "access": 2
+    },
+    {
+      "feature_id": 356,
+      "feature_name": "hybrid",
+      "feature_description": "Hybrid model for WDC",
+      "access": 2
+    },
+    {
+      "feature_id": 359,
+      "feature_name": "enable_product_ui_v2",
+      "feature_description": null,
+      "access": 2
+    },
+    {
+      "feature_id": 363,
+      "feature_name": "orange_mode_bulk_request",
+      "feature_description": "Enable Bulk BMH Request in Orange Mode",
+      "access": 2
+    },
+    {
+      "feature_id": 364,
+      "feature_name": "ask_question",
+      "feature_description": "Enable Ask a Question",
+      "access": 2
+    },
+    {
+      "feature_id": 405,
+      "feature_name": "updated_bmh_emails",
+      "feature_description": "",
+      "access": 2
+    },
+    {
+      "feature_id": 417,
+      "feature_name": "allow_item_share_with_or_without_prices",
+      "feature_description": "Allow Item Share with/without prices",
+      "access": 2
+    },
+    {
+      "feature_id": 474,
+      "feature_name": "enable_share_a_quote",
+      "feature_description": "Enable Share a Quote",
+      "access": 2
+    }
+  ],
+  "customizations": [],
+  "globals": [],
+  "customTexts": [],
+  "jsonNavMenu": null,
+  "company": {
+    "id": 88313,
+    "name": "CHARLES EDWARD JEWELLERS",
+    "logo_url": null,
+    "created_at": "2024-11-18T21:21:00.809Z",
+    "updated_at": "2024-11-18T21:21:01.991Z",
+    "request_email_address": "qa-vdb+stg_usr__88313@vdbapp.com",
+    "customer_visibility": "{\"blacklist\":{\"countries\":[],\"vendors\":[],\"retailers\":[],\"blacklisted_by\":[]},\"vendors\":[],\"retailers\":[]}",
+    "company_code": null,
+    "name_on_info_card": null,
+    "contact_phone": "08 9327 3188",
+    "data_url": null,
+    "company_type": "retailer",
+    "country": "Australia",
+    "state": "",
+    "city": "Perth",
+    "street_address": "G27 LONDON COURT, 647 HAY STREET, WA",
+    "zip_code": "6000",
+    "contact_person": "Edward Eramanis",
+    "latitude": null,
+    "longitude": null,
+    "website": "",
+    "jbt_number": "",
+    "data_format": "csv",
+    "emails_visibility": null,
+    "salesperson": null,
+    "contact_iphone": "",
+    "accepts_memo": true,
+    "salesforce_id": null,
+    "uploaded_logo": null,
+    "can_set_logo": true,
+    "salesforce_sync_pending": true,
+    "last_ftp_ran_at": null,
+    "last_ftp_error": null,
+    "request_count": 17,
+    "inventory_updates_count": 0,
+    "mobile_phone": "",
+    "search_pref": false,
+    "can_force_green_price_profile": false,
+    "has_price_markups": false,
+    "mobile_phone_country_code": "",
+    "contact_phone_country_code": "61",
+    "contact_iphone_country_code": "1",
+    "studio_pro": false,
+    "show_vdb_watermark": false,
+    "can_set_watermark": false,
+    "uploaded_watermark": null,
+    "cal_disc_percent": false,
+    "has_multiple_locations": false,
+    "organization_id": 559,
+    "can_create_company_price_markups": false,
+    "main_logo": null,
+    "allow_custom_menu": true,
+    "allow_search_coach_overlay": true,
+    "bmh_request_type": "",
+    "purchasing_agent_email": "",
+    "can_set_delivery_date": false,
+    "allow_welcome_screen": true,
+    "allow_lab_grown": true,
+    "can_lock_user_mode": false,
+    "default_price_mode": null,
+    "show_powered_by_vdb": true,
+    "auto_activate": false,
+    "last_diamond_inventory_updated_at": null,
+    "last_gemstone_inventory_updated_at": null,
+    "allow_stock_types": {
+      "diamond": "false",
+      "jewelry": "false",
+      "gemstone": "false",
+      "lab_grown_diamond": "true",
+      "default_stock_type": "lab_grown_diamond"
+    },
+    "http_request_method": 0,
+    "allow_custom_menu_types": {
+      "diamond": "false",
+      "jewelry": "false",
+      "gemstone": "false",
+      "lab_grown_diamond": "true"
+    },
+    "allow_custom_theme": true,
+    "allow_custom_theme_types": {
+      "diamond": "true",
+      "jewelry": "false",
+      "gemstone": "false",
+      "lab_grown_diamond": "true"
+    },
+    "default_markup": "0.0",
+    "share_logo": null,
+    "round_up_prices": true,
+    "owner_info": {
+      "label": "",
+      "price_mode": "all",
+      "show_owner_info": false
+    },
+    "owner_info_users": null,
+    "price_markups_status": {
+      "diamond": "NA",
+      "jewelry": "NA",
+      "gemstone": "NA",
+      "lab_grown_diamond": "NA"
+    },
+    "hubspot_id": null,
+    "hubspot_sync_pending": null,
+    "additional_attributes": {
+      "ftp_folder": {},
+      "gdrive_folder": {},
+      "ftp_credentials": {},
+      "inventory_access_url": {
+        "diamond_csv_inventory_access_url": {},
+        "diamond_json_inventory_access_url": {},
+        "labgrowndiamond_csv_inventory_access_url": {},
+        "labgrowndiamond_json_inventory_access_url": {}
+      },
+      "search_result_view_type": {}
+    },
+    "salesperson_id": 0,
+    "lock_user_currency": false,
+    "lock_user_currency_value": null,
+    "user_login_price_mode": null,
+    "inventory_count": {},
+    "iframe_status": false,
+    "iframe_key": null,
+    "iframe_referer": null,
+    "require_webhooks": false,
+    "third_party_stock_items_filter_string": null,
+    "three_d_formula": null,
+    "three_d_settings": null,
+    "dynamic_jewelry_variant_keys": null,
+    "round_up_by": null,
+    "secondary_logo_url": null,
+    "show_datafetch_error_alerts": false,
+    "zenskar_customer_id": null
+  },
+  "activeFeatures": [
+    {
+      "feature_id": 48,
+      "feature_description": "Display \"LAB\" icon on upper right corner for lab-grown diamonds screens",
+      "access": 1
+    },
+    {
+      "feature_id": 60,
+      "feature_description": "Set custom Hold request hours",
+      "access": 1
+    },
+    {
+      "feature_id": 67,
+      "feature_description": "Enable Currency Conversion",
+      "access": 1
+    },
+    {
+      "feature_id": 206,
+      "feature_description": "Opt-Out of API Inventory Sharing",
+      "access": 1
+    },
+    {
+      "feature_id": 240,
+      "feature_description": "Ultra-fast Exavault FTP Server (regular speed)",
+      "access": 1
+    },
+    {
+      "feature_id": 241,
+      "feature_description": "Currency conversion in white mode",
+      "access": 1
+    },
+    {
+      "feature_id": 246,
+      "feature_description": "Show coach overlay explaining price modes",
+      "access": 1
+    },
+    {
+      "feature_id": 416,
+      "feature_description": "Enable this to mark this company as Demo/QA Company/Internal Usage",
+      "access": 1
+    },
+    {
+      "feature_id": 482,
+      "feature_description": "Disable Inventory Reminder Email",
+      "access": 1
+    },
+    {
+      "feature_id": 518,
+      "feature_description": "This switch is to be enabled for making images url non mandatory to list jewlery.",
+      "access": 1
+    }
+  ],
+  "locations": [
+    {
+      "id": 86376,
+      "location_name": "CHARLES EDWARD JEWELLERS",
+      "street_address": "G27 LONDON COURT, 647 HAY STREET, WA",
+      "country": "Australia",
+      "state": "",
+      "city": "Perth",
+      "zip": "6000",
+      "contact_person": "Edward Eramanis",
+      "contact_email": "qa-vdb+stg_cmpny__v_88313_l_86376@vdbapp.com",
+      "mobile_phone": "",
+      "office_phone": "08 9327 3188",
+      "website": "",
+      "vendor_id": 88313,
+      "is_primary": true,
+      "created_at": "2024-11-18T21:21:00.900Z",
+      "updated_at": "2024-11-18T21:21:00.900Z",
+      "contact_iphone": "",
+      "mobile_phone_country_code": "",
+      "contact_phone_country_code": "61",
+      "contact_iphone_country_code": "1",
+      "contact_whatsapp": null,
+      "contact_whatsapp_country_code": null
+    }
+  ],
+  "authToken": "psu638r1nfwkbayvjsfx",
+  "overrides": {
+    "newOrgName": "test auto Clarity Diamond",
+    "newDomainUrl": "test auto 1234567876543",
+    "newCompanyName": "test auto CHARLES EDWARD JEWELLERS"
+  },
+  "result": {
+    "orgName": "test auto Clarity Diamond",
+    "orgId": "1590",
+    "newOrgId": "1590"
+  }
+}

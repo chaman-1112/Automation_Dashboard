@@ -1,0 +1,448 @@
+{
+  "company": {
+    "id": 16055,
+    "name": "Test 806020 sev1_VDB_TESTCOMPANY",
+    "logo_url": "",
+    "created_at": "2020-01-06T12:19:05.796Z",
+    "updated_at": "2026-03-11T05:04:56.351Z",
+    "request_email_address": "divya+seller@vdbapp.com;gaurav.sehgal+123456@vdbapp.com;shreya+newuser@vdbapp.com",
+    "customer_visibility": "{\"blacklist\":{\"countries\":[],\"vendors\":[],\"retailers\":[],\"blacklisted_by\":[39879,87482]},\"vendors\":[],\"retailers\":[]}",
+    "company_code": "AMEYATEST",
+    "name_on_info_card": null,
+    "contact_phone": "7838247717",
+    "data_url": "{\"diamond_data_url\":\"\",\"diamond_data_results\":\"\",\"gemstone_data_url\":\"\",\"gemstone_data_results\":\"\",\"jewelry_data_url\":\"\",\"jewelry_data_results\":\"\",\"lab_grown_data_url\":\"\",\"lab_grown_data_results\":\"\",\"data_url_auth_type\":\"\",\"data_url_auth_user\":\"\",\"data_url_auth_password\":\"\",\"diamond_data_auth_url\":\"\",\"lab_grown_data_auth_url\":\"\",\"diamond_token_api_body\":\"\",\"diamond_stock_api_body\":\"\",\"lab_grown_token_api_body\":\"\",\"lab_grown_stock_api_body\":\"\",\"jewelry_token_api_body\":\"\",\"jewelry_stock_api_body\":\"\",\"diamond_image_url_format\":\"\",\"lab_grown_image_url_format\":\"\",\"use_proxy\":\"false\",\"jewelry_image_url_format\":\"\",\"diamond_cert_url_format\":\"\",\"lab_grown_cert_url_format\":\"\",\"jewelry_cert_url_format\":\"\",\"gemstone_cert_url_format\":\"\",\"gemstone_image_url_format\":\"\",\"gemstone_token_api_body\":\"\",\"gemstone_stock_api_body\":\"\",\"diamond_page_count\":\"\",\"gemstone_page_count\":\"\",\"jewelry_page_count\":\"\",\"lab_grown_diamond_page_count\":\"\"}",
+    "company_type": "vendor",
+    "country": "India",
+    "state": "",
+    "city": "Abbaipalem",
+    "street_address": "1106 Marshall Dr",
+    "zip_code": "76039-3914",
+    "contact_person": "Gaurav Sehgal",
+    "latitude": null,
+    "longitude": null,
+    "website": "",
+    "jbt_number": "",
+    "data_format": "xls",
+    "emails_visibility": null,
+    "salesperson": "",
+    "contact_iphone": "7838247717",
+    "accepts_memo": true,
+    "salesforce_id": "0017R00002oTbG7QAK",
+    "uploaded_logo": null,
+    "can_set_logo": true,
+    "salesforce_sync_pending": false,
+    "last_ftp_ran_at": "2025-10-29T12:03:41.479Z",
+    "last_ftp_error": "FTP-LOGS-AMEYATEST Gemstone:DataFetch:5703000: files modified time:(2025-10-29 17:19:57 UTC) is older than last import time (2025-10-29 17:20:30 UTC). hence skipping\nFTP-LOGS-AMEYATEST Jewelry:DataFetch:5703003: files modified time:(2025-10-29 17:20:04 UTC) is older than last import time (2025-10-29 17:20:30 UTC). hence skipping\nFTP-LOGS-AMEYATEST LabGrownDiamond:DataFetch:5703006: files modified time:(2025-10-29 17:19:46 UTC) is older than last import time (2025-10-29 17:20:31 UTC). hence skipping",
+    "request_count": 93736,
+    "inventory_updates_count": 458,
+    "mobile_phone": "7838247717",
+    "search_pref": true,
+    "can_force_green_price_profile": false,
+    "has_price_markups": true,
+    "mobile_phone_country_code": "91",
+    "contact_phone_country_code": "91",
+    "contact_iphone_country_code": "91",
+    "studio_pro": false,
+    "show_vdb_watermark": false,
+    "can_set_watermark": false,
+    "uploaded_watermark": null,
+    "cal_disc_percent": true,
+    "has_multiple_locations": true,
+    "organization_id": 1,
+    "can_create_company_price_markups": true,
+    "main_logo": null,
+    "allow_custom_menu": true,
+    "allow_search_coach_overlay": true,
+    "bmh_request_type": "purchasing_agent",
+    "purchasing_agent_email": "gaurav.sehgal+pa8620@vdbapp.com",
+    "can_set_delivery_date": true,
+    "allow_welcome_screen": false,
+    "allow_lab_grown": false,
+    "can_lock_user_mode": false,
+    "default_price_mode": null,
+    "show_powered_by_vdb": true,
+    "auto_activate": false,
+    "last_diamond_inventory_updated_at": "2026-03-11T05:04:15.852Z",
+    "last_gemstone_inventory_updated_at": "2025-12-11T02:54:03.250Z",
+    "allow_stock_types": {
+      "diamond": "true",
+      "jewelry": "false",
+      "gemstone": "true",
+      "lab_grown_diamond": "false",
+      "default_stock_type": "gemstone"
+    },
+    "http_request_method": 0,
+    "allow_custom_menu_types": {
+      "diamond": "false",
+      "jewelry": "false",
+      "gemstone": "true",
+      "lab_grown_diamond": "false"
+    },
+    "allow_custom_theme": true,
+    "allow_custom_theme_types": {
+      "diamond": "true",
+      "jewelry": "true",
+      "gemstone": "true",
+      "lab_grown_diamond": "true"
+    },
+    "default_markup": "0.0",
+    "share_logo": null,
+    "round_up_prices": true,
+    "owner_info": {
+      "show_owner_info": "false"
+    },
+    "owner_info_users": null,
+    "price_markups_status": {
+      "diamond": "QUEUED",
+      "jewelry": "QUEUED",
+      "gemstone": "NA",
+      "lab_grown_diamond": "FINISHED"
+    },
+    "hubspot_id": "2792719323",
+    "hubspot_sync_pending": true,
+    "additional_attributes": {
+      "ftp_folder": {
+        "diamond": "",
+        "jewelry": "",
+        "gemstone": "",
+        "lab_grown_diamond": ""
+      },
+      "gia_api_key": "12345678987654321",
+      "gdrive_folder": {
+        "diamond": "",
+        "jewelry": "",
+        "gemstone": "",
+        "lab_grown_diamond": ""
+      },
+      "checkout_method": "",
+      "ftp_credentials": {
+        "folder": "",
+        "server": "",
+        "password": "",
+        "username": "",
+        "file_name": "",
+        "is_ssl_required": "false",
+        "upload_method_type": "FTP Client"
+      },
+      "jbt_error_status": "not_applicable",
+      "round_last_digit": "",
+      "shopify_api_shop": "",
+      "zenskar_pricings": [
+        {
+          "pricing_id": "dd5398a3-00b6-47e9-ae48-e86dc3304f61",
+          "product_id": "6e2cfd5a-d0e0-4314-b7ac-6936543f1d46"
+        },
+        {
+          "pricing_id": "c4701bb7-5a5a-489d-bed0-7050d031eb98",
+          "product_id": "0b489326-9e6d-47f4-9265-17c6f5064aa3",
+          "pricing_quantity": 98
+        }
+      ],
+      "jbt_error_comment": "",
+      "remind_after_days": "1",
+      "company_identifier": "",
+      "jewelry_addon_keys": "",
+      "custom_pricing_klass": "",
+      "ftp_upload_frequency": "1",
+      "inventory_access_url": {
+        "diamond_csv_inventory_access_url": {
+          "file_1": "https://d24ppbhzdyfrur.cloudfront.net/inventory-uploads/diamond/16055/csv/20260312_072506_a18b19ade27edf45/d2c644e3f490aabac31ebabac33657d9683c219bff4dfa0ecd3cc6b119e42302.csv"
+        },
+        "diamond_json_inventory_access_url": {},
+        "labgrowndiamond_csv_inventory_access_url": {
+          "file_1": "https://d24ppbhzdyfrur.cloudfront.net/inventory-uploads/labgrowndiamond/16055/csv/20260312_072506_22c2cd81437a34c7/819764e337a55c3587dfdd0b8fcafd1c0abc9d7581c692b900a0e57b783dbb42.csv"
+        },
+        "labgrowndiamond_json_inventory_access_url": {}
+      },
+      "jewelry_slug_formula": "",
+      "datafetch_split_range": "50",
+      "iframe_ref_company_id": "",
+      "jewelry_search_formula": "",
+      "stuller_account_number": "",
+      "api_feed_sync_frequency": "",
+      "knowi_dahboards_enabled": {
+        "organization": "false",
+        "borsheims_report": "false",
+        "lgd_market_watch": "1",
+        "lgd_advance_pricing": "false",
+        "gn_diamonds_app_analytics": "false",
+        "users_and_salesforce_leads": "7",
+        "jewelry_app_users_analytics": "false",
+        "kia_gems_searches_drilldown": "false",
+        "diamond_hunt_iframe_requests": "false",
+        "tiered_markup_retailer_insights": "false",
+        "gul_third_party_items_dashboard_": "false",
+        "goodstone_vims_–_beam_inventory": "false",
+        "concierge_diamonds_inventory_dashboard": "false",
+        "lumex_lab-grown_market_watch_-_searches": "false",
+        "kia_gems_lab-grown_market_watch_-_searches": "5",
+        "lumex_lab-grown_market_watch_-_high/best/average": "false",
+        "elegant_diamonds_&_jewelry_app_analytics(summary)": "false",
+        "kia_gems_lab-grown_market_watch_-_high/best/average": "false"
+      },
+      "search_result_view_type": {
+        "diamond": "",
+        "jewelry": "",
+        "gemstone": "",
+        "lab_grown_diamond": ""
+      },
+      "limit_stock_item_request": "",
+      "searchable_shapes_config": "",
+      "shopify_api_access_token": "",
+      "shopify_vendor_identifier": "",
+      "shopify_publication_channel": "",
+      "show_datafetch_error_alerts": "true"
+    },
+    "salesperson_id": 0,
+    "lock_user_currency": false,
+    "lock_user_currency_value": "",
+    "user_login_price_mode": null,
+    "inventory_count": {
+      "diamond_count": 1,
+      "jewelry_count": 2,
+      "gemstone_count": 10,
+      "diamond_list_count": 1,
+      "jewelry_list_count": 0,
+      "gemstone_list_count": 10,
+      "lab_grown_diamond_count": 32,
+      "lab_grown_diamond_list_count": 25
+    },
+    "iframe_status": false,
+    "iframe_key": null,
+    "iframe_referer": "",
+    "require_webhooks": true,
+    "third_party_stock_items_filter_string": null,
+    "three_d_formula": null,
+    "three_d_settings": null,
+    "dynamic_jewelry_variant_keys": "",
+    "round_up_by": null,
+    "secondary_logo_url": "",
+    "zenskar_customer_id": "046606fa-7f01-4bd2-998f-8d1192a716aa"
+  },
+  "activeFeatures": [
+    {
+      "feature_id": 44,
+      "feature_description": "Show \"banner ad\" on the app",
+      "access": 2
+    },
+    {
+      "feature_id": 48,
+      "feature_description": "Display \"LAB\" icon on upper right corner for lab-grown diamonds screens",
+      "access": 2
+    },
+    {
+      "feature_id": 55,
+      "feature_description": null,
+      "access": 2
+    },
+    {
+      "feature_id": 67,
+      "feature_description": "Enable Currency Conversion",
+      "access": 2
+    },
+    {
+      "feature_id": 149,
+      "feature_description": "Display lab-grown pop-up when switching to lab-grown diamonds",
+      "access": 2
+    },
+    {
+      "feature_id": 203,
+      "feature_description": "Suppress Company banner ad",
+      "access": 2
+    },
+    {
+      "feature_id": 206,
+      "feature_description": "Opt-Out of API Inventory Sharing",
+      "access": 2
+    },
+    {
+      "feature_id": 240,
+      "feature_description": "Ultra-fast Exavault FTP Server (regular speed)",
+      "access": 2
+    },
+    {
+      "feature_id": 301,
+      "feature_description": "Enable Product Level Markup",
+      "access": 1
+    },
+    {
+      "feature_id": 357,
+      "feature_description": "VIMS user can set supplier-level markups",
+      "access": 1
+    },
+    {
+      "feature_id": 367,
+      "feature_description": "Allow breaking large inventory files into delete and update CSV",
+      "access": 1
+    },
+    {
+      "feature_id": 410,
+      "feature_description": "Advance company search price markup ",
+      "access": 1
+    },
+    {
+      "feature_id": 416,
+      "feature_description": "Enable this to mark this company as Demo/QA Company/Internal Usage",
+      "access": 1
+    },
+    {
+      "feature_id": 419,
+      "feature_description": "Enable metal type variations for V2API",
+      "access": 1
+    },
+    {
+      "feature_id": 461,
+      "feature_description": "Disable Company Level Internal Landing Page",
+      "access": 1
+    },
+    {
+      "feature_id": 482,
+      "feature_description": "Disable Inventory Reminder Email",
+      "access": 1
+    },
+    {
+      "feature_id": 483,
+      "feature_description": "Enable Whatsapp for this Company",
+      "access": 1
+    },
+    {
+      "feature_id": 491,
+      "feature_description": "Move VDB public group to the last in the Search Group Sequence",
+      "access": 1
+    },
+    {
+      "feature_id": 549,
+      "feature_description": "Enable critical queue for JSON",
+      "access": 1
+    },
+    {
+      "feature_id": 559,
+      "feature_description": "Enable User-Level Product Visibility Access",
+      "access": 1
+    },
+    {
+      "feature_id": 561,
+      "feature_description": "Enable Knowi Dashboard",
+      "access": 1
+    },
+    {
+      "feature_id": 1304,
+      "feature_description": "Disable Paid VDB Marketplace Subscription",
+      "access": 1
+    },
+    {
+      "feature_id": 1570,
+      "feature_description": "Controls whether BMH request emails (placed from Retail Mode without PA configured) are sent to the Buyer or the Company Admin.",
+      "access": 1
+    }
+  ],
+  "locations": [
+    {
+      "id": 13957,
+      "location_name": "Test 806020 sev1_VDB_TESTCOMPANY",
+      "street_address": "1106 Marshall Dr",
+      "country": "India",
+      "state": "",
+      "city": "Abbaipalem",
+      "zip": "76039-3914",
+      "contact_person": "Gaurav Sehgal",
+      "contact_email": "gaurav.sehgal+8620@vdbapp.com;gaurav.sehgal+160855@vdbapp.com;krishan+vdbprod@vdbapp.com;shreya+pa@vdbapp.com;shreya+newuser@vdbapp.com;divya+seller@vdbapp.com",
+      "mobile_phone": "7838247717",
+      "office_phone": "7838247717",
+      "website": "",
+      "vendor_id": 16055,
+      "is_primary": true,
+      "created_at": "2020-01-06T12:19:05.817Z",
+      "updated_at": "2025-11-10T04:53:04.194Z",
+      "contact_iphone": "7838247717",
+      "mobile_phone_country_code": "91",
+      "contact_phone_country_code": "91",
+      "contact_iphone_country_code": "91",
+      "contact_whatsapp": "7838247717",
+      "contact_whatsapp_country_code": "91"
+    },
+    {
+      "id": 89132,
+      "location_name": "test 8620 India",
+      "street_address": "GJ",
+      "country": "India",
+      "state": "",
+      "city": "Akhara",
+      "zip": "",
+      "contact_person": "DG",
+      "contact_email": "krishan@vdbapp.com",
+      "mobile_phone": "",
+      "office_phone": "989898999",
+      "website": "",
+      "vendor_id": 16055,
+      "is_primary": false,
+      "created_at": "2025-02-14T02:12:03.503Z",
+      "updated_at": "2025-02-14T02:13:47.450Z",
+      "contact_iphone": "",
+      "mobile_phone_country_code": "",
+      "contact_phone_country_code": "91",
+      "contact_iphone_country_code": "1",
+      "contact_whatsapp": "",
+      "contact_whatsapp_country_code": ""
+    },
+    {
+      "id": 154055,
+      "location_name": "Sehgal new",
+      "street_address": "we",
+      "country": "Albania",
+      "state": "",
+      "city": "Corovode",
+      "zip": "",
+      "contact_person": "Gaurav Sehgal",
+      "contact_email": "gaurav.sehgal+15d4767@vdbapp.com",
+      "mobile_phone": "1",
+      "office_phone": "2",
+      "website": "",
+      "vendor_id": 16055,
+      "is_primary": false,
+      "created_at": "2025-09-29T09:45:59.792Z",
+      "updated_at": "2025-09-29T09:45:59.792Z",
+      "contact_iphone": "",
+      "mobile_phone_country_code": "1242",
+      "contact_phone_country_code": "61",
+      "contact_iphone_country_code": "1",
+      "contact_whatsapp": "",
+      "contact_whatsapp_country_code": ""
+    },
+    {
+      "id": 208100,
+      "location_name": "Sehgal Prod Vims",
+      "street_address": "sdf",
+      "country": "Afghanistan",
+      "state": "",
+      "city": "Charikar",
+      "zip": "",
+      "contact_person": "Gaurav Sehgal",
+      "contact_email": "gaurav.sehgal+5@vdbapp.com",
+      "mobile_phone": "",
+      "office_phone": "5102",
+      "website": "",
+      "vendor_id": 16055,
+      "is_primary": false,
+      "created_at": "2026-02-13T05:07:00.255Z",
+      "updated_at": "2026-02-13T05:08:41.061Z",
+      "contact_iphone": "",
+      "mobile_phone_country_code": "880",
+      "contact_phone_country_code": "43",
+      "contact_iphone_country_code": "1",
+      "contact_whatsapp": "",
+      "contact_whatsapp_country_code": ""
+    }
+  ],
+  "overrides": {
+    "orgId": "1",
+    "newCompanyName": "Suhani Test Company"
+  },
+  "result": {
+    "companyName": "Suhani Test Company",
+    "orgId": "1",
+    "newCompanyId": "218028",
+    "featuresActivated": 22,
+    "featuresFailed": 0
+  }
+}

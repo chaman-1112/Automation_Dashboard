@@ -1,0 +1,653 @@
+{
+  "org": {
+    "id": 1002,
+    "name": "Copy of Test Hybrid Configurator 123",
+    "emails": null,
+    "phone": null,
+    "domain_url": "gsduVDUYd",
+    "status": 0,
+    "created_at": "2026-02-11T05:08:09.759Z",
+    "updated_at": "2026-02-11T05:49:06.287Z",
+    "android_app_identifier": "",
+    "ios_app_identifier": "",
+    "favicon_url": "",
+    "analytic_id": "",
+    "iframe_status": true,
+    "iframe_key": "792385b393347ab8f3f208c51ee6da7d6ce60a64",
+    "iframe_referer": null,
+    "web_status": true,
+    "ios_cert": "",
+    "android_cert": "",
+    "ios_cert_env": true,
+    "allow_company_name": true,
+    "segment_key": "lzqV1vBwQwV7zqpvIy8i0uwJc1AS5DJ9",
+    "sentry_dsn": null,
+    "main_logo_url": null,
+    "menu_logo_url": null,
+    "redirect_urls": {
+      "logo_url": "",
+      "sign_out_url": "",
+      "v3_sign_out_url": "",
+      "medialink_share_url": ""
+    },
+    "primary_company_id": 91221,
+    "search_result_view_type": {
+      "diamond": "show_both_default_as_grid",
+      "jewelry": "show_both_default_as_grid",
+      "gemstone": "show_both_default_as_grid",
+      "lab_grown_diamond": "show_both_default_as_grid"
+    },
+    "allow_bulk_requests": {
+      "diamond": "private",
+      "jewelry": "private",
+      "gemstone": "both",
+      "lab_grown_diamond": "both"
+    },
+    "public_key": "",
+    "custom_currency_symbol": "usd",
+    "custom_text": {
+      "contact_us_text": "",
+      "login_title_text": "",
+      "unknown_jewelry_ring_size": "",
+      "login_already_member_label": "",
+      "login_login_button_caption": "",
+      "login_not_registered_label": "",
+      "login_signup_button_caption": "",
+      "organization_home_title_text": "",
+      "signup_submit_button_caption": "",
+      "signup_registration_form_header": "",
+      "order_cart_shipping_instructions": "",
+      "shopping_cart_offline_payment_instructions": ""
+    },
+    "spa_segment_key": "",
+    "deeplink_config": {
+      "apn": "com.vdbsalesapp.android",
+      "ibi": "com.vdb.sales",
+      "isi": "1477954444",
+      "base_url": "https://vdb.page.link/",
+      "link_url": "qatestconfig.preprod.customvirtual.app",
+      "login_deeplink": "https://vdb.page.link/?link=https://qatestconfig.preprod.customvirtual.app/client/deep/diamond/-1/action_view/sign_in&apn=com.vdbsalesapp.android&isi=1477954444&ibi=com.vdb.sales"
+    },
+    "external_landing_page_url": "",
+    "internal_landing_page_url": "",
+    "setting_attributes": {
+      "on_hand_text": {
+        "0": "",
+        "1": "",
+        "2": ""
+      },
+      "jewelry_cart_url": "",
+      "media_visibility": {
+        "get_cert_media": "",
+        "get_image_media": "",
+        "get_video_media": ""
+      },
+      "site_redirect_url": "",
+      "web_grid_view_ad_positioning": "",
+      "web_list_view_ad_positioning": "",
+      "ipad_grid_view_ad_positioning": "",
+      "ipad_list_view_ad_positioning": "",
+      "mobile_grid_view_ad_positioning": "",
+      "mobile_list_view_ad_positioning": ""
+    },
+    "custom_header_html": "<style>\r\n   .leg-header {\r\n      height: 100px;\r\n      display: flex;\r\n      flex-direction: row;\r\n      justify-content: space-between;\r\n      background-color: #232C36;\r\n      align-items: center;\r\n      padding: 0 40px;\r\n      width: 100%;\r\n   }\r\n\r\n   .leg-header .logo {\r\n      font-size: 22px;\r\n      font-weight: bolder;\r\n   }\r\n\r\n   .leg-header .logo img {\r\n      width: 230px;\r\n      padding-top: 0px;\r\n   }\r\n\r\n   .leg-header .menu-item {\r\n      color: #fff;\r\n   }\r\n\r\n   .leg-header.menu-item .menu:hover {\r\n      color: #0085BE !important;\r\n   }\r\n\r\n   .leg.menu-item .menu span:hover {\r\n      color: #0085BE !important;\r\n   }\r\n\r\n   .menu-item .menu:hover {\r\n      color: #0085BE !important\r\n   }\r\n\r\n   .leg-header .sub-menu li:hover {\r\n      background-color: #191919;\r\n      color: #0085BE !important;\r\n   }\r\n\r\n   .leg-header .logo a {\r\n      color: inherit;\r\n      text-decoration: none;\r\n   }\r\n\r\n   .leg-header .sub-menu li {\r\n      min-width: 200px;\r\n   }\r\n\r\n   .leg-header .powered-by {\r\n      position: absolute;\r\n      top: 0;\r\n      left: 0;\r\n      width: 20px;\r\n      height: 130px;\r\n   }\r\n\r\n   .leg-header .powered-by span {\r\n      display: block;\r\n      color: #fff !important;\r\n      font-size: 12px;\r\n      width: 130px;\r\n      -webkit-transform: rotate(-90deg);\r\n      transform: rotate(-90deg);\r\n      position: absolute;\r\n      top: 33px;\r\n      left: -55px;\r\n      font-weight: normal;\r\n   }\r\n</style>\r\n<div class=\"leg-header\">\r\n   <div class=\"logo\">\r\n      <a href=\"/webapp/lab-grown/search/new\"><img src=” \" alt=\"\"></a>\r\n   </div>\r\n   <div class=\"right-section\">\r\n   </div>\r\n</div>\r\n",
+    "meta_data": {
+      "keywords": "",
+      "page_title": "",
+      "description": "",
+      "website_verification_tag": ""
+    },
+    "web_plugins_script": "",
+    "additional_attributes": {
+      "app_id": "",
+      "api_key": "",
+      "ad_delay": "",
+      "max_depth": "",
+      "max_ratio": "",
+      "max_table": "",
+      "max_width": "",
+      "min_depth": "",
+      "min_ratio": "",
+      "min_table": "",
+      "min_width": "",
+      "max_height": "",
+      "max_length": "",
+      "min_height": "",
+      "min_length": "",
+      "project_id": "",
+      "delist_days": "7",
+      "terms_de_url": "",
+      "terms_en_url": "",
+      "terms_ko_url": "",
+      "terms_zh_url": "",
+      "retail_markup": "",
+      "owner_info_pin": "",
+      "pay_online_text": "",
+      "pay_offline_text": "",
+      "order_track_color": "",
+      "remind_after_days": "1",
+      "show_intercom_key": "",
+      "mobile_three_d_url": "",
+      "order_track_status": "",
+      "preferred_language": "en",
+      "supported_language": "",
+      "warning_after_days": "1",
+      "delist_warning_days": "5",
+      "messaging_sender_id": "",
+      "buying_group_options": "",
+      "email_footer_address": "",
+      "jewelry_slug_formula": "",
+      "recaptcha_client_key": "",
+      "recaptcha_secret_key": "",
+      "new_arrival_item_time": "",
+      "purchased_delist_days": "",
+      "hide_guest_prices_text": "",
+      "hide_prices_for_product": "",
+      "order_track_status_label": "",
+      "buyer_excel_column_for_bmh": "",
+      "order_track_action_message": "",
+      "api_request_expiration_days": "30",
+      "seller_excel_column_for_bmh": "",
+      "show_items_price_less_then_26": false,
+      "enable_buy_request_at_null_zero": "",
+      "overide_email_confirmation_text": "",
+      "retailer_default_theme_company_id": "",
+      "before_auction_end_notification_timer": "180",
+      "before_auction_start_notification_timer": "1440",
+      "retailer_default_custom_menu_company_id": ""
+    },
+    "business_plan": 3,
+    "internal_landing_page_url_v3": "",
+    "fcm_config": null,
+    "onesignal_app_id": "",
+    "onesignal_rest_api_key": "",
+    "secondary_logo_url": null,
+    "analytic_ga4_id": null,
+    "landing_pages": {
+      "external_landing_page_url_v3": "",
+      "wellknown_external_landing_page_url": "",
+      "wellknown_internal_landing_page_url": ""
+    }
+  },
+  "orgSettings": [
+    {
+      "feature_id": 40,
+      "feature_name": "enterprise",
+      "feature_description": "Enterprise Organization",
+      "access": 2
+    },
+    {
+      "feature_id": 47,
+      "feature_name": "company_name_required",
+      "feature_description": "Allow Company Name Required",
+      "access": 2
+    },
+    {
+      "feature_id": 52,
+      "feature_name": "require_phone_during_registration",
+      "feature_description": "Make Contact Number a required field during registration",
+      "access": 2
+    },
+    {
+      "feature_id": 54,
+      "feature_name": "update_availability_status",
+      "feature_description": "Update Availability Indicator/Status based on Item Request",
+      "access": 2
+    },
+    {
+      "feature_id": 62,
+      "feature_name": "disable_default_image_zoom",
+      "feature_description": "Disable Default Image Zoom",
+      "access": 2
+    },
+    {
+      "feature_id": 63,
+      "feature_name": "collect_address",
+      "feature_description": "Allow Collect Address",
+      "access": 2
+    },
+    {
+      "feature_id": 66,
+      "feature_name": "custom_currency_symbol",
+      "feature_description": "Enable Custom Currency Symbol",
+      "access": 1
+    },
+    {
+      "feature_id": 70,
+      "feature_name": "suppress_actual_supplier_details_in_white_mode",
+      "feature_description": "Suppress Actual Supplier Details in White Mode'",
+      "access": 2
+    },
+    {
+      "feature_id": 142,
+      "feature_name": "enable_custom_search_menu",
+      "feature_description": "Enable Custom Search Menu",
+      "access": 2
+    },
+    {
+      "feature_id": 146,
+      "feature_name": "enable_custom_navigation",
+      "feature_description": "Enable Custom Navigation",
+      "access": 2
+    },
+    {
+      "feature_id": 147,
+      "feature_name": "disable_fuzzy_logic",
+      "feature_description": "Disable Fuzzy Logic",
+      "access": 2
+    },
+    {
+      "feature_id": 153,
+      "feature_name": "collect_address_required",
+      "feature_description": "Allow Collect Address Required",
+      "access": 2
+    },
+    {
+      "feature_id": 187,
+      "feature_name": "share_collection",
+      "feature_description": "Allow Collection Share",
+      "access": 2
+    },
+    {
+      "feature_id": 195,
+      "feature_name": "search_result_with_image_only",
+      "feature_description": "Allow Search Result With Image Only",
+      "access": 2
+    },
+    {
+      "feature_id": 198,
+      "feature_name": "grid_view_item_label",
+      "feature_description": "Override Item Description in Grid View.",
+      "access": 2
+    },
+    {
+      "feature_id": 200,
+      "feature_name": "jewelry_item_configuration",
+      "feature_description": "Allow Jewelry Item Configuration",
+      "access": 2
+    },
+    {
+      "feature_id": 250,
+      "feature_name": "unified_fav_collection",
+      "feature_description": "Enable Unified Favorites/Collections",
+      "access": 2
+    },
+    {
+      "feature_id": 258,
+      "feature_name": "enable_advanced_list_view",
+      "feature_description": "Enable advanced list view",
+      "access": 2
+    },
+    {
+      "feature_id": 260,
+      "feature_name": "show_ctw_on_jewelry_results",
+      "feature_description": "Show ctw on jewelry results",
+      "access": 2
+    },
+    {
+      "feature_id": 264,
+      "feature_name": "display_custom_company_logo_html_header",
+      "feature_description": "Display Customer Company logo in Custom HTML Header",
+      "access": 2
+    },
+    {
+      "feature_id": 267,
+      "feature_name": "suppress_iframe_to_load_html",
+      "feature_description": "Allow Suppress Iframe To Load Html",
+      "access": 2
+    },
+    {
+      "feature_id": 279,
+      "feature_name": "use_stock_item_locations_for_search",
+      "feature_description": "Allow Use Stock Item Locations For Search",
+      "access": 2
+    },
+    {
+      "feature_id": 281,
+      "feature_name": "enable_image_video_report_native_share",
+      "feature_description": "Allow Enable Image Video Report Native Share",
+      "access": 2
+    },
+    {
+      "feature_id": 288,
+      "feature_name": "show_subtitle_on_grid_view",
+      "feature_description": "Show sub-title on grid view",
+      "access": 1
+    },
+    {
+      "feature_id": 303,
+      "feature_name": "allow_stock_num_search_by_brand",
+      "feature_description": "Enable Stock# search through Brands",
+      "access": 2
+    },
+    {
+      "feature_id": 304,
+      "feature_name": "enterprise_with_b2b_b2c",
+      "feature_description": "Enterprise model supporting B2B and B2C plan",
+      "access": 2
+    },
+    {
+      "feature_id": 310,
+      "feature_name": "mandatory_logo",
+      "feature_description": "Display Logo as per B2B2C functionality",
+      "access": 2
+    },
+    {
+      "feature_id": 356,
+      "feature_name": "hybrid",
+      "feature_description": "Hybrid model for WDC",
+      "access": 2
+    },
+    {
+      "feature_id": 360,
+      "feature_name": "prioritize_video_over_image",
+      "feature_description": "Prioritize Video over Image on product detail page",
+      "access": 2
+    },
+    {
+      "feature_id": 363,
+      "feature_name": "orange_mode_bulk_request",
+      "feature_description": "Enable Bulk BMH Request in Orange Mode",
+      "access": 2
+    },
+    {
+      "feature_id": 364,
+      "feature_name": "ask_question",
+      "feature_description": "Enable Ask a Question",
+      "access": 2
+    },
+    {
+      "feature_id": 405,
+      "feature_name": "updated_bmh_emails",
+      "feature_description": "",
+      "access": 2
+    },
+    {
+      "feature_id": 417,
+      "feature_name": "allow_item_share_with_or_without_prices",
+      "feature_description": "Allow Item Share with/without prices",
+      "access": 2
+    },
+    {
+      "feature_id": 423,
+      "feature_name": "hybrid_jewelry_model",
+      "feature_description": "Enable Jewelry Hybrid Mode",
+      "access": 1
+    },
+    {
+      "feature_id": 424,
+      "feature_name": "share_inventory_as_pdf",
+      "feature_description": "Allow PDF Attachments for sharing inventories via Email",
+      "access": 1
+    },
+    {
+      "feature_id": 500,
+      "feature_name": "use_separate_variation_api",
+      "feature_description": "Use Separate Variation Api",
+      "access": 1
+    },
+    {
+      "feature_id": 511,
+      "feature_name": "notify_zero_results",
+      "feature_description": "This will send email to admins when result count is 0",
+      "access": 2
+    },
+    {
+      "feature_id": 541,
+      "feature_name": "quantity_in_hand",
+      "feature_description": "Show Quantity in hand",
+      "access": 2
+    },
+    {
+      "feature_id": 547,
+      "feature_name": "enable_retail_markups",
+      "feature_description": "Enable Retail Markups",
+      "access": 1
+    }
+  ],
+  "customizations": [],
+  "globals": [],
+  "customTexts": [],
+  "jsonNavMenu": null,
+  "company": {
+    "id": 91221,
+    "name": "Copy of Quantum Demo 1212",
+    "logo_url": "",
+    "created_at": "2026-02-11T05:08:39.524Z",
+    "updated_at": "2026-02-11T05:08:39.524Z",
+    "request_email_address": "",
+    "customer_visibility": "{\"blacklist\":{\"countries\":[],\"vendors\":[],\"retailers\":[],\"blacklisted_by\":[]},\"vendors\":[],\"retailers\":[]}",
+    "company_code": "",
+    "name_on_info_card": null,
+    "contact_phone": "",
+    "data_url": "{\"diamond_data_url\":\"\",\"diamond_data_results\":\"\",\"gemstone_data_url\":\"\",\"gemstone_data_results\":\"\",\"jewelry_data_url\":\"\",\"jewelry_data_results\":\"\",\"lab_grown_data_url\":\"\",\"lab_grown_data_results\":\"\",\"data_url_auth_type\":\"\",\"data_url_auth_user\":\"\",\"data_url_auth_password\":\"\",\"diamond_data_auth_url\":\"\",\"lab_grown_data_auth_url\":\"\",\"diamond_token_api_body\":\"\",\"diamond_stock_api_body\":\"\",\"lab_grown_token_api_body\":\"\",\"lab_grown_stock_api_body\":\"\",\"jewelry_token_api_body\":\"\",\"jewelry_stock_api_body\":\"\",\"diamond_image_url_format\":\"\",\"lab_grown_image_url_format\":\"\",\"use_proxy\":\"false\",\"jewelry_image_url_format\":\"\",\"diamond_cert_url_format\":\"\",\"lab_grown_cert_url_format\":\"\",\"jewelry_cert_url_format\":\"\",\"gemstone_cert_url_format\":\"\",\"gemstone_image_url_format\":\"\",\"gemstone_token_api_body\":\"\",\"gemstone_stock_api_body\":\"\",\"diamond_page_count\":\"\",\"gemstone_page_count\":\"\",\"jewelry_page_count\":\"\",\"lab_grown_diamond_page_count\":\"\"}",
+    "company_type": "vendor",
+    "country": "India",
+    "state": null,
+    "city": "Abbenda",
+    "street_address": "",
+    "zip_code": "",
+    "contact_person": "",
+    "latitude": null,
+    "longitude": null,
+    "website": "",
+    "jbt_number": "",
+    "data_format": "csv",
+    "emails_visibility": null,
+    "salesperson": null,
+    "contact_iphone": "",
+    "accepts_memo": true,
+    "salesforce_id": null,
+    "uploaded_logo": null,
+    "can_set_logo": false,
+    "salesforce_sync_pending": true,
+    "last_ftp_ran_at": null,
+    "last_ftp_error": null,
+    "request_count": 0,
+    "inventory_updates_count": 0,
+    "mobile_phone": "",
+    "search_pref": false,
+    "can_force_green_price_profile": false,
+    "has_price_markups": false,
+    "mobile_phone_country_code": "",
+    "contact_phone_country_code": "",
+    "contact_iphone_country_code": "",
+    "studio_pro": false,
+    "show_vdb_watermark": false,
+    "can_set_watermark": false,
+    "uploaded_watermark": null,
+    "cal_disc_percent": false,
+    "has_multiple_locations": false,
+    "organization_id": 1002,
+    "can_create_company_price_markups": false,
+    "main_logo": null,
+    "allow_custom_menu": false,
+    "allow_search_coach_overlay": true,
+    "bmh_request_type": "",
+    "purchasing_agent_email": null,
+    "can_set_delivery_date": false,
+    "allow_welcome_screen": true,
+    "allow_lab_grown": true,
+    "can_lock_user_mode": false,
+    "default_price_mode": null,
+    "show_powered_by_vdb": true,
+    "auto_activate": false,
+    "last_diamond_inventory_updated_at": null,
+    "last_gemstone_inventory_updated_at": null,
+    "allow_stock_types": {
+      "diamond": "true",
+      "jewelry": "true",
+      "gemstone": "true",
+      "lab_grown_diamond": "true",
+      "default_stock_type": "diamond"
+    },
+    "http_request_method": 0,
+    "allow_custom_menu_types": {
+      "diamond": false,
+      "jewelry": false,
+      "gemstone": false,
+      "lab_grown_diamond": false
+    },
+    "allow_custom_theme": false,
+    "allow_custom_theme_types": {
+      "diamond": false,
+      "jewelry": false,
+      "gemstone": false,
+      "lab_grown_diamond": false
+    },
+    "default_markup": "0.0",
+    "share_logo": null,
+    "round_up_prices": false,
+    "owner_info": {
+      "show_owner_info": "false"
+    },
+    "owner_info_users": null,
+    "price_markups_status": {
+      "diamond": "NA",
+      "jewelry": "NA",
+      "gemstone": "NA",
+      "lab_grown_diamond": "NA"
+    },
+    "hubspot_id": null,
+    "hubspot_sync_pending": null,
+    "additional_attributes": {
+      "ftp_folder": {
+        "diamond": "",
+        "jewelry": "",
+        "gemstone": "",
+        "lab_grown_diamond": ""
+      },
+      "gia_api_key": "",
+      "gdrive_folder": {
+        "diamond": "",
+        "jewelry": "",
+        "gemstone": "",
+        "lab_grown_diamond": ""
+      },
+      "checkout_method": "",
+      "ftp_credentials": {
+        "folder": "",
+        "server": "",
+        "password": "",
+        "username": "",
+        "file_name": "",
+        "is_ssl_required": "false",
+        "upload_method_type": "FTP Client"
+      },
+      "jbt_error_status": "not_applicable",
+      "round_last_digit": "",
+      "shopify_api_shop": "",
+      "jbt_error_comment": "",
+      "remind_after_days": "1",
+      "company_identifier": "",
+      "jewelry_addon_keys": "",
+      "custom_pricing_klass": "",
+      "ftp_upload_frequency": "",
+      "inventory_access_url": {
+        "diamond_csv_inventory_access_url": "{}",
+        "diamond_json_inventory_access_url": "{}",
+        "labgrowndiamond_csv_inventory_access_url": "{}",
+        "labgrowndiamond_json_inventory_access_url": "{}"
+      },
+      "jewelry_slug_formula": "",
+      "datafetch_split_range": "",
+      "iframe_ref_company_id": "",
+      "jewelry_search_formula": "",
+      "stuller_account_number": "",
+      "api_feed_sync_frequency": "",
+      "knowi_dahboards_enabled": {
+        "organization": "false",
+        "borsheims_report": "false",
+        "lgd_market_watch": "false",
+        "lgd_advance_pricing": "false",
+        "users_and_salesforce_leads": "false",
+        "jewelry_app_users_analytics": "false",
+        "kia_gems_searches_drilldown": "false",
+        "tiered_markup_retailer_insights": "false",
+        "gul_third_party_items_dashboard_": "false",
+        "goodstone_vims_–_beam_inventory": "false",
+        "concierge_diamonds_inventory_dashboard_": "false",
+        "lumex_lab-grown_market_watch_-_searches": "false",
+        "kia_gems_lab-grown_market_watch_-_searches": "false",
+        "lumex_lab-grown_market_watch_-_high/best/average": "false",
+        "elegant_diamonds_&_jewelry_app_analytics(summary)": "false",
+        "kia_gems_lab-grown_market_watch_-_high/best/average": "false"
+      },
+      "search_result_view_type": {
+        "diamond": "",
+        "jewelry": "",
+        "gemstone": "",
+        "lab_grown_diamond": ""
+      },
+      "limit_stock_item_request": "",
+      "searchable_shapes_config": "",
+      "shopify_api_access_token": "",
+      "field_for_hyperlink_check": "",
+      "shopify_vendor_identifier": "",
+      "enable_hyperlink_data_check": "false",
+      "shopify_publication_channel": "",
+      "show_datafetch_error_alerts": "0"
+    },
+    "salesperson_id": 0,
+    "lock_user_currency": false,
+    "lock_user_currency_value": null,
+    "user_login_price_mode": null,
+    "inventory_count": {},
+    "iframe_status": false,
+    "iframe_key": null,
+    "iframe_referer": "",
+    "require_webhooks": false,
+    "third_party_stock_items_filter_string": null,
+    "three_d_formula": null,
+    "three_d_settings": null,
+    "dynamic_jewelry_variant_keys": "",
+    "round_up_by": null,
+    "secondary_logo_url": "",
+    "show_datafetch_error_alerts": false,
+    "zenskar_customer_id": null
+  },
+  "activeFeatures": [
+    {
+      "feature_id": 518,
+      "feature_description": "This switch is to be enabled for making images url non mandatory to list jewlery.",
+      "access": 1
+    }
+  ],
+  "locations": [
+    {
+      "id": 89327,
+      "location_name": "India_1770806317342",
+      "street_address": "",
+      "country": "India",
+      "state": null,
+      "city": "Abbenda",
+      "zip": "",
+      "contact_person": "",
+      "contact_email": "qa-vdb+stg_usr__39416@vdbapp.com",
+      "mobile_phone": "",
+      "office_phone": "",
+      "website": "",
+      "vendor_id": 91221,
+      "is_primary": true,
+      "created_at": "2026-02-11T05:08:39.581Z",
+      "updated_at": "2026-02-11T05:08:39.581Z",
+      "contact_iphone": "",
+      "mobile_phone_country_code": "",
+      "contact_phone_country_code": "",
+      "contact_iphone_country_code": "",
+      "contact_whatsapp": "",
+      "contact_whatsapp_country_code": ""
+    }
+  ],
+  "authToken": "psu638r1nfwkbayvjsfx",
+  "overrides": {
+    "newOrgName": "Copy of Copy of Test Hybrid Configurator 123",
+    "newDomainUrl": "copy-gsduVDUYd-1773307734881",
+    "newCompanyName": "Copy of Copy of Quantum Demo 1212"
+  },
+  "result": {
+    "orgName": "Copy of Copy of Test Hybrid Configurator 123",
+    "orgId": "1491",
+    "newOrgId": "1491"
+  }
+}

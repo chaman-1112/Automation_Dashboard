@@ -1,0 +1,688 @@
+{
+  "org": {
+    "id": 473,
+    "name": "Fire and Ice Diamonds",
+    "emails": {
+      "qa": "qa-vdb+stg_usr__473@vdbapp.com",
+      "bcc": "qa-vdb+stg_usr__473@vdbapp.com",
+      "dev": "qa-vdb+stg_usr__473@vdbapp.com",
+      "system": "qa-vdb+stg_usr__473@vdbapp.com",
+      "primary": "qa-vdb+stg_usr__473@vdbapp.com",
+      "reports": "qa-vdb+stg_usr__473@vdbapp.com",
+      "support": "qa-vdb+stg_usr__473@vdbapp.com",
+      "reply_to": "qa-vdb+stg_usr__473@vdbapp.com",
+      "secondary": "qa-vdb+stg_usr__473@vdbapp.com",
+      "contact_us": "qa-vdb+stg_usr__473@vdbapp.com",
+      "inventory_reports": "qa-vdb+stg_usr__473@vdbapp.com"
+    },
+    "phone": "{\"primary\":\"+61 828-559-2000\", \"secondary\":\"+61 828-559-2000\"}",
+    "domain_url": "b2b.fireandicediamonds.com;fireandicediamonds.customvirtual.app;fireandicediamonds.preprod.customvirtual.app;fireandicediamonds.com",
+    "status": 0,
+    "created_at": "2022-01-17T01:34:06.009Z",
+    "updated_at": "2026-01-20T05:29:25.705Z",
+    "android_app_identifier": "https://play.google.com/store/apps/details?id=com.fireandicediamonds.android",
+    "ios_app_identifier": "https://apps.apple.com/us/app/1633424200",
+    "favicon_url": "https://all-demos.s3.amazonaws.com/fire-and-ice/img/favicon.png",
+    "analytic_id": "",
+    "iframe_status": false,
+    "iframe_key": null,
+    "iframe_referer": "",
+    "web_status": true,
+    "ios_cert": "Bag Attributes\r\n    friendlyName: Apple Push Services: com.ios.fireicediamonds\r\n    localKeyID: 48 01 64 2C DC 0C FD BC EF 46 DE D5 7F 62 5A B7 DD 60 B5 10 \r\nsubject=UID=com.ios.fireicediamonds, CN=Apple Push Services: com.ios.fireicediamonds, OU=K8CH96HGND, O=FIRE & ICE DIAMONDS, INC, C=US\r\nissuer=CN=Apple Worldwide Developer Relations Certification Authority, OU=G4, O=Apple Inc., C=US\r\n-----BEGIN CERTIFICATE-----\r\nMIIGyzCCBbOgAwIBAgIQRCCw85FZ7EN34ikUDS6SHjANBgkqhkiG9w0BAQsFADB1\r\nMUQwQgYDVQQDDDtBcHBsZSBXb3JsZHdpZGUgRGV2ZWxvcGVyIFJlbGF0aW9ucyBD\r\nZXJ0aWZpY2F0aW9uIEF1dGhvcml0eTELMAkGA1UECwwCRzQxEzARBgNVBAoMCkFw\r\ncGxlIEluYy4xCzAJBgNVBAYTAlVTMB4XDTI0MDgzMDA3NDQ0NVoXDTI1MDkyOTA3\r\nNDQ0NFowgaUxJzAlBgoJkiaJk/IsZAEBDBdjb20uaW9zLmZpcmVpY2VkaWFtb25k\r\nczE1MDMGA1UEAwwsQXBwbGUgUHVzaCBTZXJ2aWNlczogY29tLmlvcy5maXJlaWNl\r\nZGlhbW9uZHMxEzARBgNVBAsMCks4Q0g5NkhHTkQxITAfBgNVBAoMGEZJUkUgJiBJ\r\nQ0UgRElBTU9ORFMsIElOQzELMAkGA1UEBhMCVVMwggEiMA0GCSqGSIb3DQEBAQUA\r\nA4IBDwAwggEKAoIBAQDKN6ZVRIlCQPTi0xw249NGVitgGEEXU+30HnFLQ5V8L431\r\n/g4Vx276bfeNNwmlp+OWTSJMt+eJCwT1k9zTsUA2XdiA7vsUsdYXQFpr/MklM2lE\r\nBfXJTl8VmwMQfFLsWH5u6YvYymOUV54Kq7fsu88omcSMMbE/yDW3uBdUc15yQvSS\r\n9cDKRq56rHS8s3x3+cysr53r7TZCn4+aVtOJBpuCcNKr9ya8kpm3JWqp38VZ/dD5\r\n0HweVQ0zB5uBIkxmroA0zPXJjLhtQLXF93Qa3k0HhqpahkbdlF3f0EwIPCD5cFdp\r\nfzaqGa2ebcAcFbHdsE7HeTswMsu2BFHShAcZWUUrAgMBAAGjggMkMIIDIDAMBgNV\r\nHRMBAf8EAjAAMB8GA1UdIwQYMBaAFFvZ+h3nmhoLo5l2IlCGPpHIW3eoMHAGCCsG\r\nAQUFBwEBBGQwYjAtBggrBgEFBQcwAoYhaHR0cDovL2NlcnRzLmFwcGxlLmNvbS93\r\nd2RyZzQuZGVyMDEGCCsGAQUFBzABhiVodHRwOi8vb2NzcC5hcHBsZS5jb20vb2Nz\r\ncDAzLXd3ZHJnNDAxMIIBHQYDVR0gBIIBFDCCARAwggEMBgkqhkiG92NkBQEwgf4w\r\ngcMGCCsGAQUFBwICMIG2DIGzUmVsaWFuY2Ugb24gdGhpcyBjZXJ0aWZpY2F0ZSBi\r\neSBhbnkgcGFydHkgYXNzdW1lcyBhY2NlcHRhbmNlIG9mIHRoZSB0aGVuIGFwcGxp\r\nY2FibGUgc3RhbmRhcmQgdGVybXMgYW5kIGNvbmRpdGlvbnMgb2YgdXNlLCBjZXJ0\r\naWZpY2F0ZSBwb2xpY3kgYW5kIGNlcnRpZmljYXRpb24gcHJhY3RpY2Ugc3RhdGVt\r\nZW50cy4wNgYIKwYBBQUHAgEWKmh0dHBzOi8vd3d3LmFwcGxlLmNvbS9jZXJ0aWZp\r\nY2F0ZWF1dGhvcml0eTATBgNVHSUEDDAKBggrBgEFBQcDAjAyBgNVHR8EKzApMCeg\r\nJaAjhiFodHRwOi8vY3JsLmFwcGxlLmNvbS93d2RyZzQtNy5jcmwwHQYDVR0OBBYE\r\nFEgBZCzcDP2870be1X9iWrfdYLUQMA4GA1UdDwEB/wQEAwIHgDCBvwYKKoZIhvdj\r\nZAYDBgSBsDCBrQwXY29tLmlvcy5maXJlaWNlZGlhbW9uZHMwBwwFdG9waWMMHGNv\r\nbS5pb3MuZmlyZWljZWRpYW1vbmRzLnZvaXAwBgwEdm9pcAwkY29tLmlvcy5maXJl\r\naWNlZGlhbW9uZHMuY29tcGxpY2F0aW9uMA4MDGNvbXBsaWNhdGlvbgwgY29tLmlv\r\ncy5maXJlaWNlZGlhbW9uZHMudm9pcC1wdHQwCwwJLnZvaXAtcHR0MBAGCiqGSIb3\r\nY2QGAwEEAgUAMBAGCiqGSIb3Y2QGAwIEAgUAMA0GCSqGSIb3DQEBCwUAA4IBAQCX\r\n0zT7T4h5A82naG1pohEAVq45zag0nxRiExAyG8GA4mhgbzArBKkVt/1QpyU5FNKl\r\nVc5TRrUKp8WpU+a5sDJwIPjyfNixbMo+8ZGe0txEKUG5Demo2dnkLZXCJeKLHWy2\r\n0z02Ck+qyM6oFJ/Tn0GnJy+OW7geFjs1sIMsU0uI96VoIb2W3yuTpMCij5Ft1yeR\r\nkPsK3UZ5Wzz0yPwHEBN9WYwoASEDQ830/DlZJkGliGN1ovV1bVbey1BS8GVJLjwg\r\nPyRM6XQahi2SwRM/912skglLScTE/W/Hn6QSowUTXVQfGVyz2cKSrhfNDbudye6E\r\nl9OQJ8wYKNEpLPfm/bFK\r\n-----END CERTIFICATE-----\r\nBag Attributes\r\n    friendlyName: Pawan\r\n    localKeyID: 48 01 64 2C DC 0C FD BC EF 46 DE D5 7F 62 5A B7 DD 60 B5 10 \r\nKey Attributes: <No Attributes>\r\n-----BEGIN PRIVATE KEY-----\r\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDKN6ZVRIlCQPTi\r\n0xw249NGVitgGEEXU+30HnFLQ5V8L431/g4Vx276bfeNNwmlp+OWTSJMt+eJCwT1\r\nk9zTsUA2XdiA7vsUsdYXQFpr/MklM2lEBfXJTl8VmwMQfFLsWH5u6YvYymOUV54K\r\nq7fsu88omcSMMbE/yDW3uBdUc15yQvSS9cDKRq56rHS8s3x3+cysr53r7TZCn4+a\r\nVtOJBpuCcNKr9ya8kpm3JWqp38VZ/dD50HweVQ0zB5uBIkxmroA0zPXJjLhtQLXF\r\n93Qa3k0HhqpahkbdlF3f0EwIPCD5cFdpfzaqGa2ebcAcFbHdsE7HeTswMsu2BFHS\r\nhAcZWUUrAgMBAAECggEAGyylTpoaM+wUvJKQHRQ6pR4ZUB2SSbc+p+qbYPjhEsI1\r\nOpR8ghK96Ct08+YshrVsERume1bPZ4wyi2nmaBBOx7+Ow6zZ0usfERrVy+M5iKVD\r\nBSAj6nx8rKObItECN76gpvj9kRGJljq8A0UWP1rxuMwJLKnU3vRhu6GiiPfD/mih\r\nzG+gITGXwmyMsrdMye7meyMgEUk/HAZ4gKlImtnpxGqOEjeqo/yp8IVQALcDnvj7\r\n0uj5i+Rgw6FDtaTFdNQDlGCobpTT2voomyl1BNcmAGc+YlHeiFPsjwD2WrrUI/ag\r\npTeCrlQJ3WFzywHC/IZ84H63VLJ9mK6aYzvHx0IGoQKBgQDuEW9NnmNhL+WhthlI\r\n396qWq55oDwVzt5H9PdumDxDL0OTRBzDOAgkyyVtcQbDoo/qmhXSB1+/rZPeK7WR\r\n7vQTb7PRXIw62p7FWKxL1lJT94l9t/DH+9o/5PRO4RNKNoSHcLRXZn3TkV9iY16c\r\nJIt0aMKtBozSyU20qxkQfTja8QKBgQDZcuu8FCXIBAu2H+uigpNnjwd4/LwS5g/O\r\nQUxnwZksZNcxX193FyZg44iuAvScgLw25RGmqd53LNpH5wpUvfitHVdS5fIH+F6S\r\neHQqq/cQLzNc5nqcuofGZpk1suIQB+9P2HbtZU53u0d6sFPY/gVU8wdea960QvOg\r\nCVPphzuJ2wKBgQCJ76ghvOev4+SU8cFsq+mDos78wY6OxDGeV50VgzdHZhctOIXB\r\nxrFRQDMLWjWlHIduUqDZ9FPR52yJiaHGUEEzEcGKSKknYIwlo98Qgblp1T7gjLcB\r\n6DboVmwHV/mpQjU/lFmpWkUFVHGDvDeRGMuEQz6oqebmKqTPTWNUXnmWwQKBgHYB\r\npejlzjMj7u8hl5ET58b1mgqQrchbzgwS59IPAH9VImuK5JYOnCdMk+pLdFBSlNH9\r\nsnyOB0sJrlQDEFo41nGsUK2OWLD2muxGLlTSCjxgQTGTassPd4u2NkMsFv64L6lX\r\nQgNHTTQxEHOGqZpDEMWvNjqJs8yD4Q7iwQUk/KytAoGASTegbDGS35PSCvKFxvJR\r\nq5ydyazesLMP9HiYrPvLN7VS61JtPDHZ5sFzo3W5RF8FlU9iscAyg7F08gpmZIqh\r\nLL8UEqzVkKDrhZgZHHVzUWHvxO7ysliF1FQI56tYet2QnT3sxf8GmWgcChpCEut3\r\nx5oTxizn9jcdHQLbkOc798U=\r\n-----END PRIVATE KEY-----",
+    "android_cert": "-----BEGIN PRIVATE KEY-----\r\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCgCltLs+vJ91Eo\r\n5TeHV0egT/yM3TpGOzAitQZV8V5ViifzTcXYJ0VcApFvsHusldpGZ3rjo4FZmVGy\r\nzP6IT7/A+zQJ2YwALa3uYJNd3Yfsyuj8TvSCO5H3N4ewvIYbivv+AMm06Wh0B+Wq\r\nyCeNGcobY3dwsHTarO5iSOWF3XEtH7zmM25GAjsAe4c+zOqk5sGvBW2/0W09gEjT\r\nz5Fzt4isNeF+d6c5cOxzjcuCynwZzq2FP5BcJ/xj0vmMDyK/WOW2q4cNT6gBvP6e\r\nBh17um74I2Ue9UBdWn3u8c+Ofsy80Y/nBZsCDOaFG1ng4Ta9VWueRct6zRMRDPgU\r\nI/ThB51JAgMBAAECggEAAvj7r5z2i5dx69vQip3IVcU+2XmvbGfE8Xem8oe8wZpl\r\nDZU9HoKHX5zD5rD1LCnepLa2QuF7b+pzr1LV3RfaLw5I1vupx7KlExfYJ65AdMhz\r\nax/jQseCGt1CJRxMGF4/EyoyshTLGzxTxP5CwFFGSWAvz5C2yU2Pbc4mddXvEjgR\r\nLInP7PY3WWcYNb8BeTuMBqbkB2IjyeHzpMzomibT+XZccW13IsbcyJcFzfx15sKB\r\nyfzXjK0g28IHF+PUv3JOsSLHZ0m6jYq53rIk/0eTQqLfuESy29WTxdceT6vEjrtB\r\nil9DNXsCRZ+smW9bZlWjsdd33Uz7VVFLLYts1WNGwQKBgQDbLZnMzk3aCW/Npb9i\r\nB4IZwsh2oDfdDA3y8DJFbJr8esRucBLXN8Jk7URkWf8nL+gDWCNk80YpoTP2x1xy\r\nMRrNmKJeEJZISnB5M/5jiK5N4R12T0WInQ1fi3UNYYTfrSmMwtiOrp0A1N4vmiWa\r\nhMSayvT9OOf+J6Vhzm7A0mA/vwKBgQDHnF5UccX3CivNbXG5kN6b/zafm9aPKApD\r\ncOl6CkT2Oez4rM4uAWAnVqKNyHJg3T1xNeqYAhse15JHeEZ1A+go0vAeQU11VO66\r\nuugKQ8OmZ0OMJpP8Asf11Tn4bU6g/0B7QnnlcEPwMu8yZZ8NzG9Af+ot4zQh4mG4\r\nyVQtqTWfDwKBgQCDX/7H5T5pmTAPs56L/LrmkTmWvPyElXv2IXBtXDLuydYOJ2GG\r\nCMc2Y0ji1WeAd8oCysdDNp+mB2Z0TY5N+6ixkOmtUgHuW7mPQcuS+0/U7CSOErpd\r\nu9IpGs1TYz+9XOV8w5dpEmAeH4+PyycXke7SM2DZSyhnBsmBdvI/zOLMQwKBgGq7\r\nxrbH9f4tn02n4BBaafOt6FZ34CMaUkxYXkzVWuLvs3dDrnBdGk7kH9N9bblTr9Fe\r\nSJP/fQSiwrHgu8lzRpDfoDheZLkhx6e6phZYt6+IY9V2FgZp6L35er3Ce+1zhap7\r\nFjQyPyhrrGSD9VCefK9YUbD6xhbQyNiGn51AvMSnAoGAeFh0RP4j9bTkTSJcXWzF\r\nifLrUrqxNLO2mfgIwhbnThrfETbhAbwTrLt7o8uMImrJ6h6wfoLfgU25GdlOMRVh\r\nr1+n6cUgiG9G0ufStw0+VZYNg5g/ZL5nlEj9Tldc0BX9e2oZ1jDOOhwsvPAPZ7mG\r\nIDuHag3RtoFkFFc2B9gyvYI=\r\n-----END PRIVATE KEY-----",
+    "ios_cert_env": true,
+    "allow_company_name": true,
+    "segment_key": "lzqV1vBwQwV7zqpvIy8i0uwJc1AS5DJ9",
+    "sentry_dsn": null,
+    "main_logo_url": "F_I_Logo_2024.png",
+    "menu_logo_url": "F_I_Logo_2024.png",
+    "redirect_urls": {
+      "logo_url": "https://b2b.fireandicediamonds.com",
+      "sign_out_url": "https://b2b.fireandicediamonds.com",
+      "v3_sign_out_url": "",
+      "medialink_share_url": ""
+    },
+    "primary_company_id": 26470,
+    "search_result_view_type": {
+      "diamond": "show_both_default_as_list",
+      "jewelry": "suppress_list_view",
+      "gemstone": "show_both_default_as_grid",
+      "lab_grown_diamond": "show_both_default_as_grid"
+    },
+    "allow_bulk_requests": {
+      "diamond": "both",
+      "jewelry": "both",
+      "gemstone": "false",
+      "lab_grown_diamond": "false"
+    },
+    "public_key": "88763",
+    "custom_currency_symbol": "usd",
+    "custom_text": {
+      "contact_us_text": "\"Questions, suggestions, or comments welcome! </br>Send a message below or call </br> +61 828-559-2000",
+      "login_title_text": "Start shopping and get access to your Favorites, Saved Searches and Collections.",
+      "social_redirect_links": "",
+      "unknown_jewelry_ring_size": "",
+      "login_already_member_label": "",
+      "login_login_button_caption": "",
+      "login_not_registered_label": "",
+      "login_signup_button_caption": "",
+      "organization_home_title_text": "Fire and Ice Diamonds",
+      "signup_submit_button_caption": "Submit",
+      "signup_registration_form_header": "Registration Form",
+      "order_cart_shipping_instructions": "",
+      "shopping_cart_offline_payment_instructions": ""
+    },
+    "spa_segment_key": "",
+    "deeplink_config": {
+      "apn": "com.fireandicediamonds.android",
+      "ibi": "com.ios.fireicediamonds",
+      "isi": "1633424200",
+      "base_url": "https://fireicediamonds.page.link/",
+      "link_url": "b2b.fireandicediamonds.com",
+      "login_deeplink": "https://fireicediamonds.page.link/?link=https://b2b.fireandicediamonds.com/client/deep/diamond/-1/action_view/sign_in&apn=com.fireandicediamonds.android&isi=1633424200&ibi=ccom.ios.fireicediamonds"
+    },
+    "external_landing_page_url": "",
+    "internal_landing_page_url": "",
+    "setting_attributes": {
+      "on_hand_text": {
+        "0": "Unavailable",
+        "1": "Available",
+        "2": "Please call for status"
+      },
+      "jewelry_cart_url": "",
+      "media_visibility": {
+        "get_cert_media": "",
+        "get_image_media": "",
+        "get_video_media": ""
+      },
+      "site_redirect_url": "",
+      "web_grid_view_ad_positioning": "0",
+      "web_list_view_ad_positioning": "0",
+      "ipad_grid_view_ad_positioning": "0",
+      "ipad_list_view_ad_positioning": "0",
+      "mobile_grid_view_ad_positioning": "0",
+      "mobile_list_view_ad_positioning": "0"
+    },
+    "custom_header_html": "<style>\r\n \r\n    .sde-header{\r\n         height:130px;\r\n         display: flex;\r\n         flex-direction: row;\r\n         justify-content: space-between;\r\n          background:#E8E8E8;\r\n         align-items: center;\r\n         padding: 0 40px;\r\n         width: 100%;\r\n     }\r\n     .sde-header .logo{\r\n         font-size: 22px;\r\n       \r\n     }\r\n     .sde-header .logo img {\r\n        width: 240px;\r\n        margin-left: -39px;\r\n    padding-left: 20px;\r\n    height: auto !important;\r\n }\r\n .sde-header .menu-item {\r\n     color: ##414240;\r\n }\r\n .sde-header.menu-item .menu:hover{\r\n     color: #fff !important;\r\n }\r\n .sde.menu-item .menu span:hover{\r\n     color:#fff !important;\r\n }\r\n .menu-item .menu:hover{ color:##414240 !important}\r\n .sde-header .sub-menu li:hover {\r\n background-color: #D6D6D6 !important;\r\n     color: #fff!important;\r\n }\r\n     .sde-header .logo a{\r\n        color: inherit;\r\n        text-decoration: none;\r\n     }\r\n     .sde-header .sub-menu li{\r\n        min-width: 200px;\r\n     }\r\n    .sde-header .powered-by {\r\n     background:#E8E8E8;\r\n     position: absolute;\r\n     top: 0;\r\n     left: 0;\r\n     width: 20px;\r\n     height: 130px;\r\n     }\r\n     .sde-header .powered-by span {\r\n     display: block;\r\n     color: #fff !important;\r\n     font-size: 12px;\r\n     width: 130px;\r\n     -webkit-transform: rotate(-90deg);\r\n     transform: rotate(-90deg);\r\n     position: absolute;\r\n     top: 35px;\r\n     left: -55px;\r\n }\r\n\r\n\r\n </style>\r\n\r\n\r\n<div class=\"sde-header\"><div class=\"powered-by\">\r\n   \r\n    </div>\r\n    <div class=\"logo\">\r\n        <a href=\"/webapp/search/new\"><img src=\"\" alt=\"\"></a>\r\n    </div>\r\n    <div class=\"right-section\">\r\n    </div>\r\n</div>",
+    "meta_data": {
+      "keywords": "",
+      "page_title": "",
+      "description": "",
+      "website_verification_tag": ""
+    },
+    "web_plugins_script": "",
+    "additional_attributes": {
+      "app_id": "",
+      "api_key": "",
+      "ad_delay": "",
+      "max_depth": "100",
+      "max_ratio": "10",
+      "max_table": "100",
+      "max_width": "865",
+      "min_depth": "0",
+      "min_ratio": "0",
+      "min_table": "0",
+      "min_width": "0",
+      "max_height": "525",
+      "max_length": "1320",
+      "min_height": "0",
+      "min_length": "0",
+      "project_id": "",
+      "delist_days": "14",
+      "terms_de_url": "",
+      "terms_en_url": "",
+      "terms_ko_url": "",
+      "terms_zh_url": "",
+      "retail_markup": "",
+      "owner_info_pin": "",
+      "pay_online_text": "",
+      "pay_offline_text": "",
+      "order_track_color": "",
+      "remind_after_days": "1",
+      "show_intercom_key": "",
+      "mobile_three_d_url": "",
+      "order_track_status": "",
+      "preferred_language": "en",
+      "supported_language": "",
+      "warning_after_days": "2",
+      "delist_warning_days": "9",
+      "messaging_sender_id": "",
+      "buying_group_options": "",
+      "email_footer_address": "",
+      "jewelry_slug_formula": "",
+      "recaptcha_client_key": "",
+      "recaptcha_secret_key": "",
+      "new_arrival_item_time": "",
+      "purchased_delist_days": "",
+      "hide_guest_prices_text": "",
+      "hide_prices_for_product": "",
+      "order_track_status_label": "",
+      "buyer_excel_column_for_bmh": "",
+      "order_track_action_message": "",
+      "api_request_expiration_days": "30",
+      "seller_excel_column_for_bmh": "",
+      "show_items_price_less_then_26": false,
+      "enable_buy_request_at_null_zero": "",
+      "overide_email_confirmation_text": "",
+      "retailer_default_theme_company_id": "",
+      "before_auction_end_notification_timer": "180",
+      "before_auction_start_notification_timer": "1440",
+      "retailer_default_custom_menu_company_id": ""
+    },
+    "business_plan": 3,
+    "internal_landing_page_url_v3": "",
+    "fcm_config": "{\"android_project_id\":\"fire-and-ice-diamonds-inc\", \"android_client_email\":\"firebase-adminsdk-0jl8v@fire-and-ice-diamonds-inc.iam.gserviceaccount.com\", \"android_private_key_id\":\"a0b90aa8103583b0c03a3d9897a83ab9c50e13a6\"}",
+    "onesignal_app_id": "",
+    "onesignal_rest_api_key": "",
+    "secondary_logo_url": null,
+    "analytic_ga4_id": null,
+    "landing_pages": {
+      "external_landing_page_url_v3": "",
+      "wellknown_external_landing_page_url": "",
+      "wellknown_internal_landing_page_url": ""
+    }
+  },
+  "orgSettings": [
+    {
+      "feature_id": 40,
+      "feature_name": "enterprise",
+      "feature_description": "Enterprise Organization",
+      "access": 2
+    },
+    {
+      "feature_id": 41,
+      "feature_name": "group_specific_price",
+      "feature_description": "Inventory/Price Groups",
+      "access": 2
+    },
+    {
+      "feature_id": 47,
+      "feature_name": "company_name_required",
+      "feature_description": "Allow Company Name Required",
+      "access": 2
+    },
+    {
+      "feature_id": 52,
+      "feature_name": "require_phone_during_registration",
+      "feature_description": "Make Contact Number a required field during registration",
+      "access": 2
+    },
+    {
+      "feature_id": 54,
+      "feature_name": "update_availability_status",
+      "feature_description": "Update Availability Indicator/Status based on Item Request",
+      "access": 2
+    },
+    {
+      "feature_id": 62,
+      "feature_name": "disable_default_image_zoom",
+      "feature_description": "Disable Default Image Zoom",
+      "access": 1
+    },
+    {
+      "feature_id": 63,
+      "feature_name": "collect_address",
+      "feature_description": "Allow Collect Address",
+      "access": 2
+    },
+    {
+      "feature_id": 70,
+      "feature_name": "suppress_actual_supplier_details_in_white_mode",
+      "feature_description": "Suppress Actual Supplier Details in White Mode'",
+      "access": 2
+    },
+    {
+      "feature_id": 73,
+      "feature_name": "orange_mode_bmh",
+      "feature_description": "Enable Buy/Memo/Hold requests for orange mode",
+      "access": 2
+    },
+    {
+      "feature_id": 142,
+      "feature_name": "enable_custom_search_menu",
+      "feature_description": "Enable Custom Search Menu",
+      "access": 2
+    },
+    {
+      "feature_id": 146,
+      "feature_name": "enable_custom_navigation",
+      "feature_description": "Enable Custom Navigation",
+      "access": 2
+    },
+    {
+      "feature_id": 147,
+      "feature_name": "disable_fuzzy_logic",
+      "feature_description": "Disable Fuzzy Logic",
+      "access": 2
+    },
+    {
+      "feature_id": 152,
+      "feature_name": "price_mode_line_on_webapp_header",
+      "feature_description": "Enable Price Mode line on Webapp header",
+      "access": 2
+    },
+    {
+      "feature_id": 153,
+      "feature_name": "collect_address_required",
+      "feature_description": "Allow Collect Address Required",
+      "access": 2
+    },
+    {
+      "feature_id": 187,
+      "feature_name": "share_collection",
+      "feature_description": "Allow Collection Share",
+      "access": 2
+    },
+    {
+      "feature_id": 195,
+      "feature_name": "search_result_with_image_only",
+      "feature_description": "Allow Search Result With Image Only",
+      "access": 2
+    },
+    {
+      "feature_id": 198,
+      "feature_name": "grid_view_item_label",
+      "feature_description": "Override Item Description in Grid View.",
+      "access": 2
+    },
+    {
+      "feature_id": 200,
+      "feature_name": "jewelry_item_configuration",
+      "feature_description": "Allow Jewelry Item Configuration",
+      "access": 2
+    },
+    {
+      "feature_id": 250,
+      "feature_name": "unified_fav_collection",
+      "feature_description": "Enable Unified Favorites/Collections",
+      "access": 2
+    },
+    {
+      "feature_id": 258,
+      "feature_name": "enable_advanced_list_view",
+      "feature_description": "Enable advanced list view",
+      "access": 2
+    },
+    {
+      "feature_id": 259,
+      "feature_name": "group_price_markups",
+      "feature_description": "Groups Price Markups",
+      "access": 2
+    },
+    {
+      "feature_id": 264,
+      "feature_name": "display_custom_company_logo_html_header",
+      "feature_description": "Display Customer Company logo in Custom HTML Header",
+      "access": 2
+    },
+    {
+      "feature_id": 267,
+      "feature_name": "suppress_iframe_to_load_html",
+      "feature_description": "Allow Suppress Iframe To Load Html",
+      "access": 2
+    },
+    {
+      "feature_id": 270,
+      "feature_name": "enable_product_level_markup",
+      "feature_description": "App users can set product-level markups",
+      "access": 2
+    },
+    {
+      "feature_id": 274,
+      "feature_name": "item_description_web_for_jewelry",
+      "feature_description": "Enable item description on the web for jewelry",
+      "access": 2
+    },
+    {
+      "feature_id": 281,
+      "feature_name": "enable_image_video_report_native_share",
+      "feature_description": "Allow Enable Image Video Report Native Share",
+      "access": 2
+    },
+    {
+      "feature_id": 287,
+      "feature_name": "unified_stock_item_request",
+      "feature_description": null,
+      "access": 2
+    },
+    {
+      "feature_id": 288,
+      "feature_name": "show_subtitle_on_grid_view",
+      "feature_description": "Show sub-title on grid view",
+      "access": 2
+    },
+    {
+      "feature_id": 299,
+      "feature_name": "enable_discount_in_markup_mode",
+      "feature_description": null,
+      "access": 2
+    },
+    {
+      "feature_id": 303,
+      "feature_name": "allow_stock_num_search_by_brand",
+      "feature_description": "Enable Stock# search through Brands",
+      "access": 2
+    },
+    {
+      "feature_id": 310,
+      "feature_name": "mandatory_logo",
+      "feature_description": "Display Logo as per B2B2C functionality",
+      "access": 2
+    },
+    {
+      "feature_id": 359,
+      "feature_name": "enable_product_ui_v2",
+      "feature_description": null,
+      "access": 1
+    },
+    {
+      "feature_id": 363,
+      "feature_name": "orange_mode_bulk_request",
+      "feature_description": "Enable Bulk BMH Request in Orange Mode",
+      "access": 2
+    },
+    {
+      "feature_id": 369,
+      "feature_name": "search_price_markup",
+      "feature_description": "Advance group price markup",
+      "access": 2
+    },
+    {
+      "feature_id": 405,
+      "feature_name": "updated_bmh_emails",
+      "feature_description": "",
+      "access": 2
+    },
+    {
+      "feature_id": 417,
+      "feature_name": "allow_item_share_with_or_without_prices",
+      "feature_description": "Allow Item Share with/without prices",
+      "access": 2
+    },
+    {
+      "feature_id": 423,
+      "feature_name": "hybrid_jewelry_model",
+      "feature_description": "Enable Jewelry Hybrid Mode",
+      "access": 2
+    },
+    {
+      "feature_id": 424,
+      "feature_name": "share_inventory_as_pdf",
+      "feature_description": "Allow PDF Attachments for sharing inventories via Email",
+      "access": 1
+    },
+    {
+      "feature_id": 476,
+      "feature_name": "suppress_group_pricing_in_base_mode",
+      "feature_description": null,
+      "access": 2
+    },
+    {
+      "feature_id": 480,
+      "feature_name": "disable_product_ui_v2_on_android",
+      "feature_description": "Disable Product UI V2 On Android",
+      "access": 1
+    }
+  ],
+  "customizations": [],
+  "globals": [],
+  "customTexts": [],
+  "jsonNavMenu": null,
+  "company": {
+    "id": 36580,
+    "name": "BW James Jewelers Cleveland",
+    "logo_url": "",
+    "created_at": "2022-12-01T08:37:38.751Z",
+    "updated_at": "2023-08-18T07:11:10.326Z",
+    "request_email_address": "qa-vdb+stg_usr__36580@vdbapp.com",
+    "customer_visibility": "{\"blacklist\":{\"countries\":[],\"vendors\":[],\"retailers\":[],\"blacklisted_by\":[]},\"vendors\":[],\"retailers\":[]}",
+    "company_code": "",
+    "name_on_info_card": null,
+    "contact_phone": "423-790-7654",
+    "data_url": "{\"diamond_data_url\":\"\",\"diamond_data_results\":\"\",\"gemstone_data_url\":\"\",\"gemstone_data_results\":\"\",\"jewelry_data_url\":\"\",\"jewelry_data_results\":\"\",\"lab_grown_data_url\":\"\",\"lab_grown_data_results\":\"\",\"data_url_auth_type\":\"\",\"data_url_auth_user\":\"\",\"data_url_auth_password\":\"\",\"diamond_data_auth_url\":\"\",\"lab_grown_data_auth_url\":\"\",\"diamond_token_api_body\":\"\",\"diamond_stock_api_body\":\"\",\"lab_grown_token_api_body\":\"\",\"lab_grown_stock_api_body\":\"\",\"jewelry_token_api_body\":\"\",\"jewelry_stock_api_body\":\"\",\"diamond_image_url_format\":\"\",\"lab_grown_image_url_format\":\"\",\"use_proxy_for_fantasy\":\"false\",\"jewelry_image_url_format\":\"\",\"diamond_cert_url_format\":\"\",\"lab_grown_cert_url_format\":\"\",\"jewelry_cert_url_format\":\"\"}",
+    "company_type": "retailer",
+    "country": "United States",
+    "state": "Tennessee",
+    "city": "Cleveland",
+    "street_address": "574 Paul Huff Parkway",
+    "zip_code": "37312",
+    "contact_person": "Broderick Hicks",
+    "latitude": null,
+    "longitude": null,
+    "website": "",
+    "jbt_number": "",
+    "data_format": "csv",
+    "emails_visibility": null,
+    "salesperson": null,
+    "contact_iphone": "",
+    "accepts_memo": true,
+    "salesforce_id": "",
+    "uploaded_logo": null,
+    "can_set_logo": true,
+    "salesforce_sync_pending": true,
+    "last_ftp_ran_at": null,
+    "last_ftp_error": null,
+    "request_count": 0,
+    "inventory_updates_count": 0,
+    "mobile_phone": "423-790-7654",
+    "search_pref": false,
+    "can_force_green_price_profile": false,
+    "has_price_markups": false,
+    "mobile_phone_country_code": "1",
+    "contact_phone_country_code": "1",
+    "contact_iphone_country_code": "1",
+    "studio_pro": false,
+    "show_vdb_watermark": false,
+    "can_set_watermark": false,
+    "uploaded_watermark": null,
+    "cal_disc_percent": false,
+    "has_multiple_locations": true,
+    "organization_id": 473,
+    "can_create_company_price_markups": true,
+    "main_logo": null,
+    "allow_custom_menu": true,
+    "allow_search_coach_overlay": true,
+    "bmh_request_type": "",
+    "purchasing_agent_email": "",
+    "can_set_delivery_date": false,
+    "allow_welcome_screen": false,
+    "allow_lab_grown": false,
+    "can_lock_user_mode": false,
+    "default_price_mode": null,
+    "show_powered_by_vdb": true,
+    "auto_activate": false,
+    "last_diamond_inventory_updated_at": null,
+    "last_gemstone_inventory_updated_at": null,
+    "allow_stock_types": {
+      "diamond": "true",
+      "jewelry": "true",
+      "gemstone": "false",
+      "lab_grown_diamond": "false",
+      "default_stock_type": "diamond"
+    },
+    "http_request_method": 0,
+    "allow_custom_menu_types": {
+      "diamond": "true",
+      "jewelry": "true",
+      "gemstone": "false",
+      "lab_grown_diamond": "false"
+    },
+    "allow_custom_theme": true,
+    "allow_custom_theme_types": {
+      "diamond": "true",
+      "jewelry": "true",
+      "gemstone": "false",
+      "lab_grown_diamond": "false"
+    },
+    "default_markup": "0.0",
+    "share_logo": null,
+    "round_up_prices": true,
+    "owner_info": {
+      "show_owner_info": "false"
+    },
+    "owner_info_users": null,
+    "price_markups_status": {
+      "diamond": "NA",
+      "jewelry": "NA",
+      "gemstone": "NA",
+      "lab_grown_diamond": "NA"
+    },
+    "hubspot_id": null,
+    "hubspot_sync_pending": null,
+    "additional_attributes": {
+      "ftp_folder": {
+        "diamond": "",
+        "jewelry": "",
+        "gemstone": "",
+        "lab_grown_diamond": ""
+      },
+      "gia_api_key": "",
+      "gdrive_folder": {
+        "diamond": "",
+        "jewelry": "",
+        "gemstone": "",
+        "lab_grown_diamond": ""
+      },
+      "ftp_credentials": {
+        "folder": "",
+        "server": "",
+        "password": "",
+        "username": "",
+        "file_name": ""
+      },
+      "remind_after_days": "1",
+      "inventory_access_url": {
+        "diamond_csv_inventory_access_url": {},
+        "diamond_json_inventory_access_url": {},
+        "labgrowndiamond_csv_inventory_access_url": {},
+        "labgrowndiamond_json_inventory_access_url": {}
+      },
+      "jewelry_slug_formula": "",
+      "iframe_ref_company_id": "",
+      "jewelry_search_formula": "",
+      "search_result_view_type": {
+        "diamond": "",
+        "jewelry": "",
+        "gemstone": "",
+        "lab_grown_diamond": ""
+      }
+    },
+    "salesperson_id": 0,
+    "lock_user_currency": false,
+    "lock_user_currency_value": null,
+    "user_login_price_mode": null,
+    "inventory_count": {},
+    "iframe_status": false,
+    "iframe_key": null,
+    "iframe_referer": "",
+    "require_webhooks": false,
+    "third_party_stock_items_filter_string": null,
+    "three_d_formula": null,
+    "three_d_settings": null,
+    "dynamic_jewelry_variant_keys": null,
+    "round_up_by": null,
+    "secondary_logo_url": null,
+    "show_datafetch_error_alerts": false,
+    "zenskar_customer_id": null
+  },
+  "activeFeatures": [
+    {
+      "feature_id": 48,
+      "feature_description": "Display \"LAB\" icon on upper right corner for lab-grown diamonds screens",
+      "access": 1
+    },
+    {
+      "feature_id": 55,
+      "feature_description": null,
+      "access": 1
+    },
+    {
+      "feature_id": 61,
+      "feature_description": "Customize data mappings for diamonds / lab-grown",
+      "access": 1
+    },
+    {
+      "feature_id": 148,
+      "feature_description": "Display Segoma images/videos URLs in CSVs",
+      "access": 1
+    },
+    {
+      "feature_id": 149,
+      "feature_description": "Display lab-grown pop-up when switching to lab-grown diamonds",
+      "access": 1
+    },
+    {
+      "feature_id": 206,
+      "feature_description": "Opt-Out of API Inventory Sharing",
+      "access": 1
+    },
+    {
+      "feature_id": 240,
+      "feature_description": "Ultra-fast Exavault FTP Server (regular speed)",
+      "access": 1
+    },
+    {
+      "feature_id": 262,
+      "feature_description": "Upload HTML videos via gDrive",
+      "access": 1
+    },
+    {
+      "feature_id": 266,
+      "feature_description": "\"Premium\" supplier FTP inventory skips the queue and gets uploaded within ~30 minutes (if inventory is <5,000)",
+      "access": 1
+    },
+    {
+      "feature_id": 286,
+      "feature_description": "Upload multiple images via gDrive",
+      "access": 1
+    },
+    {
+      "feature_id": 482,
+      "feature_description": "Disable Inventory Reminder Email",
+      "access": 1
+    },
+    {
+      "feature_id": 495,
+      "feature_description": "Remove Green Mode for all company users",
+      "access": 1
+    },
+    {
+      "feature_id": 496,
+      "feature_description": "Remove User level Markup box for the users who can switch modes.",
+      "access": 1
+    }
+  ],
+  "locations": [
+    {
+      "id": 34552,
+      "location_name": "BW James Jewelers Cleveland",
+      "street_address": "574 Paul Huff Parkway",
+      "country": "United States",
+      "state": "Tennessee",
+      "city": "Cleveland",
+      "zip": "37312",
+      "contact_person": "Broderick Hicks",
+      "contact_email": "qa-vdb+stg_cmpny__v_36580_l_34552@vdbapp.com",
+      "mobile_phone": "423-790-7654",
+      "office_phone": "423-790-7654",
+      "website": "",
+      "vendor_id": 36580,
+      "is_primary": true,
+      "created_at": "2022-12-01T08:37:38.783Z",
+      "updated_at": "2023-08-18T07:11:10.353Z",
+      "contact_iphone": "",
+      "mobile_phone_country_code": "1",
+      "contact_phone_country_code": "1",
+      "contact_iphone_country_code": "1",
+      "contact_whatsapp": "",
+      "contact_whatsapp_country_code": ""
+    }
+  ],
+  "authToken": "psu638r1nfwkbayvjsfx",
+  "overrides": {
+    "newOrgName": "test auto Fire and Ice Diamonds",
+    "newDomainUrl": "testauto123425364",
+    "newCompanyName": "test auto BW James Jewelers Cleveland"
+  },
+  "result": {}
+}

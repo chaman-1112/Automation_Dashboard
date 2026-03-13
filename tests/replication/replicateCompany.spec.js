@@ -60,7 +60,8 @@ test('Replicate Company', async ({ page }) => {
             page,
             sourceCompanyId,
             newCompanyId,
-            BASE_URL
+            BASE_URL,
+            rawData.activeFeatures
         );
         
         rawData.result.featuresActivated = featureResult.activated;
